@@ -195,12 +195,15 @@ function minDist(a, b) {
 }
 
 /**
- * Heuristic stroke-range analysis. Two separate components visually merge when
- * stroke width >= the gap between them. Returns the smallest gap between
- * components that do not touch, plus a safe [min, max] stroke range.
+ * Heuristic stroke-range analysis. Two components that are visibly separate at
+ * the default width (gap > `touch`, i.e. wider than the 1.8 stroke) merge once
+ * the stroke width reaches the gap between them. Gaps at or below `touch` are
+ * already joined at the default width by design, so thicker strokes do not
+ * change their reading. The outer bound also keeps half the stroke inside the
+ * 24×24 box. Returns the smallest relevant gap and a safe [min, max] range.
  */
 export function strokeRange(comps, opts = {}) {
-  const { min = 0.75, max = 3.5, touch = 0.35 } = opts;
+  const { min = 0.75, max = 3.5, touch = 1.9 } = opts;
   let gap = Infinity;
   const parts = comps.filter((c) => c.points.length);
   for (let i = 0; i < parts.length; i++)
@@ -208,9 +211,19 @@ export function strokeRange(comps, opts = {}) {
       const d = minDist(parts[i].points, parts[j].points);
       if (d > touch && d < gap) gap = d;
     }
+  // Closed shapes (rings, boxes, closed paths) lose their counter once the
+  // stroke reaches the shape's smaller inner dimension.
+  let counter = Infinity;
+  for (const c of parts) {
+    const a = c.points[0], z = c.points[c.points.length - 1];
+    if (Math.hypot(a[0] - z[0], a[1] - z[1]) > 0.05) continue;
+    const cb = bbox([c]);
+    const size = Math.min(cb.x1 - cb.x0, cb.y1 - cb.y0);
+    if (size > touch && size < counter) counter = size;
+  }
   const b = bbox(parts);
   const margin = Math.min(b.x0, b.y0, 24 - b.x1, 24 - b.y1);
-  let hi = Math.min(max, gap, margin * 2);
+  let hi = Math.min(max, gap, counter, margin * 2);
   hi = Math.max(1.8, Math.floor(hi * 20) / 20);
   return { gap: gap === Infinity ? null : +gap.toFixed(2), margin: +margin.toFixed(2), range: [min, +Math.min(max, hi).toFixed(2)] };
 }

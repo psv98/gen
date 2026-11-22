@@ -24,7 +24,7 @@ function Logo() {
           <circle cx="13" cy="13" r="2.2" />
         </g>
       </svg>
-      <span className="text-[14px] font-semibold tracking-[-0.01em]">Icon Studio</span>
+      <span className="hidden text-[14px] font-semibold tracking-[-0.01em] sm:inline">Icon Studio</span>
     </div>
   );
 }

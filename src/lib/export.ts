@@ -1,4 +1,3 @@
-import JSZip from 'jszip';
 import type { IconDef, StudioSettings } from '../types/index.ts';
 import { composeSvg } from './compose.ts';
 
@@ -82,6 +81,7 @@ export async function exportOne(icon: IconDef, s: StudioSettings, o: ExportOptio
 }
 
 export async function exportZip(list: IconDef[], s: StudioSettings, o: ExportOptions, onProgress?: (done: number, total: number) => void): Promise<Blob> {
+  const { default: JSZip } = await import('jszip');
   const zip = new JSZip();
   let done = 0;
   for (const icon of list) {

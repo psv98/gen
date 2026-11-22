@@ -78,8 +78,14 @@ export function CanvasView() {
   const sizes = [16, 24, 32, 48, 64];
   const small = useMemo(() => {
     if (!icon) return [];
-    // Icon-only render at exact pixel sizes: current stroke, colour and orientation; no canvas padding or background.
-    const bare: StudioSettings = { ...set, background: { ...set.background, type: 'none' }, shadow: { ...set.shadow, enabled: false }, canvas: { ...set.canvas, width: 24, height: 24, iconSize: 24, padding: 0, alignX: 'center', alignY: 'center' } };
+    // Without a background: the bare icon at exact pixel sizes (current stroke, colour, orientation).
+    // With a background: the whole composition, as it would look as an app/avatar icon at that size.
+    const withBg = set.background.type !== 'none';
+    const bare: StudioSettings = withBg ? set : { ...set, shadow: { ...set.shadow, enabled: false }, canvas: { ...set.canvas, width: 24, height: 24, iconSize: 24, padding: 0, alignX: 'center', alignY: 'center' } };
+    if (withBg) {
+      const k = Math.max(set.canvas.width, set.canvas.height);
+      return sizes.map((px) => ({ px, svg: composeSvg(icon.b, bare, { outWidth: (set.canvas.width / k) * px, outHeight: (set.canvas.height / k) * px, idPrefix: 'p' + px }) }));
+    }
     return sizes.map((px) => ({ px, svg: composeSvg(icon.b, bare, { outWidth: px, outHeight: px, idPrefix: 'p' + px }) }));
   }, [icon, set]); // eslint-disable-line react-hooks/exhaustive-deps
 
@@ -129,7 +135,7 @@ export function CanvasView() {
         <span className="shrink-0 text-[11px] font-semibold uppercase tracking-[0.08em] text-muted">{t('previewSizes')}</span>
         {small.map((p) => (
           <div key={p.px} className="flex shrink-0 flex-col items-center gap-1.5">
-            <div className={cx('flex h-[44px] w-[76px] items-center justify-center rounded-md', s.checker === 'light' ? 'bg-white' : 'bg-[#1b1b21]')} dangerouslySetInnerHTML={{ __html: p.svg }} />
+            <div className={cx('flex h-[44px] w-[76px] items-center justify-center rounded-md', s.checker === 'light' ? 'checker-light' : 'checker-dark')} dangerouslySetInnerHTML={{ __html: p.svg }} />
             <span className="font-mono text-[10px] text-muted">{p.px}</span>
           </div>
         ))}

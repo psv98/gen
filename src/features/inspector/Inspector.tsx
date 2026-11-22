@@ -141,7 +141,7 @@ export function Inspector() {
             softMax={safeMax}
             onChange={(v) => update('stroke', { width: v }, 'width')}
           />
-          <p className="-mt-1 flex items-center gap-1.5 text-[11px] text-muted"><span className="inline-block h-2.5 w-px bg-cyan" />{t('safeRange')}: <span className="font-mono text-fg-2">{icon.s[0]}–{safeMax}</span></p>
+          <p className="-mt-1 flex items-center gap-1.5 text-[11px] text-muted" title={t('safeRange')}><span className="inline-block h-2.5 w-px bg-cyan" />Проверено для иконки: <span className="font-mono text-fg-2">{icon.s[0]}–{safeMax}</span></p>
           {set.stroke.width > safeMax && (
             <p className="rounded-md border border-cyan/30 bg-cyan/10 px-2.5 py-1.5 text-[11px] leading-snug text-fg-2" role="note">
               Выше проверенного значения {safeMax}: близкие линии этой иконки могут сливаться.
@@ -161,7 +161,7 @@ export function Inspector() {
             label={t('background')}
             value={set.background.type}
             onChange={(v) => update('background', { type: v })}
-            options={[{ value: 'none', label: t('bgNone') }, { value: 'solid', label: t('bgSolid') }, { value: 'linear', label: t('bgLinear') }, { value: 'radial', label: t('bgRadial') }]}
+            options={[{ value: 'none', label: t('bgNone') }, { value: 'solid', label: t('bgSolid') }, { value: 'linear', label: 'Линейн.', title: t('bgLinear') }, { value: 'radial', label: 'Радиал.', title: t('bgRadial') }]}
           />
           {set.background.type !== 'none' && (
             <>
