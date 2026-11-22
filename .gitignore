@@ -1,0 +1,7 @@
+qa-sheets/
+node_modules/
+dist/
+test-results/
+playwright-report/
+*.log
+.DS_Store

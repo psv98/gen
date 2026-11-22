@@ -1,0 +1,428 @@
+{
+ "version": 1,
+ "generatedAt": "2026-11-22",
+ "categories": [
+  {
+   "id": "legal",
+   "prefix": "LAW",
+   "names": {
+    "ru": "Право и юриспруденция",
+    "uk": "Право та юриспруденція",
+    "en": "Legal & Law"
+   }
+  },
+  {
+   "id": "media",
+   "prefix": "MDA",
+   "names": {
+    "ru": "Медиа и журналистика",
+    "uk": "Медіа та журналістика",
+    "en": "Media & Journalism"
+   }
+  },
+  {
+   "id": "technology",
+   "prefix": "TEC",
+   "names": {
+    "ru": "Технологии и IT",
+    "uk": "Технології та IT",
+    "en": "Technology & IT"
+   }
+  },
+  {
+   "id": "healthcare",
+   "prefix": "HLT",
+   "names": {
+    "ru": "Медицина",
+    "uk": "Медицина",
+    "en": "Healthcare & Medicine"
+   }
+  },
+  {
+   "id": "finance",
+   "prefix": "FIN",
+   "names": {
+    "ru": "Финансы и банки",
+    "uk": "Фінанси та банки",
+    "en": "Finance & Banking"
+   }
+  },
+  {
+   "id": "documents",
+   "prefix": "DOC",
+   "names": {
+    "ru": "Документы и учёт",
+    "uk": "Документи та облік",
+    "en": "Documents & Accounting"
+   }
+  },
+  {
+   "id": "government",
+   "prefix": "GOV",
+   "names": {
+    "ru": "Государство и дипломатия",
+    "uk": "Держава та дипломатія",
+    "en": "Government & Diplomacy"
+   }
+  },
+  {
+   "id": "ngo",
+   "prefix": "NGO",
+   "names": {
+    "ru": "НКО и благотворительность",
+    "uk": "ГО та благодійність",
+    "en": "NGO & Charity"
+   }
+  },
+  {
+   "id": "security",
+   "prefix": "SEC",
+   "names": {
+    "ru": "Безопасность и оборона",
+    "uk": "Безпека та оборона",
+    "en": "Security & Defense"
+   }
+  },
+  {
+   "id": "business",
+   "prefix": "BIZ",
+   "names": {
+    "ru": "Бизнес и маркетинг",
+    "uk": "Бізнес та маркетинг",
+    "en": "Business & Marketing"
+   }
+  }
+ ],
+ "icons": [
+  {
+   "id": "LAW-001",
+   "slug": "scales-of-justice",
+   "category": "legal",
+   "name": "Весы правосудия",
+   "names": {
+    "ru": "Весы правосудия",
+    "uk": "Терези правосуддя",
+    "en": "Scales of Justice"
+   },
+   "description": "Равноплечие весы на колонне",
+   "keywords": {
+    "ru": [
+     "правосудие",
+     "баланс",
+     "суд"
+    ],
+    "uk": [
+     "правосуддя",
+     "баланс",
+     "суд"
+    ],
+    "en": [
+     "justice",
+     "balance",
+     "court"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/legal/scales-of-justice.svg"
+  },
+  {
+   "id": "LAW-002",
+   "slug": "gavel",
+   "category": "legal",
+   "name": "Молоток судьи",
+   "names": {
+    "ru": "Молоток судьи",
+    "uk": "Молоток судді",
+    "en": "Judge Gavel"
+   },
+   "description": "Молоток над подставкой",
+   "keywords": {
+    "ru": [
+     "судья",
+     "решение",
+     "заседание"
+    ],
+    "uk": [
+     "суддя",
+     "рішення",
+     "засідання"
+    ],
+    "en": [
+     "judge",
+     "ruling",
+     "hammer"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/legal/gavel.svg"
+  },
+  {
+   "id": "LAW-003",
+   "slug": "courthouse",
+   "category": "legal",
+   "name": "Здание суда",
+   "names": {
+    "ru": "Здание суда",
+    "uk": "Будівля суду",
+    "en": "Courthouse"
+   },
+   "description": "Классический фасад с фронтоном и колоннами",
+   "keywords": {
+    "ru": [
+     "суд",
+     "учреждение",
+     "здание"
+    ],
+    "uk": [
+     "суд",
+     "установа",
+     "будівля"
+    ],
+    "en": [
+     "court",
+     "building",
+     "institution"
+    ]
+   },
+   "tags": [
+    "building"
+   ],
+   "file": "icons/legal/courthouse.svg"
+  },
+  {
+   "id": "LAW-004",
+   "slug": "law-code",
+   "category": "legal",
+   "name": "Кодекс",
+   "names": {
+    "ru": "Кодекс",
+    "uk": "Кодекс",
+    "en": "Law Code"
+   },
+   "description": "Книга со знаком параграфа",
+   "keywords": {
+    "ru": [
+     "закон",
+     "кодекс",
+     "статья"
+    ],
+    "uk": [
+     "закон",
+     "кодекс",
+     "стаття"
+    ],
+    "en": [
+     "law",
+     "code",
+     "statute"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/legal/law-code.svg"
+  },
+  {
+   "id": "LAW-005",
+   "slug": "case-file",
+   "category": "legal",
+   "name": "Судебное дело",
+   "names": {
+    "ru": "Судебное дело",
+    "uk": "Судова справа",
+    "en": "Case File"
+   },
+   "description": "Папка дела с ярлыком",
+   "keywords": {
+    "ru": [
+     "дело",
+     "папка",
+     "материалы"
+    ],
+    "uk": [
+     "справа",
+     "папка",
+     "матеріали"
+    ],
+    "en": [
+     "case",
+     "file",
+     "folder"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/legal/case-file.svg"
+  },
+  {
+   "id": "LAW-006",
+   "slug": "lawyer-briefcase",
+   "category": "legal",
+   "name": "Адвокатский портфель",
+   "names": {
+    "ru": "Адвокатский портфель",
+    "uk": "Адвокатський портфель",
+    "en": "Lawyer Briefcase"
+   },
+   "description": "Портфель с клапаном и застёжкой",
+   "keywords": {
+    "ru": [
+     "адвокат",
+     "защитник",
+     "портфель"
+    ],
+    "uk": [
+     "адвокат",
+     "захисник",
+     "портфель"
+    ],
+    "en": [
+     "attorney",
+     "lawyer",
+     "briefcase"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/legal/lawyer-briefcase.svg"
+  },
+  {
+   "id": "LAW-007",
+   "slug": "contract",
+   "category": "legal",
+   "name": "Договор",
+   "names": {
+    "ru": "Договор",
+    "uk": "Договір",
+    "en": "Contract"
+   },
+   "description": "Документ с текстом и подписью",
+   "keywords": {
+    "ru": [
+     "договор",
+     "соглашение",
+     "подпись"
+    ],
+    "uk": [
+     "договір",
+     "угода",
+     "підпис"
+    ],
+    "en": [
+     "contract",
+     "agreement",
+     "signature"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/legal/contract.svg"
+  },
+  {
+   "id": "LAW-008",
+   "slug": "notary-seal",
+   "category": "legal",
+   "name": "Нотариальная печать",
+   "names": {
+    "ru": "Нотариальная печать",
+    "uk": "Нотаріальна печатка",
+    "en": "Notary Seal"
+   },
+   "description": "Круглая печать с лентами",
+   "keywords": {
+    "ru": [
+     "нотариус",
+     "печать",
+     "заверение"
+    ],
+    "uk": [
+     "нотаріус",
+     "печатка",
+     "засвідчення"
+    ],
+    "en": [
+     "notary",
+     "seal",
+     "certify"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/legal/notary-seal.svg"
+  },
+  {
+   "id": "LAW-009",
+   "slug": "legal-protection",
+   "category": "legal",
+   "name": "Правовая защита",
+   "names": {
+    "ru": "Правовая защита",
+    "uk": "Правовий захист",
+    "en": "Legal Protection"
+   },
+   "description": "Щит с символом весов",
+   "keywords": {
+    "ru": [
+     "защита",
+     "права",
+     "гарантия"
+    ],
+    "uk": [
+     "захист",
+     "права",
+     "гарантія"
+    ],
+    "en": [
+     "protection",
+     "rights",
+     "shield"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/legal/legal-protection.svg"
+  },
+  {
+   "id": "LAW-010",
+   "slug": "legal-consultation",
+   "category": "legal",
+   "name": "Юридическая консультация",
+   "names": {
+    "ru": "Юридическая консультация",
+    "uk": "Юридична консультація",
+    "en": "Legal Consultation"
+   },
+   "description": "Диалог с вопросом",
+   "keywords": {
+    "ru": [
+     "консультация",
+     "вопрос",
+     "совет"
+    ],
+    "uk": [
+     "консультація",
+     "питання",
+     "порада"
+    ],
+    "en": [
+     "consultation",
+     "advice",
+     "question"
+    ]
+   },
+   "tags": [
+    "communication"
+   ],
+   "file": "icons/legal/legal-consultation.svg"
+  }
+ ]
+}
