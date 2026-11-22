@@ -10002,6 +10002,3306 @@
     "symbol"
    ],
    "file": "icons/documents/cloud-archive.svg"
+  },
+  {
+   "id": "GOV-001",
+   "slug": "parliament",
+   "category": "government",
+   "name": "Парламент",
+   "names": {
+    "ru": "Парламент",
+    "uk": "Парламент",
+    "en": "Parliament"
+   },
+   "description": "Здание с куполом и колоннадой",
+   "keywords": {
+    "ru": [
+     "парламент",
+     "законодательная власть",
+     "депутаты"
+    ],
+    "uk": [
+     "парламент",
+     "законодавча влада",
+     "депутати"
+    ],
+    "en": [
+     "parliament",
+     "legislature",
+     "assembly"
+    ]
+   },
+   "tags": [
+    "building"
+   ],
+   "file": "icons/government/parliament.svg"
+  },
+  {
+   "id": "GOV-002",
+   "slug": "ministry",
+   "category": "government",
+   "name": "Министерство",
+   "names": {
+    "ru": "Министерство",
+    "uk": "Міністерство",
+    "en": "Ministry"
+   },
+   "description": "Административное здание с флагом",
+   "keywords": {
+    "ru": [
+     "министерство",
+     "ведомство",
+     "орган власти"
+    ],
+    "uk": [
+     "міністерство",
+     "відомство",
+     "орган влади"
+    ],
+    "en": [
+     "ministry",
+     "department",
+     "agency"
+    ]
+   },
+   "tags": [
+    "building"
+   ],
+   "file": "icons/government/ministry.svg"
+  },
+  {
+   "id": "GOV-003",
+   "slug": "embassy",
+   "category": "government",
+   "name": "Посольство",
+   "names": {
+    "ru": "Посольство",
+    "uk": "Посольство",
+    "en": "Embassy"
+   },
+   "description": "Флагшток и здание с фронтоном",
+   "keywords": {
+    "ru": [
+     "посольство",
+     "дипмиссия",
+     "представительство"
+    ],
+    "uk": [
+     "посольство",
+     "дипмісія",
+     "представництво"
+    ],
+    "en": [
+     "embassy",
+     "mission",
+     "diplomatic"
+    ]
+   },
+   "tags": [
+    "building"
+   ],
+   "file": "icons/government/embassy.svg"
+  },
+  {
+   "id": "GOV-004",
+   "slug": "diplomatic-case",
+   "category": "government",
+   "name": "Дипломатический портфель",
+   "names": {
+    "ru": "Дипломатический портфель",
+    "uk": "Дипломатичний портфель",
+    "en": "Diplomatic Case"
+   },
+   "description": "Портфель с гербовой эмблемой",
+   "keywords": {
+    "ru": [
+     "дипломат",
+     "портфель",
+     "миссия"
+    ],
+    "uk": [
+     "дипломат",
+     "портфель",
+     "місія"
+    ],
+    "en": [
+     "diplomatic case",
+     "attaché",
+     "mission"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/government/diplomatic-case.svg"
+  },
+  {
+   "id": "GOV-005",
+   "slug": "state-registry",
+   "category": "government",
+   "name": "Государственный реестр",
+   "names": {
+    "ru": "Государственный реестр",
+    "uk": "Державний реєстр",
+    "en": "State Registry"
+   },
+   "description": "Картотечный ящик с карточками",
+   "keywords": {
+    "ru": [
+     "реестр",
+     "картотека",
+     "учёт"
+    ],
+    "uk": [
+     "реєстр",
+     "картотека",
+     "облік"
+    ],
+    "en": [
+     "registry",
+     "records",
+     "database"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/government/state-registry.svg"
+  },
+  {
+   "id": "GOV-006",
+   "slug": "negotiations",
+   "category": "government",
+   "name": "Дипломатические переговоры",
+   "names": {
+    "ru": "Дипломатические переговоры",
+    "uk": "Дипломатичні переговори",
+    "en": "Negotiations"
+   },
+   "description": "Две реплики над столом",
+   "keywords": {
+    "ru": [
+     "переговоры",
+     "диалог",
+     "стороны"
+    ],
+    "uk": [
+     "переговори",
+     "діалог",
+     "сторони"
+    ],
+    "en": [
+     "negotiations",
+     "talks",
+     "dialogue"
+    ]
+   },
+   "tags": [
+    "communication"
+   ],
+   "file": "icons/government/negotiations.svg"
+  },
+  {
+   "id": "GOV-007",
+   "slug": "ballot-box",
+   "category": "government",
+   "name": "Избирательная урна",
+   "names": {
+    "ru": "Избирательная урна",
+    "uk": "Виборча скринька",
+    "en": "Ballot Box"
+   },
+   "description": "Урна с опускаемым бюллетенем",
+   "keywords": {
+    "ru": [
+     "выборы",
+     "урна",
+     "голосование"
+    ],
+    "uk": [
+     "вибори",
+     "скринька",
+     "голосування"
+    ],
+    "en": [
+     "ballot box",
+     "election",
+     "vote"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/government/ballot-box.svg"
+  },
+  {
+   "id": "GOV-008",
+   "slug": "international-agreement",
+   "category": "government",
+   "name": "Международное соглашение",
+   "names": {
+    "ru": "Международное соглашение",
+    "uk": "Міжнародна угода",
+    "en": "International Agreement"
+   },
+   "description": "Документ с глобусом",
+   "keywords": {
+    "ru": [
+     "соглашение",
+     "договор",
+     "международный"
+    ],
+    "uk": [
+     "угода",
+     "договір",
+     "міжнародний"
+    ],
+    "en": [
+     "agreement",
+     "treaty",
+     "accord"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/government/international-agreement.svg"
+  },
+  {
+   "id": "GOV-009",
+   "slug": "public-service",
+   "category": "government",
+   "name": "Государственная услуга",
+   "names": {
+    "ru": "Государственная услуга",
+    "uk": "Державна послуга",
+    "en": "Public Service"
+   },
+   "description": "Звонок стойки обслуживания",
+   "keywords": {
+    "ru": [
+     "госуслуга",
+     "обслуживание",
+     "сервис"
+    ],
+    "uk": [
+     "держпослуга",
+     "обслуговування",
+     "сервіс"
+    ],
+    "en": [
+     "public service",
+     "service desk",
+     "citizen service"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/government/public-service.svg"
+  },
+  {
+   "id": "GOV-010",
+   "slug": "consulate",
+   "category": "government",
+   "name": "Консульство",
+   "names": {
+    "ru": "Консульство",
+    "uk": "Консульство",
+    "en": "Consulate"
+   },
+   "description": "Здание с арочным входом и эмблемой",
+   "keywords": {
+    "ru": [
+     "консульство",
+     "визы",
+     "граждане за рубежом"
+    ],
+    "uk": [
+     "консульство",
+     "візи",
+     "громадяни за кордоном"
+    ],
+    "en": [
+     "consulate",
+     "consular services",
+     "visa office"
+    ]
+   },
+   "tags": [
+    "building"
+   ],
+   "file": "icons/government/consulate.svg"
+  },
+  {
+   "id": "GOV-011",
+   "slug": "passport",
+   "category": "government",
+   "name": "Паспорт",
+   "names": {
+    "ru": "Паспорт",
+    "uk": "Паспорт",
+    "en": "Passport"
+   },
+   "description": "Паспорт с глобусом на обложке",
+   "keywords": {
+    "ru": [
+     "паспорт",
+     "документ",
+     "гражданство"
+    ],
+    "uk": [
+     "паспорт",
+     "документ",
+     "громадянство"
+    ],
+    "en": [
+     "passport",
+     "id",
+     "travel document"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/government/passport.svg"
+  },
+  {
+   "id": "GOV-012",
+   "slug": "visa",
+   "category": "government",
+   "name": "Виза",
+   "names": {
+    "ru": "Виза",
+    "uk": "Віза",
+    "en": "Visa"
+   },
+   "description": "Страница с наклонным штампом",
+   "keywords": {
+    "ru": [
+     "виза",
+     "въезд",
+     "разрешение"
+    ],
+    "uk": [
+     "віза",
+     "в’їзд",
+     "дозвіл"
+    ],
+    "en": [
+     "visa",
+     "entry permit",
+     "stamp"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/government/visa.svg"
+  },
+  {
+   "id": "GOV-013",
+   "slug": "state-flag",
+   "category": "government",
+   "name": "Государственный флаг",
+   "names": {
+    "ru": "Государственный флаг",
+    "uk": "Державний прапор",
+    "en": "State Flag"
+   },
+   "description": "Развевающийся флаг на древке",
+   "keywords": {
+    "ru": [
+     "флаг",
+     "символ",
+     "государство"
+    ],
+    "uk": [
+     "прапор",
+     "символ",
+     "держава"
+    ],
+    "en": [
+     "flag",
+     "nation",
+     "symbol"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/government/state-flag.svg"
+  },
+  {
+   "id": "GOV-014",
+   "slug": "coat-of-arms",
+   "category": "government",
+   "name": "Герб",
+   "names": {
+    "ru": "Герб",
+    "uk": "Герб",
+    "en": "Coat of Arms"
+   },
+   "description": "Геральдический щит, разделённый на поля",
+   "keywords": {
+    "ru": [
+     "герб",
+     "геральдика",
+     "эмблема"
+    ],
+    "uk": [
+     "герб",
+     "геральдика",
+     "емблема"
+    ],
+    "en": [
+     "coat of arms",
+     "heraldry",
+     "emblem"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/government/coat-of-arms.svg"
+  },
+  {
+   "id": "GOV-015",
+   "slug": "city-hall",
+   "category": "government",
+   "name": "Ратуша",
+   "names": {
+    "ru": "Ратуша",
+    "uk": "Ратуша",
+    "en": "City Hall"
+   },
+   "description": "Здание с часовой башней",
+   "keywords": {
+    "ru": [
+     "мэрия",
+     "городской совет",
+     "администрация"
+    ],
+    "uk": [
+     "мерія",
+     "міська рада",
+     "адміністрація"
+    ],
+    "en": [
+     "city hall",
+     "municipality",
+     "town council"
+    ]
+   },
+   "tags": [
+    "building"
+   ],
+   "file": "icons/government/city-hall.svg"
+  },
+  {
+   "id": "GOV-016",
+   "slug": "draft-law",
+   "category": "government",
+   "name": "Законопроект",
+   "names": {
+    "ru": "Законопроект",
+    "uk": "Законопроєкт",
+    "en": "Draft Law"
+   },
+   "description": "Лист и гусиное перо",
+   "keywords": {
+    "ru": [
+     "законопроект",
+     "инициатива",
+     "поправки"
+    ],
+    "uk": [
+     "законопроєкт",
+     "ініціатива",
+     "поправки"
+    ],
+    "en": [
+     "bill",
+     "draft law",
+     "amendment"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/government/draft-law.svg"
+  },
+  {
+   "id": "GOV-017",
+   "slug": "ballot-paper",
+   "category": "government",
+   "name": "Избирательный бюллетень",
+   "names": {
+    "ru": "Избирательный бюллетень",
+    "uk": "Виборчий бюлетень",
+    "en": "Ballot Paper"
+   },
+   "description": "Бюллетень с отметкой",
+   "keywords": {
+    "ru": [
+     "бюллетень",
+     "выбор",
+     "кандидаты"
+    ],
+    "uk": [
+     "бюлетень",
+     "вибір",
+     "кандидати"
+    ],
+    "en": [
+     "ballot",
+     "vote choice",
+     "candidates"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/government/ballot-paper.svg"
+  },
+  {
+   "id": "GOV-018",
+   "slug": "citizen-id",
+   "category": "government",
+   "name": "ID-карта гражданина",
+   "names": {
+    "ru": "ID-карта гражданина",
+    "uk": "ID-картка громадянина",
+    "en": "Citizen ID"
+   },
+   "description": "Карта с фото и данными",
+   "keywords": {
+    "ru": [
+     "удостоверение",
+     "ID",
+     "личность"
+    ],
+    "uk": [
+     "посвідчення",
+     "ID",
+     "особа"
+    ],
+    "en": [
+     "id card",
+     "identity",
+     "citizen"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/government/citizen-id.svg"
+  },
+  {
+   "id": "GOV-019",
+   "slug": "international-cooperation",
+   "category": "government",
+   "name": "Международное сотрудничество",
+   "names": {
+    "ru": "Международное сотрудничество",
+    "uk": "Міжнародна співпраця",
+    "en": "International Cooperation"
+   },
+   "description": "Глобус с орбитой",
+   "keywords": {
+    "ru": [
+     "сотрудничество",
+     "партнёрство",
+     "международный"
+    ],
+    "uk": [
+     "співпраця",
+     "партнерство",
+     "міжнародний"
+    ],
+    "en": [
+     "cooperation",
+     "global partnership",
+     "international"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/government/international-cooperation.svg"
+  },
+  {
+   "id": "GOV-020",
+   "slug": "border-checkpoint",
+   "category": "government",
+   "name": "Пункт пропуска",
+   "names": {
+    "ru": "Пункт пропуска",
+    "uk": "Пункт пропуску",
+    "en": "Border Checkpoint"
+   },
+   "description": "Шлагбаум",
+   "keywords": {
+    "ru": [
+     "граница",
+     "таможня",
+     "пропуск"
+    ],
+    "uk": [
+     "кордон",
+     "митниця",
+     "пропуск"
+    ],
+    "en": [
+     "border",
+     "checkpoint",
+     "customs"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/government/border-checkpoint.svg"
+  },
+  {
+   "id": "GOV-021",
+   "slug": "peace",
+   "category": "government",
+   "name": "Мир",
+   "names": {
+    "ru": "Мир",
+    "uk": "Мир",
+    "en": "Peace"
+   },
+   "description": "Оливковая ветвь",
+   "keywords": {
+    "ru": [
+     "мир",
+     "перемирие",
+     "примирение"
+    ],
+    "uk": [
+     "мир",
+     "перемир’я",
+     "примирення"
+    ],
+    "en": [
+     "peace",
+     "ceasefire",
+     "olive branch"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/government/peace.svg"
+  },
+  {
+   "id": "GOV-022",
+   "slug": "region-map",
+   "category": "government",
+   "name": "Регион",
+   "names": {
+    "ru": "Регион",
+    "uk": "Регіон",
+    "en": "Region"
+   },
+   "description": "Сложенная карта",
+   "keywords": {
+    "ru": [
+     "регион",
+     "территория",
+     "карта"
+    ],
+    "uk": [
+     "регіон",
+     "територія",
+     "мапа"
+    ],
+    "en": [
+     "region",
+     "territory",
+     "map"
+    ]
+   },
+   "tags": [
+    "place"
+   ],
+   "file": "icons/government/region-map.svg"
+  },
+  {
+   "id": "GOV-023",
+   "slug": "institution-location",
+   "category": "government",
+   "name": "Адрес учреждения",
+   "names": {
+    "ru": "Адрес учреждения",
+    "uk": "Адреса установи",
+    "en": "Office Location"
+   },
+   "description": "Метка на карте",
+   "keywords": {
+    "ru": [
+     "адрес",
+     "местоположение",
+     "карта"
+    ],
+    "uk": [
+     "адреса",
+     "розташування",
+     "мапа"
+    ],
+    "en": [
+     "location",
+     "address",
+     "map pin"
+    ]
+   },
+   "tags": [
+    "place"
+   ],
+   "file": "icons/government/institution-location.svg"
+  },
+  {
+   "id": "GOV-024",
+   "slug": "decree",
+   "category": "government",
+   "name": "Указ",
+   "names": {
+    "ru": "Указ",
+    "uk": "Указ",
+    "en": "Decree"
+   },
+   "description": "Официальный документ с печатью и лентами",
+   "keywords": {
+    "ru": [
+     "указ",
+     "постановление",
+     "распоряжение"
+    ],
+    "uk": [
+     "указ",
+     "постанова",
+     "розпорядження"
+    ],
+    "en": [
+     "decree",
+     "order",
+     "resolution"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/government/decree.svg"
+  },
+  {
+   "id": "GOV-025",
+   "slug": "census",
+   "category": "government",
+   "name": "Перепись населения",
+   "names": {
+    "ru": "Перепись населения",
+    "uk": "Перепис населення",
+    "en": "Census"
+   },
+   "description": "Планшет с жителем",
+   "keywords": {
+    "ru": [
+     "перепись",
+     "население",
+     "демография"
+    ],
+    "uk": [
+     "перепис",
+     "населення",
+     "демографія"
+    ],
+    "en": [
+     "census",
+     "population",
+     "demographics"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/government/census.svg"
+  },
+  {
+   "id": "GOV-026",
+   "slug": "diplomatic-note",
+   "category": "government",
+   "name": "Дипломатическая нота",
+   "names": {
+    "ru": "Дипломатическая нота",
+    "uk": "Дипломатична нота",
+    "en": "Diplomatic Note"
+   },
+   "description": "Конверт с глобусом",
+   "keywords": {
+    "ru": [
+     "нота",
+     "дипломатическая почта",
+     "обращение"
+    ],
+    "uk": [
+     "нота",
+     "дипломатична пошта",
+     "звернення"
+    ],
+    "en": [
+     "diplomatic note",
+     "official letter",
+     "correspondence"
+    ]
+   },
+   "tags": [
+    "communication"
+   ],
+   "file": "icons/government/diplomatic-note.svg"
+  },
+  {
+   "id": "GOV-027",
+   "slug": "summit",
+   "category": "government",
+   "name": "Саммит",
+   "names": {
+    "ru": "Саммит",
+    "uk": "Саміт",
+    "en": "Summit"
+   },
+   "description": "Круглый стол и места участников",
+   "keywords": {
+    "ru": [
+     "саммит",
+     "встреча",
+     "круглый стол"
+    ],
+    "uk": [
+     "саміт",
+     "зустріч",
+     "круглий стіл"
+    ],
+    "en": [
+     "summit",
+     "round table",
+     "meeting"
+    ]
+   },
+   "tags": [
+    "group"
+   ],
+   "file": "icons/government/summit.svg"
+  },
+  {
+   "id": "GOV-028",
+   "slug": "sanctions",
+   "category": "government",
+   "name": "Санкции",
+   "names": {
+    "ru": "Санкции",
+    "uk": "Санкції",
+    "en": "Sanctions"
+   },
+   "description": "Груз со знаком запрета",
+   "keywords": {
+    "ru": [
+     "санкции",
+     "эмбарго",
+     "ограничения"
+    ],
+    "uk": [
+     "санкції",
+     "ембарго",
+     "обмеження"
+    ],
+    "en": [
+     "sanctions",
+     "embargo",
+     "restrictions"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/government/sanctions.svg"
+  },
+  {
+   "id": "GOV-029",
+   "slug": "election-results",
+   "category": "government",
+   "name": "Итоги выборов",
+   "names": {
+    "ru": "Итоги выборов",
+    "uk": "Підсумки виборів",
+    "en": "Election Results"
+   },
+   "description": "Столбцы результатов с отметкой победителя",
+   "keywords": {
+    "ru": [
+     "итоги",
+     "подсчёт",
+     "результаты"
+    ],
+    "uk": [
+     "підсумки",
+     "підрахунок",
+     "результати"
+    ],
+    "en": [
+     "election results",
+     "count",
+     "outcome"
+    ]
+   },
+   "tags": [
+    "chart"
+   ],
+   "file": "icons/government/election-results.svg"
+  },
+  {
+   "id": "GOV-030",
+   "slug": "citizen-appeal",
+   "category": "government",
+   "name": "Обращение граждан",
+   "names": {
+    "ru": "Обращение граждан",
+    "uk": "Звернення громадян",
+    "en": "Citizen Appeal"
+   },
+   "description": "Письмо со стрелкой вверх",
+   "keywords": {
+    "ru": [
+     "обращение",
+     "запрос",
+     "петиция"
+    ],
+    "uk": [
+     "звернення",
+     "запит",
+     "петиція"
+    ],
+    "en": [
+     "appeal",
+     "petition",
+     "request"
+    ]
+   },
+   "tags": [
+    "communication"
+   ],
+   "file": "icons/government/citizen-appeal.svg"
+  },
+  {
+   "id": "GOV-031",
+   "slug": "e-government",
+   "category": "government",
+   "name": "Электронное правительство",
+   "names": {
+    "ru": "Электронное правительство",
+    "uk": "Електронний уряд",
+    "en": "E-Government"
+   },
+   "description": "Экран с фасадом учреждения",
+   "keywords": {
+    "ru": [
+     "е-правительство",
+     "цифровые услуги",
+     "онлайн"
+    ],
+    "uk": [
+     "е-уряд",
+     "цифрові послуги",
+     "онлайн"
+    ],
+    "en": [
+     "e-government",
+     "digital services",
+     "gov portal"
+    ]
+   },
+   "tags": [
+    "interface"
+   ],
+   "file": "icons/government/e-government.svg"
+  },
+  {
+   "id": "GOV-032",
+   "slug": "state-award",
+   "category": "government",
+   "name": "Государственная награда",
+   "names": {
+    "ru": "Государственная награда",
+    "uk": "Державна нагорода",
+    "en": "State Award"
+   },
+   "description": "Медаль на ленте",
+   "keywords": {
+    "ru": [
+     "награда",
+     "орден",
+     "медаль"
+    ],
+    "uk": [
+     "нагорода",
+     "орден",
+     "медаль"
+    ],
+    "en": [
+     "award",
+     "medal",
+     "decoration"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/government/state-award.svg"
+  },
+  {
+   "id": "GOV-033",
+   "slug": "public-procurement",
+   "category": "government",
+   "name": "Госзакупки",
+   "names": {
+    "ru": "Госзакупки",
+    "uk": "Держзакупівлі",
+    "en": "Public Procurement"
+   },
+   "description": "Документ и аукционный молоток",
+   "keywords": {
+    "ru": [
+     "тендер",
+     "закупки",
+     "аукцион"
+    ],
+    "uk": [
+     "тендер",
+     "закупівлі",
+     "аукціон"
+    ],
+    "en": [
+     "procurement",
+     "tender",
+     "auction"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/government/public-procurement.svg"
+  },
+  {
+   "id": "GOV-034",
+   "slug": "queue-ticket",
+   "category": "government",
+   "name": "Электронная очередь",
+   "names": {
+    "ru": "Электронная очередь",
+    "uk": "Електронна черга",
+    "en": "Queue Ticket"
+   },
+   "description": "Талон с отрывной частью",
+   "keywords": {
+    "ru": [
+     "очередь",
+     "талон",
+     "приём"
+    ],
+    "uk": [
+     "черга",
+     "талон",
+     "прийом"
+    ],
+    "en": [
+     "queue",
+     "ticket",
+     "waiting"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/government/queue-ticket.svg"
+  },
+  {
+   "id": "GOV-035",
+   "slug": "infrastructure",
+   "category": "government",
+   "name": "Инфраструктура",
+   "names": {
+    "ru": "Инфраструктура",
+    "uk": "Інфраструктура",
+    "en": "Infrastructure"
+   },
+   "description": "Мост с опорами",
+   "keywords": {
+    "ru": [
+     "мост",
+     "дороги",
+     "строительство"
+    ],
+    "uk": [
+     "міст",
+     "дороги",
+     "будівництво"
+    ],
+    "en": [
+     "infrastructure",
+     "bridge",
+     "construction"
+    ]
+   },
+   "tags": [
+    "building"
+   ],
+   "file": "icons/government/infrastructure.svg"
+  },
+  {
+   "id": "GOV-036",
+   "slug": "education",
+   "category": "government",
+   "name": "Образование",
+   "names": {
+    "ru": "Образование",
+    "uk": "Освіта",
+    "en": "Education"
+   },
+   "description": "Академическая шапочка",
+   "keywords": {
+    "ru": [
+     "образование",
+     "школа",
+     "университет"
+    ],
+    "uk": [
+     "освіта",
+     "школа",
+     "університет"
+    ],
+    "en": [
+     "education",
+     "school",
+     "university"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/government/education.svg"
+  },
+  {
+   "id": "GOV-037",
+   "slug": "social-protection",
+   "category": "government",
+   "name": "Социальная защита",
+   "names": {
+    "ru": "Социальная защита",
+    "uk": "Соціальний захист",
+    "en": "Social Protection"
+   },
+   "description": "Человек под зонтом",
+   "keywords": {
+    "ru": [
+     "соцзащита",
+     "поддержка",
+     "льготы"
+    ],
+    "uk": [
+     "соцзахист",
+     "підтримка",
+     "пільги"
+    ],
+    "en": [
+     "social protection",
+     "welfare",
+     "benefits"
+    ]
+   },
+   "tags": [
+    "person"
+   ],
+   "file": "icons/government/social-protection.svg"
+  },
+  {
+   "id": "GOV-038",
+   "slug": "open-data",
+   "category": "government",
+   "name": "Открытые данные",
+   "names": {
+    "ru": "Открытые данные",
+    "uk": "Відкриті дані",
+    "en": "Open Data"
+   },
+   "description": "База данных со стрелкой наружу",
+   "keywords": {
+    "ru": [
+     "открытые данные",
+     "публикация",
+     "прозрачность"
+    ],
+    "uk": [
+     "відкриті дані",
+     "публікація",
+     "прозорість"
+    ],
+    "en": [
+     "open data",
+     "transparency",
+     "datasets"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/government/open-data.svg"
+  },
+  {
+   "id": "GOV-039",
+   "slug": "anti-corruption",
+   "category": "government",
+   "name": "Антикоррупция",
+   "names": {
+    "ru": "Антикоррупция",
+    "uk": "Антикорупція",
+    "en": "Anti-Corruption"
+   },
+   "description": "Перечёркнутая купюра",
+   "keywords": {
+    "ru": [
+     "коррупция",
+     "взятка",
+     "противодействие"
+    ],
+    "uk": [
+     "корупція",
+     "хабар",
+     "протидія"
+    ],
+    "en": [
+     "anti-corruption",
+     "bribery",
+     "integrity"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/government/anti-corruption.svg"
+  },
+  {
+   "id": "GOV-040",
+   "slug": "local-government",
+   "category": "government",
+   "name": "Местное самоуправление",
+   "names": {
+    "ru": "Местное самоуправление",
+    "uk": "Місцеве самоврядування",
+    "en": "Local Government"
+   },
+   "description": "Ряд домов общины",
+   "keywords": {
+    "ru": [
+     "громада",
+     "местная власть",
+     "община"
+    ],
+    "uk": [
+     "громада",
+     "місцева влада",
+     "община"
+    ],
+    "en": [
+     "local government",
+     "community",
+     "municipality"
+    ]
+   },
+   "tags": [
+    "building"
+   ],
+   "file": "icons/government/local-government.svg"
+  },
+  {
+   "id": "GOV-041",
+   "slug": "civil-servant",
+   "category": "government",
+   "name": "Государственный служащий",
+   "names": {
+    "ru": "Государственный служащий",
+    "uk": "Державний службовець",
+    "en": "Civil Servant"
+   },
+   "description": "Человек с бейджем на шнурке",
+   "keywords": {
+    "ru": [
+     "госслужащий",
+     "чиновник",
+     "служба"
+    ],
+    "uk": [
+     "держслужбовець",
+     "посадовець",
+     "служба"
+    ],
+    "en": [
+     "civil servant",
+     "official",
+     "public employee"
+    ]
+   },
+   "tags": [
+    "person"
+   ],
+   "file": "icons/government/civil-servant.svg"
+  },
+  {
+   "id": "GOV-042",
+   "slug": "bilateral-relations",
+   "category": "government",
+   "name": "Двусторонние отношения",
+   "names": {
+    "ru": "Двусторонние отношения",
+    "uk": "Двосторонні відносини",
+    "en": "Bilateral Relations"
+   },
+   "description": "Два флага, обращённые в стороны",
+   "keywords": {
+    "ru": [
+     "отношения",
+     "двусторонний",
+     "дипломатия"
+    ],
+    "uk": [
+     "відносини",
+     "двосторонній",
+     "дипломатія"
+    ],
+    "en": [
+     "bilateral",
+     "relations",
+     "diplomacy"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/government/bilateral-relations.svg"
+  },
+  {
+   "id": "GOV-043",
+   "slug": "official-visit",
+   "category": "government",
+   "name": "Официальный визит",
+   "names": {
+    "ru": "Официальный визит",
+    "uk": "Офіційний візит",
+    "en": "Official Visit"
+   },
+   "description": "Самолёт, вид сверху",
+   "keywords": {
+    "ru": [
+     "визит",
+     "перелёт",
+     "делегация"
+    ],
+    "uk": [
+     "візит",
+     "переліт",
+     "делегація"
+    ],
+    "en": [
+     "official visit",
+     "delegation",
+     "travel"
+    ]
+   },
+   "tags": [
+    "vehicle"
+   ],
+   "file": "icons/government/official-visit.svg"
+  },
+  {
+   "id": "GOV-044",
+   "slug": "foreign-policy",
+   "category": "government",
+   "name": "Внешняя политика",
+   "names": {
+    "ru": "Внешняя политика",
+    "uk": "Зовнішня політика",
+    "en": "Foreign Policy"
+   },
+   "description": "Глобус на подставке",
+   "keywords": {
+    "ru": [
+     "внешняя политика",
+     "МИД",
+     "мир"
+    ],
+    "uk": [
+     "зовнішня політика",
+     "МЗС",
+     "світ"
+    ],
+    "en": [
+     "foreign policy",
+     "foreign affairs",
+     "world"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/government/foreign-policy.svg"
+  },
+  {
+   "id": "GOV-045",
+   "slug": "land-cadastre",
+   "category": "government",
+   "name": "Кадастр",
+   "names": {
+    "ru": "Кадастр",
+    "uk": "Кадастр",
+    "en": "Land Cadastre"
+   },
+   "description": "Контур земельного участка",
+   "keywords": {
+    "ru": [
+     "кадастр",
+     "участок",
+     "земля"
+    ],
+    "uk": [
+     "кадастр",
+     "ділянка",
+     "земля"
+    ],
+    "en": [
+     "cadastre",
+     "land plot",
+     "property boundary"
+    ]
+   },
+   "tags": [
+    "place"
+   ],
+   "file": "icons/government/land-cadastre.svg"
+  },
+  {
+   "id": "GOV-046",
+   "slug": "citizenship",
+   "category": "government",
+   "name": "Гражданство",
+   "names": {
+    "ru": "Гражданство",
+    "uk": "Громадянство",
+    "en": "Citizenship"
+   },
+   "description": "Человек и флаг",
+   "keywords": {
+    "ru": [
+     "гражданство",
+     "гражданин",
+     "принадлежность"
+    ],
+    "uk": [
+     "громадянство",
+     "громадянин",
+     "приналежність"
+    ],
+    "en": [
+     "citizenship",
+     "citizen",
+     "nationality"
+    ]
+   },
+   "tags": [
+    "person"
+   ],
+   "file": "icons/government/citizenship.svg"
+  },
+  {
+   "id": "GOV-047",
+   "slug": "statehood-pillar",
+   "category": "government",
+   "name": "Государственность",
+   "names": {
+    "ru": "Государственность",
+    "uk": "Державність",
+    "en": "Statehood"
+   },
+   "description": "Классическая колонна",
+   "keywords": {
+    "ru": [
+     "государственность",
+     "институты",
+     "устои"
+    ],
+    "uk": [
+     "державність",
+     "інституції",
+     "засади"
+    ],
+    "en": [
+     "statehood",
+     "institutions",
+     "pillar"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/government/statehood-pillar.svg"
+  },
+  {
+   "id": "GOV-048",
+   "slug": "public-hearing",
+   "category": "government",
+   "name": "Общественные слушания",
+   "names": {
+    "ru": "Общественные слушания",
+    "uk": "Громадські слухання",
+    "en": "Public Hearing"
+   },
+   "description": "Участники и реплика",
+   "keywords": {
+    "ru": [
+     "слушания",
+     "обсуждение",
+     "участие"
+    ],
+    "uk": [
+     "слухання",
+     "обговорення",
+     "участь"
+    ],
+    "en": [
+     "public hearing",
+     "consultation",
+     "participation"
+    ]
+   },
+   "tags": [
+    "group"
+   ],
+   "file": "icons/government/public-hearing.svg"
+  },
+  {
+   "id": "GOV-049",
+   "slug": "apostille",
+   "category": "government",
+   "name": "Апостиль",
+   "names": {
+    "ru": "Апостиль",
+    "uk": "Апостиль",
+    "en": "Apostille"
+   },
+   "description": "Документ с квадратным штампом",
+   "keywords": {
+    "ru": [
+     "апостиль",
+     "легализация",
+     "заверение"
+    ],
+    "uk": [
+     "апостиль",
+     "легалізація",
+     "засвідчення"
+    ],
+    "en": [
+     "apostille",
+     "legalization",
+     "certification"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/government/apostille.svg"
+  },
+  {
+   "id": "GOV-050",
+   "slug": "e-voting",
+   "category": "government",
+   "name": "Электронное голосование",
+   "names": {
+    "ru": "Электронное голосование",
+    "uk": "Електронне голосування",
+    "en": "E-Voting"
+   },
+   "description": "Смартфон с галочкой",
+   "keywords": {
+    "ru": [
+     "е-голосование",
+     "онлайн",
+     "выбор"
+    ],
+    "uk": [
+     "е-голосування",
+     "онлайн",
+     "вибір"
+    ],
+    "en": [
+     "e-voting",
+     "online vote",
+     "digital ballot"
+    ]
+   },
+   "tags": [
+    "device"
+   ],
+   "file": "icons/government/e-voting.svg"
+  },
+  {
+   "id": "NGO-001",
+   "slug": "helping-hand",
+   "category": "ngo",
+   "name": "Помощь",
+   "names": {
+    "ru": "Помощь",
+    "uk": "Допомога",
+    "en": "Helping Hand"
+   },
+   "description": "Ладонь с сердцем",
+   "keywords": {
+    "ru": [
+     "помощь",
+     "поддержка",
+     "забота"
+    ],
+    "uk": [
+     "допомога",
+     "підтримка",
+     "турбота"
+    ],
+    "en": [
+     "help",
+     "support",
+     "care"
+    ]
+   },
+   "tags": [
+    "action"
+   ],
+   "file": "icons/ngo/helping-hand.svg"
+  },
+  {
+   "id": "NGO-002",
+   "slug": "donation",
+   "category": "ngo",
+   "name": "Пожертвование",
+   "names": {
+    "ru": "Пожертвование",
+    "uk": "Пожертва",
+    "en": "Donation"
+   },
+   "description": "Сердце над ящиком для пожертвований",
+   "keywords": {
+    "ru": [
+     "пожертвование",
+     "взнос",
+     "сбор"
+    ],
+    "uk": [
+     "пожертва",
+     "внесок",
+     "збір"
+    ],
+    "en": [
+     "donation",
+     "contribution",
+     "giving"
+    ]
+   },
+   "tags": [
+    "action"
+   ],
+   "file": "icons/ngo/donation.svg"
+  },
+  {
+   "id": "NGO-003",
+   "slug": "volunteer",
+   "category": "ngo",
+   "name": "Волонтёр",
+   "names": {
+    "ru": "Волонтёр",
+    "uk": "Волонтер",
+    "en": "Volunteer"
+   },
+   "description": "Человек и сердце",
+   "keywords": {
+    "ru": [
+     "волонтёр",
+     "доброволец",
+     "участие"
+    ],
+    "uk": [
+     "волонтер",
+     "доброволець",
+     "участь"
+    ],
+    "en": [
+     "volunteer",
+     "helper",
+     "service"
+    ]
+   },
+   "tags": [
+    "person"
+   ],
+   "file": "icons/ngo/volunteer.svg"
+  },
+  {
+   "id": "NGO-004",
+   "slug": "grant",
+   "category": "ngo",
+   "name": "Грант",
+   "names": {
+    "ru": "Грант",
+    "uk": "Грант",
+    "en": "Grant"
+   },
+   "description": "Документ со знаком доллара",
+   "keywords": {
+    "ru": [
+     "грант",
+     "финансирование",
+     "донор"
+    ],
+    "uk": [
+     "грант",
+     "фінансування",
+     "донор"
+    ],
+    "en": [
+     "grant",
+     "funding",
+     "award"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/ngo/grant.svg"
+  },
+  {
+   "id": "NGO-005",
+   "slug": "partnership",
+   "category": "ngo",
+   "name": "Партнёрство",
+   "names": {
+    "ru": "Партнёрство",
+    "uk": "Партнерство",
+    "en": "Partnership"
+   },
+   "description": "Рукопожатие",
+   "keywords": {
+    "ru": [
+     "партнёрство",
+     "сотрудничество",
+     "соглашение"
+    ],
+    "uk": [
+     "партнерство",
+     "співпраця",
+     "угода"
+    ],
+    "en": [
+     "partnership",
+     "handshake",
+     "agreement"
+    ]
+   },
+   "tags": [
+    "action"
+   ],
+   "file": "icons/ngo/partnership.svg"
+  },
+  {
+   "id": "NGO-006",
+   "slug": "community",
+   "category": "ngo",
+   "name": "Сообщество",
+   "names": {
+    "ru": "Сообщество",
+    "uk": "Спільнота",
+    "en": "Community"
+   },
+   "description": "Три человека в общем круге",
+   "keywords": {
+    "ru": [
+     "сообщество",
+     "люди",
+     "объединение"
+    ],
+    "uk": [
+     "спільнота",
+     "люди",
+     "об’єднання"
+    ],
+    "en": [
+     "community",
+     "people",
+     "network"
+    ]
+   },
+   "tags": [
+    "group"
+   ],
+   "file": "icons/ngo/community.svg"
+  },
+  {
+   "id": "NGO-007",
+   "slug": "humanitarian-parcel",
+   "category": "ngo",
+   "name": "Гуманитарная посылка",
+   "names": {
+    "ru": "Гуманитарная посылка",
+    "uk": "Гуманітарна посилка",
+    "en": "Humanitarian Parcel"
+   },
+   "description": "Коробка с крышкой и сердцем",
+   "keywords": {
+    "ru": [
+     "гуманитарка",
+     "посылка",
+     "помощь"
+    ],
+    "uk": [
+     "гуманітарка",
+     "посилка",
+     "допомога"
+    ],
+    "en": [
+     "aid parcel",
+     "relief package",
+     "humanitarian"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/ngo/humanitarian-parcel.svg"
+  },
+  {
+   "id": "NGO-008",
+   "slug": "family-support",
+   "category": "ngo",
+   "name": "Поддержка семьи",
+   "names": {
+    "ru": "Поддержка семьи",
+    "uk": "Підтримка сім’ї",
+    "en": "Family Support"
+   },
+   "description": "Двое взрослых и ребёнок",
+   "keywords": {
+    "ru": [
+     "семья",
+     "дети",
+     "родители"
+    ],
+    "uk": [
+     "сім’я",
+     "діти",
+     "батьки"
+    ],
+    "en": [
+     "family",
+     "parents",
+     "children"
+    ]
+   },
+   "tags": [
+    "group"
+   ],
+   "file": "icons/ngo/family-support.svg"
+  },
+  {
+   "id": "NGO-009",
+   "slug": "public-initiative",
+   "category": "ngo",
+   "name": "Общественная инициатива",
+   "names": {
+    "ru": "Общественная инициатива",
+    "uk": "Громадська ініціатива",
+    "en": "Civic Initiative"
+   },
+   "description": "Лампочка идеи",
+   "keywords": {
+    "ru": [
+     "инициатива",
+     "идея",
+     "проект"
+    ],
+    "uk": [
+     "ініціатива",
+     "ідея",
+     "проєкт"
+    ],
+    "en": [
+     "initiative",
+     "idea",
+     "civic project"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/ngo/public-initiative.svg"
+  },
+  {
+   "id": "NGO-010",
+   "slug": "fundraising",
+   "category": "ngo",
+   "name": "Фандрайзинг",
+   "names": {
+    "ru": "Фандрайзинг",
+    "uk": "Фандрейзинг",
+    "en": "Fundraising"
+   },
+   "description": "Монета в кольце прогресса сбора",
+   "keywords": {
+    "ru": [
+     "сбор средств",
+     "цель",
+     "прогресс"
+    ],
+    "uk": [
+     "збір коштів",
+     "мета",
+     "прогрес"
+    ],
+    "en": [
+     "fundraising",
+     "goal",
+     "progress"
+    ]
+   },
+   "tags": [
+    "chart"
+   ],
+   "file": "icons/ngo/fundraising.svg"
+  },
+  {
+   "id": "NGO-011",
+   "slug": "charity",
+   "category": "ngo",
+   "name": "Благотворительность",
+   "names": {
+    "ru": "Благотворительность",
+    "uk": "Благодійність",
+    "en": "Charity"
+   },
+   "description": "Сердце с плюсом",
+   "keywords": {
+    "ru": [
+     "благотворительность",
+     "добро",
+     "фонд"
+    ],
+    "uk": [
+     "благодійність",
+     "добро",
+     "фонд"
+    ],
+    "en": [
+     "charity",
+     "kindness",
+     "foundation"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/ngo/charity.svg"
+  },
+  {
+   "id": "NGO-012",
+   "slug": "hot-meals",
+   "category": "ngo",
+   "name": "Горячее питание",
+   "names": {
+    "ru": "Горячее питание",
+    "uk": "Гаряче харчування",
+    "en": "Hot Meals"
+   },
+   "description": "Миска с паром",
+   "keywords": {
+    "ru": [
+     "питание",
+     "еда",
+     "кухня"
+    ],
+    "uk": [
+     "харчування",
+     "їжа",
+     "кухня"
+    ],
+    "en": [
+     "meals",
+     "food aid",
+     "soup kitchen"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/ngo/hot-meals.svg"
+  },
+  {
+   "id": "NGO-013",
+   "slug": "shelter",
+   "category": "ngo",
+   "name": "Временное укрытие",
+   "names": {
+    "ru": "Временное укрытие",
+    "uk": "Тимчасовий прихисток",
+    "en": "Shelter"
+   },
+   "description": "Палатка со входом",
+   "keywords": {
+    "ru": [
+     "укрытие",
+     "палатка",
+     "жильё"
+    ],
+    "uk": [
+     "прихисток",
+     "намет",
+     "житло"
+    ],
+    "en": [
+     "shelter",
+     "tent",
+     "housing"
+    ]
+   },
+   "tags": [
+    "place"
+   ],
+   "file": "icons/ngo/shelter.svg"
+  },
+  {
+   "id": "NGO-014",
+   "slug": "clothing-drive",
+   "category": "ngo",
+   "name": "Сбор одежды",
+   "names": {
+    "ru": "Сбор одежды",
+    "uk": "Збір одягу",
+    "en": "Clothing Drive"
+   },
+   "description": "Футболка",
+   "keywords": {
+    "ru": [
+     "одежда",
+     "сбор",
+     "вещи"
+    ],
+    "uk": [
+     "одяг",
+     "збір",
+     "речі"
+    ],
+    "en": [
+     "clothing",
+     "donations",
+     "apparel"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/ngo/clothing-drive.svg"
+  },
+  {
+   "id": "NGO-015",
+   "slug": "education-program",
+   "category": "ngo",
+   "name": "Образовательные программы",
+   "names": {
+    "ru": "Образовательные программы",
+    "uk": "Освітні програми",
+    "en": "Education Program"
+   },
+   "description": "Стопка книг",
+   "keywords": {
+    "ru": [
+     "обучение",
+     "книги",
+     "программа"
+    ],
+    "uk": [
+     "навчання",
+     "книги",
+     "програма"
+    ],
+    "en": [
+     "education",
+     "books",
+     "learning"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/ngo/education-program.svg"
+  },
+  {
+   "id": "NGO-016",
+   "slug": "ecology",
+   "category": "ngo",
+   "name": "Экология",
+   "names": {
+    "ru": "Экология",
+    "uk": "Екологія",
+    "en": "Ecology"
+   },
+   "description": "Лист с прожилкой",
+   "keywords": {
+    "ru": [
+     "экология",
+     "природа",
+     "зелёный"
+    ],
+    "uk": [
+     "екологія",
+     "природа",
+     "зелений"
+    ],
+    "en": [
+     "ecology",
+     "environment",
+     "green"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/ngo/ecology.svg"
+  },
+  {
+   "id": "NGO-017",
+   "slug": "clean-water",
+   "category": "ngo",
+   "name": "Чистая вода",
+   "names": {
+    "ru": "Чистая вода",
+    "uk": "Чиста вода",
+    "en": "Clean Water"
+   },
+   "description": "Капля с волной",
+   "keywords": {
+    "ru": [
+     "вода",
+     "доступ",
+     "санитария"
+    ],
+    "uk": [
+     "вода",
+     "доступ",
+     "санітарія"
+    ],
+    "en": [
+     "water",
+     "sanitation",
+     "access"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/ngo/clean-water.svg"
+  },
+  {
+   "id": "NGO-018",
+   "slug": "child-protection",
+   "category": "ngo",
+   "name": "Защита детей",
+   "names": {
+    "ru": "Защита детей",
+    "uk": "Захист дітей",
+    "en": "Child Protection"
+   },
+   "description": "Ребёнок на ладони",
+   "keywords": {
+    "ru": [
+     "дети",
+     "защита",
+     "безопасность"
+    ],
+    "uk": [
+     "діти",
+     "захист",
+     "безпека"
+    ],
+    "en": [
+     "children",
+     "protection",
+     "safeguarding"
+    ]
+   },
+   "tags": [
+    "person"
+   ],
+   "file": "icons/ngo/child-protection.svg"
+  },
+  {
+   "id": "NGO-019",
+   "slug": "elderly-support",
+   "category": "ngo",
+   "name": "Поддержка пожилых",
+   "names": {
+    "ru": "Поддержка пожилых",
+    "uk": "Підтримка літніх людей",
+    "en": "Elderly Support"
+   },
+   "description": "Трость и сердце",
+   "keywords": {
+    "ru": [
+     "пожилые",
+     "забота",
+     "уход"
+    ],
+    "uk": [
+     "літні люди",
+     "турбота",
+     "догляд"
+    ],
+    "en": [
+     "elderly",
+     "seniors",
+     "care"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/ngo/elderly-support.svg"
+  },
+  {
+   "id": "NGO-020",
+   "slug": "animal-welfare",
+   "category": "ngo",
+   "name": "Защита животных",
+   "names": {
+    "ru": "Защита животных",
+    "uk": "Захист тварин",
+    "en": "Animal Welfare"
+   },
+   "description": "Отпечаток лапы",
+   "keywords": {
+    "ru": [
+     "животные",
+     "приют",
+     "забота"
+    ],
+    "uk": [
+     "тварини",
+     "притулок",
+     "турбота"
+    ],
+    "en": [
+     "animals",
+     "shelter",
+     "pets"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/ngo/animal-welfare.svg"
+  },
+  {
+   "id": "NGO-021",
+   "slug": "humanitarian-corridor",
+   "category": "ngo",
+   "name": "Гуманитарный коридор",
+   "names": {
+    "ru": "Гуманитарный коридор",
+    "uk": "Гуманітарний коридор",
+    "en": "Humanitarian Corridor"
+   },
+   "description": "Дорога с разметкой",
+   "keywords": {
+    "ru": [
+     "коридор",
+     "эвакуация",
+     "маршрут"
+    ],
+    "uk": [
+     "коридор",
+     "евакуація",
+     "маршрут"
+    ],
+    "en": [
+     "corridor",
+     "evacuation",
+     "safe route"
+    ]
+   },
+   "tags": [
+    "place"
+   ],
+   "file": "icons/ngo/humanitarian-corridor.svg"
+  },
+  {
+   "id": "NGO-022",
+   "slug": "displaced-support",
+   "category": "ngo",
+   "name": "Помощь переселенцам",
+   "names": {
+    "ru": "Помощь переселенцам",
+    "uk": "Допомога переселенцям",
+    "en": "Displaced People Support"
+   },
+   "description": "Дом и стрелка в сторону",
+   "keywords": {
+    "ru": [
+     "ВПЛ",
+     "переселенцы",
+     "беженцы"
+    ],
+    "uk": [
+     "ВПО",
+     "переселенці",
+     "біженці"
+    ],
+    "en": [
+     "idp",
+     "refugees",
+     "displacement"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/ngo/displaced-support.svg"
+  },
+  {
+   "id": "NGO-023",
+   "slug": "psychosocial-support",
+   "category": "ngo",
+   "name": "Психосоциальная поддержка",
+   "names": {
+    "ru": "Психосоциальная поддержка",
+    "uk": "Психосоціальна підтримка",
+    "en": "Psychosocial Support"
+   },
+   "description": "Реплика с сердцем",
+   "keywords": {
+    "ru": [
+     "психологическая помощь",
+     "разговор",
+     "поддержка"
+    ],
+    "uk": [
+     "психологічна допомога",
+     "розмова",
+     "підтримка"
+    ],
+    "en": [
+     "psychosocial",
+     "counseling",
+     "listening"
+    ]
+   },
+   "tags": [
+    "communication"
+   ],
+   "file": "icons/ngo/psychosocial-support.svg"
+  },
+  {
+   "id": "NGO-024",
+   "slug": "ngo-coalition",
+   "category": "ngo",
+   "name": "Коалиция организаций",
+   "names": {
+    "ru": "Коалиция организаций",
+    "uk": "Коаліція організацій",
+    "en": "NGO Coalition"
+   },
+   "description": "Центр и четыре связанных узла",
+   "keywords": {
+    "ru": [
+     "коалиция",
+     "сеть",
+     "объединение"
+    ],
+    "uk": [
+     "коаліція",
+     "мережа",
+     "об’єднання"
+    ],
+    "en": [
+     "coalition",
+     "network",
+     "alliance"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/ngo/ngo-coalition.svg"
+  },
+  {
+   "id": "NGO-025",
+   "slug": "advocacy",
+   "category": "ngo",
+   "name": "Адвокация",
+   "names": {
+    "ru": "Адвокация",
+    "uk": "Адвокація",
+    "en": "Advocacy"
+   },
+   "description": "Мегафон с волнами",
+   "keywords": {
+    "ru": [
+     "адвокация",
+     "кампания",
+     "голос"
+    ],
+    "uk": [
+     "адвокація",
+     "кампанія",
+     "голос"
+    ],
+    "en": [
+     "advocacy",
+     "campaign",
+     "voice"
+    ]
+   },
+   "tags": [
+    "communication"
+   ],
+   "file": "icons/ngo/advocacy.svg"
+  },
+  {
+   "id": "NGO-026",
+   "slug": "awareness-ribbon",
+   "category": "ngo",
+   "name": "Лента солидарности",
+   "names": {
+    "ru": "Лента солидарности",
+    "uk": "Стрічка солідарності",
+    "en": "Awareness Ribbon"
+   },
+   "description": "Перекрещённая лента",
+   "keywords": {
+    "ru": [
+     "лента",
+     "осведомлённость",
+     "кампания"
+    ],
+    "uk": [
+     "стрічка",
+     "обізнаність",
+     "кампанія"
+    ],
+    "en": [
+     "awareness",
+     "ribbon",
+     "solidarity"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/ngo/awareness-ribbon.svg"
+  },
+  {
+   "id": "NGO-027",
+   "slug": "impact",
+   "category": "ngo",
+   "name": "Оценка воздействия",
+   "names": {
+    "ru": "Оценка воздействия",
+    "uk": "Оцінка впливу",
+    "en": "Impact"
+   },
+   "description": "Мишень со стрелой",
+   "keywords": {
+    "ru": [
+     "воздействие",
+     "результат",
+     "цель"
+    ],
+    "uk": [
+     "вплив",
+     "результат",
+     "мета"
+    ],
+    "en": [
+     "impact",
+     "outcome",
+     "evaluation"
+    ]
+   },
+   "tags": [
+    "chart"
+   ],
+   "file": "icons/ngo/impact.svg"
+  },
+  {
+   "id": "NGO-028",
+   "slug": "donor",
+   "category": "ngo",
+   "name": "Донор",
+   "names": {
+    "ru": "Донор",
+    "uk": "Донор",
+    "en": "Donor"
+   },
+   "description": "Человек с монетой",
+   "keywords": {
+    "ru": [
+     "донор",
+     "меценат",
+     "спонсор"
+    ],
+    "uk": [
+     "донор",
+     "меценат",
+     "спонсор"
+    ],
+    "en": [
+     "donor",
+     "patron",
+     "sponsor"
+    ]
+   },
+   "tags": [
+    "person"
+   ],
+   "file": "icons/ngo/donor.svg"
+  },
+  {
+   "id": "NGO-029",
+   "slug": "crowdfunding",
+   "category": "ngo",
+   "name": "Краудфандинг",
+   "names": {
+    "ru": "Краудфандинг",
+    "uk": "Краудфандинг",
+    "en": "Crowdfunding"
+   },
+   "description": "Люди и общая монета",
+   "keywords": {
+    "ru": [
+     "краудфандинг",
+     "сбор",
+     "сообщество"
+    ],
+    "uk": [
+     "краудфандинг",
+     "збір",
+     "спільнота"
+    ],
+    "en": [
+     "crowdfunding",
+     "collective giving",
+     "campaign"
+    ]
+   },
+   "tags": [
+    "group"
+   ],
+   "file": "icons/ngo/crowdfunding.svg"
+  },
+  {
+   "id": "NGO-030",
+   "slug": "ngo-office",
+   "category": "ngo",
+   "name": "Общественная организация",
+   "names": {
+    "ru": "Общественная организация",
+    "uk": "Громадська організація",
+    "en": "NGO Office"
+   },
+   "description": "Дом с сердцем",
+   "keywords": {
+    "ru": [
+     "НКО",
+     "организация",
+     "офис"
+    ],
+    "uk": [
+     "ГО",
+     "організація",
+     "офіс"
+    ],
+    "en": [
+     "ngo",
+     "nonprofit",
+     "organization"
+    ]
+   },
+   "tags": [
+    "building"
+   ],
+   "file": "icons/ngo/ngo-office.svg"
+  },
+  {
+   "id": "NGO-031",
+   "slug": "ngo-charter",
+   "category": "ngo",
+   "name": "Устав НКО",
+   "names": {
+    "ru": "Устав НКО",
+    "uk": "Статут ГО",
+    "en": "NGO Charter"
+   },
+   "description": "Документ с сердцем",
+   "keywords": {
+    "ru": [
+     "устав",
+     "миссия",
+     "регистрация"
+    ],
+    "uk": [
+     "статут",
+     "місія",
+     "реєстрація"
+    ],
+    "en": [
+     "charter",
+     "bylaws",
+     "registration"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/ngo/ngo-charter.svg"
+  },
+  {
+   "id": "NGO-032",
+   "slug": "volunteer-time",
+   "category": "ngo",
+   "name": "Время волонтёров",
+   "names": {
+    "ru": "Время волонтёров",
+    "uk": "Час волонтерів",
+    "en": "Volunteer Hours"
+   },
+   "description": "Часы с сердцем",
+   "keywords": {
+    "ru": [
+     "волонтёрские часы",
+     "время",
+     "вклад"
+    ],
+    "uk": [
+     "волонтерські години",
+     "час",
+     "внесок"
+    ],
+    "en": [
+     "volunteer hours",
+     "time",
+     "contribution"
+    ]
+   },
+   "tags": [
+    "time"
+   ],
+   "file": "icons/ngo/volunteer-time.svg"
+  },
+  {
+   "id": "NGO-033",
+   "slug": "emergency-relief",
+   "category": "ngo",
+   "name": "Экстренная помощь",
+   "names": {
+    "ru": "Экстренная помощь",
+    "uk": "Екстрена допомога",
+    "en": "Emergency Relief"
+   },
+   "description": "Спасательный круг",
+   "keywords": {
+    "ru": [
+     "спасение",
+     "ЧС",
+     "помощь"
+    ],
+    "uk": [
+     "порятунок",
+     "НС",
+     "допомога"
+    ],
+    "en": [
+     "relief",
+     "rescue",
+     "lifebuoy"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/ngo/emergency-relief.svg"
+  },
+  {
+   "id": "NGO-034",
+   "slug": "aid-delivery",
+   "category": "ngo",
+   "name": "Доставка помощи",
+   "names": {
+    "ru": "Доставка помощи",
+    "uk": "Доставка допомоги",
+    "en": "Aid Delivery"
+   },
+   "description": "Грузовик с сердцем",
+   "keywords": {
+    "ru": [
+     "доставка",
+     "логистика",
+     "гуманитарка"
+    ],
+    "uk": [
+     "доставка",
+     "логістика",
+     "гуманітарка"
+    ],
+    "en": [
+     "aid delivery",
+     "logistics",
+     "truck"
+    ]
+   },
+   "tags": [
+    "vehicle"
+   ],
+   "file": "icons/ngo/aid-delivery.svg"
+  },
+  {
+   "id": "NGO-035",
+   "slug": "sustainable-development",
+   "category": "ngo",
+   "name": "Устойчивое развитие",
+   "names": {
+    "ru": "Устойчивое развитие",
+    "uk": "Сталий розвиток",
+    "en": "Sustainable Development"
+   },
+   "description": "Лист в кольце из стрелок",
+   "keywords": {
+    "ru": [
+     "устойчивость",
+     "ЦУР",
+     "развитие"
+    ],
+    "uk": [
+     "сталість",
+     "ЦСР",
+     "розвиток"
+    ],
+    "en": [
+     "sustainability",
+     "sdg",
+     "development"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/ngo/sustainable-development.svg"
+  },
+  {
+   "id": "NGO-036",
+   "slug": "equality",
+   "category": "ngo",
+   "name": "Равенство",
+   "names": {
+    "ru": "Равенство",
+    "uk": "Рівність",
+    "en": "Equality"
+   },
+   "description": "Знак равенства в круге",
+   "keywords": {
+    "ru": [
+     "равенство",
+     "равные права",
+     "справедливость"
+    ],
+    "uk": [
+     "рівність",
+     "рівні права",
+     "справедливість"
+    ],
+    "en": [
+     "equality",
+     "equal rights",
+     "fairness"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/ngo/equality.svg"
+  },
+  {
+   "id": "NGO-037",
+   "slug": "inclusion",
+   "category": "ngo",
+   "name": "Инклюзия",
+   "names": {
+    "ru": "Инклюзия",
+    "uk": "Інклюзія",
+    "en": "Inclusion"
+   },
+   "description": "Три пересекающихся круга",
+   "keywords": {
+    "ru": [
+     "инклюзия",
+     "разнообразие",
+     "участие"
+    ],
+    "uk": [
+     "інклюзія",
+     "різноманіття",
+     "участь"
+    ],
+    "en": [
+     "inclusion",
+     "diversity",
+     "belonging"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/ngo/inclusion.svg"
+  },
+  {
+   "id": "NGO-038",
+   "slug": "youth-programs",
+   "category": "ngo",
+   "name": "Молодёжные программы",
+   "names": {
+    "ru": "Молодёжные программы",
+    "uk": "Молодіжні програми",
+    "en": "Youth Programs"
+   },
+   "description": "Рюкзак",
+   "keywords": {
+    "ru": [
+     "молодёжь",
+     "студенты",
+     "программа"
+    ],
+    "uk": [
+     "молодь",
+     "студенти",
+     "програма"
+    ],
+    "en": [
+     "youth",
+     "students",
+     "programs"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/ngo/youth-programs.svg"
+  },
+  {
+   "id": "NGO-039",
+   "slug": "hotline",
+   "category": "ngo",
+   "name": "Горячая линия",
+   "names": {
+    "ru": "Горячая линия",
+    "uk": "Гаряча лінія",
+    "en": "Hotline"
+   },
+   "description": "Телефонная трубка с сигналом",
+   "keywords": {
+    "ru": [
+     "горячая линия",
+     "звонок",
+     "консультация"
+    ],
+    "uk": [
+     "гаряча лінія",
+     "дзвінок",
+     "консультація"
+    ],
+    "en": [
+     "hotline",
+     "helpline",
+     "call"
+    ]
+   },
+   "tags": [
+    "communication"
+   ],
+   "file": "icons/ngo/hotline.svg"
+  },
+  {
+   "id": "NGO-040",
+   "slug": "mentorship",
+   "category": "ngo",
+   "name": "Наставничество",
+   "names": {
+    "ru": "Наставничество",
+    "uk": "Наставництво",
+    "en": "Mentorship"
+   },
+   "description": "Наставник и подопечный",
+   "keywords": {
+    "ru": [
+     "наставник",
+     "менторство",
+     "развитие"
+    ],
+    "uk": [
+     "наставник",
+     "менторство",
+     "розвиток"
+    ],
+    "en": [
+     "mentorship",
+     "coaching",
+     "guidance"
+    ]
+   },
+   "tags": [
+    "person"
+   ],
+   "file": "icons/ngo/mentorship.svg"
+  },
+  {
+   "id": "NGO-041",
+   "slug": "petition-signatures",
+   "category": "ngo",
+   "name": "Сбор подписей",
+   "names": {
+    "ru": "Сбор подписей",
+    "uk": "Збір підписів",
+    "en": "Petition Signatures"
+   },
+   "description": "Планшет с росчерками подписей",
+   "keywords": {
+    "ru": [
+     "петиция",
+     "подписи",
+     "кампания"
+    ],
+    "uk": [
+     "петиція",
+     "підписи",
+     "кампанія"
+    ],
+    "en": [
+     "petition",
+     "signatures",
+     "campaign"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/ngo/petition-signatures.svg"
+  },
+  {
+   "id": "NGO-042",
+   "slug": "gift",
+   "category": "ngo",
+   "name": "Адресная помощь",
+   "names": {
+    "ru": "Адресная помощь",
+    "uk": "Адресна допомога",
+    "en": "Gift"
+   },
+   "description": "Подарочная коробка с бантом",
+   "keywords": {
+    "ru": [
+     "подарок",
+     "помощь",
+     "праздник"
+    ],
+    "uk": [
+     "подарунок",
+     "допомога",
+     "свято"
+    ],
+    "en": [
+     "gift",
+     "present",
+     "targeted aid"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/ngo/gift.svg"
+  },
+  {
+   "id": "NGO-043",
+   "slug": "mission",
+   "category": "ngo",
+   "name": "Миссия организации",
+   "names": {
+    "ru": "Миссия организации",
+    "uk": "Місія організації",
+    "en": "Mission"
+   },
+   "description": "Компас",
+   "keywords": {
+    "ru": [
+     "миссия",
+     "ценности",
+     "направление"
+    ],
+    "uk": [
+     "місія",
+     "цінності",
+     "напрям"
+    ],
+    "en": [
+     "mission",
+     "direction",
+     "values"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/ngo/mission.svg"
+  },
+  {
+   "id": "NGO-044",
+   "slug": "charity-event",
+   "category": "ngo",
+   "name": "Благотворительное мероприятие",
+   "names": {
+    "ru": "Благотворительное мероприятие",
+    "uk": "Благодійний захід",
+    "en": "Charity Event"
+   },
+   "description": "Календарь с сердцем",
+   "keywords": {
+    "ru": [
+     "мероприятие",
+     "акция",
+     "дата"
+    ],
+    "uk": [
+     "захід",
+     "акція",
+     "дата"
+    ],
+    "en": [
+     "event",
+     "charity event",
+     "date"
+    ]
+   },
+   "tags": [
+    "time"
+   ],
+   "file": "icons/ngo/charity-event.svg"
+  },
+  {
+   "id": "NGO-045",
+   "slug": "recycling",
+   "category": "ngo",
+   "name": "Переработка",
+   "names": {
+    "ru": "Переработка",
+    "uk": "Переробка",
+    "en": "Recycling"
+   },
+   "description": "Три дуговые стрелки по кругу",
+   "keywords": {
+    "ru": [
+     "переработка",
+     "отходы",
+     "экология"
+    ],
+    "uk": [
+     "переробка",
+     "відходи",
+     "екологія"
+    ],
+    "en": [
+     "recycling",
+     "waste",
+     "circular"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/ngo/recycling.svg"
+  },
+  {
+   "id": "NGO-046",
+   "slug": "online-donation",
+   "category": "ngo",
+   "name": "Онлайн-пожертвование",
+   "names": {
+    "ru": "Онлайн-пожертвование",
+    "uk": "Онлайн-пожертва",
+    "en": "Online Donation"
+   },
+   "description": "Смартфон с сердцем",
+   "keywords": {
+    "ru": [
+     "онлайн",
+     "пожертвование",
+     "приложение"
+    ],
+    "uk": [
+     "онлайн",
+     "пожертва",
+     "застосунок"
+    ],
+    "en": [
+     "online giving",
+     "app",
+     "donate"
+    ]
+   },
+   "tags": [
+    "device"
+   ],
+   "file": "icons/ngo/online-donation.svg"
+  },
+  {
+   "id": "NGO-047",
+   "slug": "food-basket",
+   "category": "ngo",
+   "name": "Продуктовая корзина",
+   "names": {
+    "ru": "Продуктовая корзина",
+    "uk": "Продуктовий кошик",
+    "en": "Food Basket"
+   },
+   "description": "Корзина с ручками",
+   "keywords": {
+    "ru": [
+     "продукты",
+     "корзина",
+     "банк еды"
+    ],
+    "uk": [
+     "продукти",
+     "кошик",
+     "банк їжі"
+    ],
+    "en": [
+     "food basket",
+     "groceries",
+     "food bank"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/ngo/food-basket.svg"
+  },
+  {
+   "id": "NGO-048",
+   "slug": "aid-point",
+   "category": "ngo",
+   "name": "Пункт сбора помощи",
+   "names": {
+    "ru": "Пункт сбора помощи",
+    "uk": "Пункт збору допомоги",
+    "en": "Aid Collection Point"
+   },
+   "description": "Метка на карте с сердцем",
+   "keywords": {
+    "ru": [
+     "пункт",
+     "сбор",
+     "адрес"
+    ],
+    "uk": [
+     "пункт",
+     "збір",
+     "адреса"
+    ],
+    "en": [
+     "collection point",
+     "drop-off",
+     "location"
+    ]
+   },
+   "tags": [
+    "place"
+   ],
+   "file": "icons/ngo/aid-point.svg"
+  },
+  {
+   "id": "NGO-049",
+   "slug": "international-aid",
+   "category": "ngo",
+   "name": "Международная помощь",
+   "names": {
+    "ru": "Международная помощь",
+    "uk": "Міжнародна допомога",
+    "en": "International Aid"
+   },
+   "description": "Ладонь, держащая глобус",
+   "keywords": {
+    "ru": [
+     "международная помощь",
+     "глобально",
+     "донор"
+    ],
+    "uk": [
+     "міжнародна допомога",
+     "глобально",
+     "донор"
+    ],
+    "en": [
+     "international aid",
+     "global",
+     "donor"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/ngo/international-aid.svg"
+  },
+  {
+   "id": "NGO-050",
+   "slug": "gratitude",
+   "category": "ngo",
+   "name": "Благодарность",
+   "names": {
+    "ru": "Благодарность",
+    "uk": "Подяка",
+    "en": "Gratitude"
+   },
+   "description": "Конверт с сердцем",
+   "keywords": {
+    "ru": [
+     "благодарность",
+     "спасибо",
+     "письмо"
+    ],
+    "uk": [
+     "подяка",
+     "дякую",
+     "лист"
+    ],
+    "en": [
+     "thank you",
+     "gratitude",
+     "letter"
+    ]
+   },
+   "tags": [
+    "communication"
+   ],
+   "file": "icons/ngo/gratitude.svg"
   }
  ]
 }
