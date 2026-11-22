@@ -5050,6 +5050,3306 @@
     "device"
    ],
    "file": "icons/technology/usb-drive.svg"
+  },
+  {
+   "id": "HLT-001",
+   "slug": "stethoscope",
+   "category": "healthcare",
+   "name": "Стетоскоп",
+   "names": {
+    "ru": "Стетоскоп",
+    "uk": "Стетоскоп",
+    "en": "Stethoscope"
+   },
+   "description": "Оголовье, трубка и головка стетоскопа",
+   "keywords": {
+    "ru": [
+     "стетоскоп",
+     "осмотр",
+     "врач"
+    ],
+    "uk": [
+     "стетоскоп",
+     "огляд",
+     "лікар"
+    ],
+    "en": [
+     "stethoscope",
+     "checkup",
+     "doctor"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/healthcare/stethoscope.svg"
+  },
+  {
+   "id": "HLT-002",
+   "slug": "heart",
+   "category": "healthcare",
+   "name": "Сердце",
+   "names": {
+    "ru": "Сердце",
+    "uk": "Серце",
+    "en": "Heart"
+   },
+   "description": "Контур сердца",
+   "keywords": {
+    "ru": [
+     "сердце",
+     "здоровье",
+     "забота"
+    ],
+    "uk": [
+     "серце",
+     "здоров’я",
+     "турбота"
+    ],
+    "en": [
+     "heart",
+     "health",
+     "care"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/healthcare/heart.svg"
+  },
+  {
+   "id": "HLT-003",
+   "slug": "first-aid-kit",
+   "category": "healthcare",
+   "name": "Аптечка",
+   "names": {
+    "ru": "Аптечка",
+    "uk": "Аптечка",
+    "en": "First Aid Kit"
+   },
+   "description": "Чемоданчик с крестом",
+   "keywords": {
+    "ru": [
+     "аптечка",
+     "первая помощь",
+     "экстренно"
+    ],
+    "uk": [
+     "аптечка",
+     "перша допомога",
+     "екстрено"
+    ],
+    "en": [
+     "first aid",
+     "kit",
+     "emergency"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/healthcare/first-aid-kit.svg"
+  },
+  {
+   "id": "HLT-004",
+   "slug": "medical-cross",
+   "category": "healthcare",
+   "name": "Медицинский крест",
+   "names": {
+    "ru": "Медицинский крест",
+    "uk": "Медичний хрест",
+    "en": "Medical Cross"
+   },
+   "description": "Объёмный крест",
+   "keywords": {
+    "ru": [
+     "медицина",
+     "помощь",
+     "крест"
+    ],
+    "uk": [
+     "медицина",
+     "допомога",
+     "хрест"
+    ],
+    "en": [
+     "medical",
+     "cross",
+     "health"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/healthcare/medical-cross.svg"
+  },
+  {
+   "id": "HLT-005",
+   "slug": "iv-drip",
+   "category": "healthcare",
+   "name": "Капельница",
+   "names": {
+    "ru": "Капельница",
+    "uk": "Крапельниця",
+    "en": "IV Drip"
+   },
+   "description": "Пакет раствора, капельная камера и трубка",
+   "keywords": {
+    "ru": [
+     "капельница",
+     "инфузия",
+     "стационар"
+    ],
+    "uk": [
+     "крапельниця",
+     "інфузія",
+     "стаціонар"
+    ],
+    "en": [
+     "iv drip",
+     "infusion",
+     "hospital"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/healthcare/iv-drip.svg"
+  },
+  {
+   "id": "HLT-006",
+   "slug": "blood-test",
+   "category": "healthcare",
+   "name": "Анализ крови",
+   "names": {
+    "ru": "Анализ крови",
+    "uk": "Аналіз крові",
+    "en": "Blood Test"
+   },
+   "description": "Пробирка и капля",
+   "keywords": {
+    "ru": [
+     "анализ",
+     "кровь",
+     "лаборатория"
+    ],
+    "uk": [
+     "аналіз",
+     "кров",
+     "лабораторія"
+    ],
+    "en": [
+     "blood test",
+     "lab",
+     "sample"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/healthcare/blood-test.svg"
+  },
+  {
+   "id": "HLT-007",
+   "slug": "hospital",
+   "category": "healthcare",
+   "name": "Больница",
+   "names": {
+    "ru": "Больница",
+    "uk": "Лікарня",
+    "en": "Hospital"
+   },
+   "description": "Корпус с крестом и входом",
+   "keywords": {
+    "ru": [
+     "больница",
+     "клиника",
+     "стационар"
+    ],
+    "uk": [
+     "лікарня",
+     "клініка",
+     "стаціонар"
+    ],
+    "en": [
+     "hospital",
+     "clinic",
+     "medical center"
+    ]
+   },
+   "tags": [
+    "building"
+   ],
+   "file": "icons/healthcare/hospital.svg"
+  },
+  {
+   "id": "HLT-008",
+   "slug": "medical-record",
+   "category": "healthcare",
+   "name": "Медицинская карта",
+   "names": {
+    "ru": "Медицинская карта",
+    "uk": "Медична картка",
+    "en": "Medical Record"
+   },
+   "description": "Планшет с кардиограммой",
+   "keywords": {
+    "ru": [
+     "карта",
+     "история болезни",
+     "документ"
+    ],
+    "uk": [
+     "картка",
+     "історія хвороби",
+     "документ"
+    ],
+    "en": [
+     "medical record",
+     "chart",
+     "history"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/healthcare/medical-record.svg"
+  },
+  {
+   "id": "HLT-009",
+   "slug": "rehabilitation",
+   "category": "healthcare",
+   "name": "Реабилитация",
+   "names": {
+    "ru": "Реабилитация",
+    "uk": "Реабілітація",
+    "en": "Rehabilitation"
+   },
+   "description": "Подмышечный костыль",
+   "keywords": {
+    "ru": [
+     "реабилитация",
+     "восстановление",
+     "костыль"
+    ],
+    "uk": [
+     "реабілітація",
+     "відновлення",
+     "милиця"
+    ],
+    "en": [
+     "rehabilitation",
+     "recovery",
+     "crutch"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/healthcare/rehabilitation.svg"
+  },
+  {
+   "id": "HLT-010",
+   "slug": "doctor-consultation",
+   "category": "healthcare",
+   "name": "Консультация врача",
+   "names": {
+    "ru": "Консультация врача",
+    "uk": "Консультація лікаря",
+    "en": "Doctor Consultation"
+   },
+   "description": "Пациент и реплика с крестом",
+   "keywords": {
+    "ru": [
+     "консультация",
+     "приём",
+     "врач"
+    ],
+    "uk": [
+     "консультація",
+     "прийом",
+     "лікар"
+    ],
+    "en": [
+     "consultation",
+     "appointment",
+     "doctor"
+    ]
+   },
+   "tags": [
+    "person"
+   ],
+   "file": "icons/healthcare/doctor-consultation.svg"
+  },
+  {
+   "id": "HLT-011",
+   "slug": "capsule",
+   "category": "healthcare",
+   "name": "Капсула",
+   "names": {
+    "ru": "Капсула",
+    "uk": "Капсула",
+    "en": "Capsule"
+   },
+   "description": "Наклонная двухцветная капсула",
+   "keywords": {
+    "ru": [
+     "таблетка",
+     "лекарство",
+     "капсула"
+    ],
+    "uk": [
+     "таблетка",
+     "ліки",
+     "капсула"
+    ],
+    "en": [
+     "pill",
+     "medicine",
+     "capsule"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/healthcare/capsule.svg"
+  },
+  {
+   "id": "HLT-012",
+   "slug": "medicine-bottle",
+   "category": "healthcare",
+   "name": "Лекарства",
+   "names": {
+    "ru": "Лекарства",
+    "uk": "Ліки",
+    "en": "Medicine Bottle"
+   },
+   "description": "Флакон с крышкой и крестом на этикетке",
+   "keywords": {
+    "ru": [
+     "лекарство",
+     "флакон",
+     "рецепт"
+    ],
+    "uk": [
+     "ліки",
+     "флакон",
+     "рецепт"
+    ],
+    "en": [
+     "medicine",
+     "bottle",
+     "pharmacy"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/healthcare/medicine-bottle.svg"
+  },
+  {
+   "id": "HLT-013",
+   "slug": "syringe",
+   "category": "healthcare",
+   "name": "Шприц",
+   "names": {
+    "ru": "Шприц",
+    "uk": "Шприц",
+    "en": "Syringe"
+   },
+   "description": "Шприц с иглой и поршнем",
+   "keywords": {
+    "ru": [
+     "укол",
+     "инъекция",
+     "шприц"
+    ],
+    "uk": [
+     "укол",
+     "ін’єкція",
+     "шприц"
+    ],
+    "en": [
+     "syringe",
+     "injection",
+     "shot"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/healthcare/syringe.svg"
+  },
+  {
+   "id": "HLT-014",
+   "slug": "thermometer",
+   "category": "healthcare",
+   "name": "Термометр",
+   "names": {
+    "ru": "Термометр",
+    "uk": "Термометр",
+    "en": "Thermometer"
+   },
+   "description": "Градусник с колбой",
+   "keywords": {
+    "ru": [
+     "температура",
+     "термометр",
+     "лихорадка"
+    ],
+    "uk": [
+     "температура",
+     "термометр",
+     "гарячка"
+    ],
+    "en": [
+     "temperature",
+     "thermometer",
+     "fever"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/healthcare/thermometer.svg"
+  },
+  {
+   "id": "HLT-015",
+   "slug": "ambulance",
+   "category": "healthcare",
+   "name": "Скорая помощь",
+   "names": {
+    "ru": "Скорая помощь",
+    "uk": "Швидка допомога",
+    "en": "Ambulance"
+   },
+   "description": "Автомобиль скорой с крестом",
+   "keywords": {
+    "ru": [
+     "скорая",
+     "вызов",
+     "транспорт"
+    ],
+    "uk": [
+     "швидка",
+     "виклик",
+     "транспорт"
+    ],
+    "en": [
+     "ambulance",
+     "emergency",
+     "transport"
+    ]
+   },
+   "tags": [
+    "vehicle"
+   ],
+   "file": "icons/healthcare/ambulance.svg"
+  },
+  {
+   "id": "HLT-016",
+   "slug": "hospital-bed",
+   "category": "healthcare",
+   "name": "Больничная койка",
+   "names": {
+    "ru": "Больничная койка",
+    "uk": "Лікарняне ліжко",
+    "en": "Hospital Bed"
+   },
+   "description": "Кровать с пациентом",
+   "keywords": {
+    "ru": [
+     "койка",
+     "стационар",
+     "госпитализация"
+    ],
+    "uk": [
+     "ліжко",
+     "стаціонар",
+     "госпіталізація"
+    ],
+    "en": [
+     "hospital bed",
+     "inpatient",
+     "ward"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/healthcare/hospital-bed.svg"
+  },
+  {
+   "id": "HLT-017",
+   "slug": "dentistry",
+   "category": "healthcare",
+   "name": "Стоматология",
+   "names": {
+    "ru": "Стоматология",
+    "uk": "Стоматологія",
+    "en": "Dentistry"
+   },
+   "description": "Зуб с двумя корнями",
+   "keywords": {
+    "ru": [
+     "зуб",
+     "стоматолог",
+     "дентал"
+    ],
+    "uk": [
+     "зуб",
+     "стоматолог",
+     "дентал"
+    ],
+    "en": [
+     "tooth",
+     "dentist",
+     "dental"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/healthcare/dentistry.svg"
+  },
+  {
+   "id": "HLT-018",
+   "slug": "ophthalmology",
+   "category": "healthcare",
+   "name": "Офтальмология",
+   "names": {
+    "ru": "Офтальмология",
+    "uk": "Офтальмологія",
+    "en": "Ophthalmology"
+   },
+   "description": "Глаз с ресницами",
+   "keywords": {
+    "ru": [
+     "зрение",
+     "глаз",
+     "окулист"
+    ],
+    "uk": [
+     "зір",
+     "око",
+     "окуліст"
+    ],
+    "en": [
+     "vision",
+     "eye",
+     "optometry"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/healthcare/ophthalmology.svg"
+  },
+  {
+   "id": "HLT-019",
+   "slug": "lungs",
+   "category": "healthcare",
+   "name": "Лёгкие",
+   "names": {
+    "ru": "Лёгкие",
+    "uk": "Легені",
+    "en": "Lungs"
+   },
+   "description": "Трахея и два лёгких",
+   "keywords": {
+    "ru": [
+     "лёгкие",
+     "дыхание",
+     "пульмонология"
+    ],
+    "uk": [
+     "легені",
+     "дихання",
+     "пульмонологія"
+    ],
+    "en": [
+     "lungs",
+     "breathing",
+     "respiratory"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/healthcare/lungs.svg"
+  },
+  {
+   "id": "HLT-020",
+   "slug": "mental-health",
+   "category": "healthcare",
+   "name": "Психическое здоровье",
+   "names": {
+    "ru": "Психическое здоровье",
+    "uk": "Психічне здоров’я",
+    "en": "Mental Health"
+   },
+   "description": "Профиль головы с сердцем",
+   "keywords": {
+    "ru": [
+     "психология",
+     "ментальное здоровье",
+     "поддержка"
+    ],
+    "uk": [
+     "психологія",
+     "ментальне здоров’я",
+     "підтримка"
+    ],
+    "en": [
+     "mental health",
+     "wellbeing",
+     "psychology"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/healthcare/mental-health.svg"
+  },
+  {
+   "id": "HLT-021",
+   "slug": "dna",
+   "category": "healthcare",
+   "name": "Генетика",
+   "names": {
+    "ru": "Генетика",
+    "uk": "Генетика",
+    "en": "Genetics"
+   },
+   "description": "Двойная спираль ДНК",
+   "keywords": {
+    "ru": [
+     "ДНК",
+     "гены",
+     "генетика"
+    ],
+    "uk": [
+     "ДНК",
+     "гени",
+     "генетика"
+    ],
+    "en": [
+     "dna",
+     "genetics",
+     "genome"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/healthcare/dna.svg"
+  },
+  {
+   "id": "HLT-022",
+   "slug": "vaccine",
+   "category": "healthcare",
+   "name": "Вакцина",
+   "names": {
+    "ru": "Вакцина",
+    "uk": "Вакцина",
+    "en": "Vaccine"
+   },
+   "description": "Флакон с этикеткой",
+   "keywords": {
+    "ru": [
+     "вакцина",
+     "прививка",
+     "иммунизация"
+    ],
+    "uk": [
+     "вакцина",
+     "щеплення",
+     "імунізація"
+    ],
+    "en": [
+     "vaccine",
+     "immunization",
+     "vial"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/healthcare/vaccine.svg"
+  },
+  {
+   "id": "HLT-023",
+   "slug": "microscope",
+   "category": "healthcare",
+   "name": "Микроскоп",
+   "names": {
+    "ru": "Микроскоп",
+    "uk": "Мікроскоп",
+    "en": "Microscope"
+   },
+   "description": "Тубус, предметный столик и основание",
+   "keywords": {
+    "ru": [
+     "микроскоп",
+     "исследование",
+     "лаборатория"
+    ],
+    "uk": [
+     "мікроскоп",
+     "дослідження",
+     "лабораторія"
+    ],
+    "en": [
+     "microscope",
+     "research",
+     "lab"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/healthcare/microscope.svg"
+  },
+  {
+   "id": "HLT-024",
+   "slug": "telemedicine",
+   "category": "healthcare",
+   "name": "Телемедицина",
+   "names": {
+    "ru": "Телемедицина",
+    "uk": "Телемедицина",
+    "en": "Telemedicine"
+   },
+   "description": "Смартфон с медицинским крестом",
+   "keywords": {
+    "ru": [
+     "телемедицина",
+     "онлайн-приём",
+     "удалённо"
+    ],
+    "uk": [
+     "телемедицина",
+     "онлайн-прийом",
+     "дистанційно"
+    ],
+    "en": [
+     "telemedicine",
+     "remote care",
+     "e-health"
+    ]
+   },
+   "tags": [
+    "device"
+   ],
+   "file": "icons/healthcare/telemedicine.svg"
+  },
+  {
+   "id": "HLT-025",
+   "slug": "ecg",
+   "category": "healthcare",
+   "name": "Кардиограмма",
+   "names": {
+    "ru": "Кардиограмма",
+    "uk": "Кардіограма",
+    "en": "ECG"
+   },
+   "description": "Линия сердечного ритма",
+   "keywords": {
+    "ru": [
+     "пульс",
+     "ЭКГ",
+     "ритм"
+    ],
+    "uk": [
+     "пульс",
+     "ЕКГ",
+     "ритм"
+    ],
+    "en": [
+     "ecg",
+     "pulse",
+     "heartbeat"
+    ]
+   },
+   "tags": [
+    "chart"
+   ],
+   "file": "icons/healthcare/ecg.svg"
+  },
+  {
+   "id": "HLT-026",
+   "slug": "bandage",
+   "category": "healthcare",
+   "name": "Пластырь",
+   "names": {
+    "ru": "Пластырь",
+    "uk": "Пластир",
+    "en": "Bandage"
+   },
+   "description": "Наклонный пластырь с подушечкой",
+   "keywords": {
+    "ru": [
+     "пластырь",
+     "рана",
+     "перевязка"
+    ],
+    "uk": [
+     "пластир",
+     "рана",
+     "перев’язка"
+    ],
+    "en": [
+     "bandage",
+     "plaster",
+     "wound care"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/healthcare/bandage.svg"
+  },
+  {
+   "id": "HLT-027",
+   "slug": "accessibility",
+   "category": "healthcare",
+   "name": "Доступная среда",
+   "names": {
+    "ru": "Доступная среда",
+    "uk": "Доступне середовище",
+    "en": "Accessibility"
+   },
+   "description": "Человек на кресле-коляске",
+   "keywords": {
+    "ru": [
+     "инвалидность",
+     "доступность",
+     "коляска"
+    ],
+    "uk": [
+     "інвалідність",
+     "доступність",
+     "візок"
+    ],
+    "en": [
+     "accessibility",
+     "wheelchair",
+     "disability"
+    ]
+   },
+   "tags": [
+    "person"
+   ],
+   "file": "icons/healthcare/accessibility.svg"
+  },
+  {
+   "id": "HLT-028",
+   "slug": "medical-mask",
+   "category": "healthcare",
+   "name": "Медицинская маска",
+   "names": {
+    "ru": "Медицинская маска",
+    "uk": "Медична маска",
+    "en": "Face Mask"
+   },
+   "description": "Маска со складками и завязками",
+   "keywords": {
+    "ru": [
+     "маска",
+     "защита",
+     "гигиена"
+    ],
+    "uk": [
+     "маска",
+     "захист",
+     "гігієна"
+    ],
+    "en": [
+     "mask",
+     "protection",
+     "hygiene"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/healthcare/medical-mask.svg"
+  },
+  {
+   "id": "HLT-029",
+   "slug": "blood-donation",
+   "category": "healthcare",
+   "name": "Донорство крови",
+   "names": {
+    "ru": "Донорство крови",
+    "uk": "Донорство крові",
+    "en": "Blood Donation"
+   },
+   "description": "Капля с плюсом",
+   "keywords": {
+    "ru": [
+     "донор",
+     "кровь",
+     "переливание"
+    ],
+    "uk": [
+     "донор",
+     "кров",
+     "переливання"
+    ],
+    "en": [
+     "blood donation",
+     "donor",
+     "transfusion"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/healthcare/blood-donation.svg"
+  },
+  {
+   "id": "HLT-030",
+   "slug": "virus",
+   "category": "healthcare",
+   "name": "Вирус",
+   "names": {
+    "ru": "Вирус",
+    "uk": "Вірус",
+    "en": "Virus"
+   },
+   "description": "Частица с шипами",
+   "keywords": {
+    "ru": [
+     "вирус",
+     "инфекция",
+     "эпидемия"
+    ],
+    "uk": [
+     "вірус",
+     "інфекція",
+     "епідемія"
+    ],
+    "en": [
+     "virus",
+     "infection",
+     "pathogen"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/healthcare/virus.svg"
+  },
+  {
+   "id": "HLT-031",
+   "slug": "laboratory",
+   "category": "healthcare",
+   "name": "Лаборатория",
+   "names": {
+    "ru": "Лаборатория",
+    "uk": "Лабораторія",
+    "en": "Laboratory"
+   },
+   "description": "Колба с жидкостью",
+   "keywords": {
+    "ru": [
+     "лаборатория",
+     "исследование",
+     "колба"
+    ],
+    "uk": [
+     "лабораторія",
+     "дослідження",
+     "колба"
+    ],
+    "en": [
+     "laboratory",
+     "research",
+     "flask"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/healthcare/laboratory.svg"
+  },
+  {
+   "id": "HLT-032",
+   "slug": "x-ray",
+   "category": "healthcare",
+   "name": "Рентген",
+   "names": {
+    "ru": "Рентген",
+    "uk": "Рентген",
+    "en": "X-ray"
+   },
+   "description": "Снимок грудной клетки",
+   "keywords": {
+    "ru": [
+     "рентген",
+     "снимок",
+     "диагностика"
+    ],
+    "uk": [
+     "рентген",
+     "знімок",
+     "діагностика"
+    ],
+    "en": [
+     "x-ray",
+     "scan",
+     "imaging"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/healthcare/x-ray.svg"
+  },
+  {
+   "id": "HLT-033",
+   "slug": "pharmacy",
+   "category": "healthcare",
+   "name": "Аптека",
+   "names": {
+    "ru": "Аптека",
+    "uk": "Аптека",
+    "en": "Pharmacy"
+   },
+   "description": "Ступка с пестиком",
+   "keywords": {
+    "ru": [
+     "аптека",
+     "фармацевт",
+     "препараты"
+    ],
+    "uk": [
+     "аптека",
+     "фармацевт",
+     "препарати"
+    ],
+    "en": [
+     "pharmacy",
+     "pharmacist",
+     "compounding"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/healthcare/pharmacy.svg"
+  },
+  {
+   "id": "HLT-034",
+   "slug": "medical-appointment",
+   "category": "healthcare",
+   "name": "Запись к врачу",
+   "names": {
+    "ru": "Запись к врачу",
+    "uk": "Запис до лікаря",
+    "en": "Medical Appointment"
+   },
+   "description": "Календарь с крестом",
+   "keywords": {
+    "ru": [
+     "запись",
+     "приём",
+     "дата"
+    ],
+    "uk": [
+     "запис",
+     "прийом",
+     "дата"
+    ],
+    "en": [
+     "appointment",
+     "booking",
+     "schedule"
+    ]
+   },
+   "tags": [
+    "time"
+   ],
+   "file": "icons/healthcare/medical-appointment.svg"
+  },
+  {
+   "id": "HLT-035",
+   "slug": "medical-staff",
+   "category": "healthcare",
+   "name": "Медицинский персонал",
+   "names": {
+    "ru": "Медицинский персонал",
+    "uk": "Медичний персонал",
+    "en": "Medical Staff"
+   },
+   "description": "Медсестра в шапочке",
+   "keywords": {
+    "ru": [
+     "медсестра",
+     "персонал",
+     "врач"
+    ],
+    "uk": [
+     "медсестра",
+     "персонал",
+     "лікар"
+    ],
+    "en": [
+     "nurse",
+     "staff",
+     "healthcare worker"
+    ]
+   },
+   "tags": [
+    "person"
+   ],
+   "file": "icons/healthcare/medical-staff.svg"
+  },
+  {
+   "id": "HLT-036",
+   "slug": "cardiology",
+   "category": "healthcare",
+   "name": "Кардиология",
+   "names": {
+    "ru": "Кардиология",
+    "uk": "Кардіологія",
+    "en": "Cardiology"
+   },
+   "description": "Сердце с линией пульса",
+   "keywords": {
+    "ru": [
+     "кардиология",
+     "сердце",
+     "пульс"
+    ],
+    "uk": [
+     "кардіологія",
+     "серце",
+     "пульс"
+    ],
+    "en": [
+     "cardiology",
+     "heart rate",
+     "cardiac"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/healthcare/cardiology.svg"
+  },
+  {
+   "id": "HLT-037",
+   "slug": "orthopedics",
+   "category": "healthcare",
+   "name": "Ортопедия",
+   "names": {
+    "ru": "Ортопедия",
+    "uk": "Ортопедія",
+    "en": "Orthopedics"
+   },
+   "description": "Кость с суставными головками",
+   "keywords": {
+    "ru": [
+     "кость",
+     "перелом",
+     "ортопед"
+    ],
+    "uk": [
+     "кістка",
+     "перелом",
+     "ортопед"
+    ],
+    "en": [
+     "bone",
+     "fracture",
+     "orthopedics"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/healthcare/orthopedics.svg"
+  },
+  {
+   "id": "HLT-038",
+   "slug": "healthy-eating",
+   "category": "healthcare",
+   "name": "Здоровое питание",
+   "names": {
+    "ru": "Здоровое питание",
+    "uk": "Здорове харчування",
+    "en": "Healthy Eating"
+   },
+   "description": "Яблоко с черенком",
+   "keywords": {
+    "ru": [
+     "питание",
+     "профилактика",
+     "диета"
+    ],
+    "uk": [
+     "харчування",
+     "профілактика",
+     "дієта"
+    ],
+    "en": [
+     "nutrition",
+     "prevention",
+     "diet"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/healthcare/healthy-eating.svg"
+  },
+  {
+   "id": "HLT-039",
+   "slug": "disinfection",
+   "category": "healthcare",
+   "name": "Дезинфекция",
+   "names": {
+    "ru": "Дезинфекция",
+    "uk": "Дезінфекція",
+    "en": "Disinfection"
+   },
+   "description": "Флакон-распылитель с брызгами",
+   "keywords": {
+    "ru": [
+     "дезинфекция",
+     "антисептик",
+     "гигиена"
+    ],
+    "uk": [
+     "дезінфекція",
+     "антисептик",
+     "гігієна"
+    ],
+    "en": [
+     "disinfection",
+     "sanitizer",
+     "hygiene"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/healthcare/disinfection.svg"
+  },
+  {
+   "id": "HLT-040",
+   "slug": "health-insurance",
+   "category": "healthcare",
+   "name": "Медицинская страховка",
+   "names": {
+    "ru": "Медицинская страховка",
+    "uk": "Медичне страхування",
+    "en": "Health Insurance"
+   },
+   "description": "Полис с крестом",
+   "keywords": {
+    "ru": [
+     "страховка",
+     "полис",
+     "ОМС"
+    ],
+    "uk": [
+     "страховка",
+     "поліс",
+     "медстрахування"
+    ],
+    "en": [
+     "health insurance",
+     "policy",
+     "coverage"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/healthcare/health-insurance.svg"
+  },
+  {
+   "id": "HLT-041",
+   "slug": "glucose-meter",
+   "category": "healthcare",
+   "name": "Глюкометр",
+   "names": {
+    "ru": "Глюкометр",
+    "uk": "Глюкометр",
+    "en": "Glucose Meter"
+   },
+   "description": "Прибор с экраном и тест-полоской",
+   "keywords": {
+    "ru": [
+     "диабет",
+     "сахар",
+     "глюкоза"
+    ],
+    "uk": [
+     "діабет",
+     "цукор",
+     "глюкоза"
+    ],
+    "en": [
+     "diabetes",
+     "glucose",
+     "meter"
+    ]
+   },
+   "tags": [
+    "device"
+   ],
+   "file": "icons/healthcare/glucose-meter.svg"
+  },
+  {
+   "id": "HLT-042",
+   "slug": "pediatrics",
+   "category": "healthcare",
+   "name": "Педиатрия",
+   "names": {
+    "ru": "Педиатрия",
+    "uk": "Педіатрія",
+    "en": "Pediatrics"
+   },
+   "description": "Детская бутылочка с делениями",
+   "keywords": {
+    "ru": [
+     "дети",
+     "педиатр",
+     "младенец"
+    ],
+    "uk": [
+     "діти",
+     "педіатр",
+     "немовля"
+    ],
+    "en": [
+     "pediatrics",
+     "children",
+     "infant"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/healthcare/pediatrics.svg"
+  },
+  {
+   "id": "HLT-043",
+   "slug": "hearing",
+   "category": "healthcare",
+   "name": "Слух и ЛОР",
+   "names": {
+    "ru": "Слух и ЛОР",
+    "uk": "Слух і ЛОР",
+    "en": "Hearing"
+   },
+   "description": "Ушная раковина",
+   "keywords": {
+    "ru": [
+     "слух",
+     "ухо",
+     "отоларинголог"
+    ],
+    "uk": [
+     "слух",
+     "вухо",
+     "отоларинголог"
+    ],
+    "en": [
+     "hearing",
+     "ear",
+     "ent"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/healthcare/hearing.svg"
+  },
+  {
+   "id": "HLT-044",
+   "slug": "sleep",
+   "category": "healthcare",
+   "name": "Сон и отдых",
+   "names": {
+    "ru": "Сон и отдых",
+    "uk": "Сон і відпочинок",
+    "en": "Sleep"
+   },
+   "description": "Полумесяц и буква Z",
+   "keywords": {
+    "ru": [
+     "сон",
+     "отдых",
+     "восстановление"
+    ],
+    "uk": [
+     "сон",
+     "відпочинок",
+     "відновлення"
+    ],
+    "en": [
+     "sleep",
+     "rest",
+     "recovery"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/healthcare/sleep.svg"
+  },
+  {
+   "id": "HLT-045",
+   "slug": "weight-control",
+   "category": "healthcare",
+   "name": "Контроль веса",
+   "names": {
+    "ru": "Контроль веса",
+    "uk": "Контроль ваги",
+    "en": "Weight Control"
+   },
+   "description": "Напольные весы со шкалой",
+   "keywords": {
+    "ru": [
+     "вес",
+     "масса",
+     "ИМТ"
+    ],
+    "uk": [
+     "вага",
+     "маса",
+     "ІМТ"
+    ],
+    "en": [
+     "weight",
+     "scale",
+     "bmi"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/healthcare/weight-control.svg"
+  },
+  {
+   "id": "HLT-046",
+   "slug": "diagnostics",
+   "category": "healthcare",
+   "name": "Диагностика",
+   "names": {
+    "ru": "Диагностика",
+    "uk": "Діагностика",
+    "en": "Diagnostics"
+   },
+   "description": "Лупа с сердцем",
+   "keywords": {
+    "ru": [
+     "диагностика",
+     "скрининг",
+     "обследование"
+    ],
+    "uk": [
+     "діагностика",
+     "скринінг",
+     "обстеження"
+    ],
+    "en": [
+     "diagnostics",
+     "screening",
+     "checkup"
+    ]
+   },
+   "tags": [
+    "action"
+   ],
+   "file": "icons/healthcare/diagnostics.svg"
+  },
+  {
+   "id": "HLT-047",
+   "slug": "surgery",
+   "category": "healthcare",
+   "name": "Хирургия",
+   "names": {
+    "ru": "Хирургия",
+    "uk": "Хірургія",
+    "en": "Surgery"
+   },
+   "description": "Скальпель",
+   "keywords": {
+    "ru": [
+     "хирургия",
+     "операция",
+     "скальпель"
+    ],
+    "uk": [
+     "хірургія",
+     "операція",
+     "скальпель"
+    ],
+    "en": [
+     "surgery",
+     "operation",
+     "scalpel"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/healthcare/surgery.svg"
+  },
+  {
+   "id": "HLT-048",
+   "slug": "oxygen",
+   "category": "healthcare",
+   "name": "Кислород",
+   "names": {
+    "ru": "Кислород",
+    "uk": "Кисень",
+    "en": "Oxygen"
+   },
+   "description": "Баллон с вентилем",
+   "keywords": {
+    "ru": [
+     "кислород",
+     "баллон",
+     "дыхание"
+    ],
+    "uk": [
+     "кисень",
+     "балон",
+     "дихання"
+    ],
+    "en": [
+     "oxygen",
+     "tank",
+     "respiratory support"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/healthcare/oxygen.svg"
+  },
+  {
+   "id": "HLT-049",
+   "slug": "home-care",
+   "category": "healthcare",
+   "name": "Помощь на дому",
+   "names": {
+    "ru": "Помощь на дому",
+    "uk": "Допомога вдома",
+    "en": "Home Care"
+   },
+   "description": "Дом с медицинским крестом",
+   "keywords": {
+    "ru": [
+     "на дому",
+     "патронаж",
+     "уход"
+    ],
+    "uk": [
+     "вдома",
+     "патронаж",
+     "догляд"
+    ],
+    "en": [
+     "home care",
+     "visit",
+     "nursing"
+    ]
+   },
+   "tags": [
+    "building"
+   ],
+   "file": "icons/healthcare/home-care.svg"
+  },
+  {
+   "id": "HLT-050",
+   "slug": "prescription",
+   "category": "healthcare",
+   "name": "Рецепт",
+   "names": {
+    "ru": "Рецепт",
+    "uk": "Рецепт",
+    "en": "Prescription"
+   },
+   "description": "Бланк со знаком Rx",
+   "keywords": {
+    "ru": [
+     "рецепт",
+     "назначение",
+     "препарат"
+    ],
+    "uk": [
+     "рецепт",
+     "призначення",
+     "препарат"
+    ],
+    "en": [
+     "prescription",
+     "rx",
+     "medication"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/healthcare/prescription.svg"
+  },
+  {
+   "id": "FIN-001",
+   "slug": "wallet",
+   "category": "finance",
+   "name": "Кошелёк",
+   "names": {
+    "ru": "Кошелёк",
+    "uk": "Гаманець",
+    "en": "Wallet"
+   },
+   "description": "Кошелёк с отделением для карты",
+   "keywords": {
+    "ru": [
+     "кошелёк",
+     "деньги",
+     "личные финансы"
+    ],
+    "uk": [
+     "гаманець",
+     "гроші",
+     "особисті фінанси"
+    ],
+    "en": [
+     "wallet",
+     "money",
+     "personal finance"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/finance/wallet.svg"
+  },
+  {
+   "id": "FIN-002",
+   "slug": "bank",
+   "category": "finance",
+   "name": "Банк",
+   "names": {
+    "ru": "Банк",
+    "uk": "Банк",
+    "en": "Bank"
+   },
+   "description": "Фасад банка с монетой во фронтоне",
+   "keywords": {
+    "ru": [
+     "банк",
+     "отделение",
+     "учреждение"
+    ],
+    "uk": [
+     "банк",
+     "відділення",
+     "установа"
+    ],
+    "en": [
+     "bank",
+     "branch",
+     "institution"
+    ]
+   },
+   "tags": [
+    "building"
+   ],
+   "file": "icons/finance/bank.svg"
+  },
+  {
+   "id": "FIN-003",
+   "slug": "payment-card",
+   "category": "finance",
+   "name": "Платёжная карта",
+   "names": {
+    "ru": "Платёжная карта",
+    "uk": "Платіжна картка",
+    "en": "Payment Card"
+   },
+   "description": "Карта с магнитной полосой",
+   "keywords": {
+    "ru": [
+     "карта",
+     "оплата",
+     "безнал"
+    ],
+    "uk": [
+     "картка",
+     "оплата",
+     "безготівка"
+    ],
+    "en": [
+     "card",
+     "payment",
+     "credit card"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/finance/payment-card.svg"
+  },
+  {
+   "id": "FIN-004",
+   "slug": "transaction",
+   "category": "finance",
+   "name": "Транзакция",
+   "names": {
+    "ru": "Транзакция",
+    "uk": "Транзакція",
+    "en": "Transaction"
+   },
+   "description": "Две встречные стрелки",
+   "keywords": {
+    "ru": [
+     "транзакция",
+     "операция",
+     "обмен"
+    ],
+    "uk": [
+     "транзакція",
+     "операція",
+     "обмін"
+    ],
+    "en": [
+     "transaction",
+     "transfer",
+     "exchange"
+    ]
+   },
+   "tags": [
+    "action"
+   ],
+   "file": "icons/finance/transaction.svg"
+  },
+  {
+   "id": "FIN-005",
+   "slug": "budget",
+   "category": "finance",
+   "name": "Бюджет",
+   "names": {
+    "ru": "Бюджет",
+    "uk": "Бюджет",
+    "en": "Budget"
+   },
+   "description": "Круговая диаграмма с выдвинутым сектором",
+   "keywords": {
+    "ru": [
+     "бюджет",
+     "структура",
+     "расходы"
+    ],
+    "uk": [
+     "бюджет",
+     "структура",
+     "видатки"
+    ],
+    "en": [
+     "budget",
+     "allocation",
+     "pie chart"
+    ]
+   },
+   "tags": [
+    "chart"
+   ],
+   "file": "icons/finance/budget.svg"
+  },
+  {
+   "id": "FIN-006",
+   "slug": "coins",
+   "category": "finance",
+   "name": "Монеты",
+   "names": {
+    "ru": "Монеты",
+    "uk": "Монети",
+    "en": "Coins"
+   },
+   "description": "Столбик монет и монета",
+   "keywords": {
+    "ru": [
+     "монеты",
+     "мелочь",
+     "наличные"
+    ],
+    "uk": [
+     "монети",
+     "дрібні",
+     "готівка"
+    ],
+    "en": [
+     "coins",
+     "change",
+     "cash"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/finance/coins.svg"
+  },
+  {
+   "id": "FIN-007",
+   "slug": "percent",
+   "category": "finance",
+   "name": "Процент",
+   "names": {
+    "ru": "Процент",
+    "uk": "Відсоток",
+    "en": "Percent"
+   },
+   "description": "Знак процента",
+   "keywords": {
+    "ru": [
+     "процент",
+     "ставка",
+     "скидка"
+    ],
+    "uk": [
+     "відсоток",
+     "ставка",
+     "знижка"
+    ],
+    "en": [
+     "percent",
+     "rate",
+     "interest"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/finance/percent.svg"
+  },
+  {
+   "id": "FIN-008",
+   "slug": "money-transfer",
+   "category": "finance",
+   "name": "Денежный перевод",
+   "names": {
+    "ru": "Денежный перевод",
+    "uk": "Грошовий переказ",
+    "en": "Money Transfer"
+   },
+   "description": "Купюра и стрелка отправки",
+   "keywords": {
+    "ru": [
+     "перевод",
+     "отправка",
+     "платёж"
+    ],
+    "uk": [
+     "переказ",
+     "відправлення",
+     "платіж"
+    ],
+    "en": [
+     "money transfer",
+     "send",
+     "remittance"
+    ]
+   },
+   "tags": [
+    "action"
+   ],
+   "file": "icons/finance/money-transfer.svg"
+  },
+  {
+   "id": "FIN-009",
+   "slug": "financial-chart",
+   "category": "finance",
+   "name": "Финансовый график",
+   "names": {
+    "ru": "Финансовый график",
+    "uk": "Фінансовий графік",
+    "en": "Financial Chart"
+   },
+   "description": "Ломаная в осях координат",
+   "keywords": {
+    "ru": [
+     "график",
+     "динамика",
+     "аналитика"
+    ],
+    "uk": [
+     "графік",
+     "динаміка",
+     "аналітика"
+    ],
+    "en": [
+     "chart",
+     "analytics",
+     "performance"
+    ]
+   },
+   "tags": [
+    "chart"
+   ],
+   "file": "icons/finance/financial-chart.svg"
+  },
+  {
+   "id": "FIN-010",
+   "slug": "investment-portfolio",
+   "category": "finance",
+   "name": "Инвестиционный портфель",
+   "names": {
+    "ru": "Инвестиционный портфель",
+    "uk": "Інвестиційний портфель",
+    "en": "Investment Portfolio"
+   },
+   "description": "Портфель с растущим графиком",
+   "keywords": {
+    "ru": [
+     "инвестиции",
+     "портфель",
+     "активы"
+    ],
+    "uk": [
+     "інвестиції",
+     "портфель",
+     "активи"
+    ],
+    "en": [
+     "portfolio",
+     "investments",
+     "assets"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/finance/investment-portfolio.svg"
+  },
+  {
+   "id": "FIN-011",
+   "slug": "banknote",
+   "category": "finance",
+   "name": "Купюра",
+   "names": {
+    "ru": "Купюра",
+    "uk": "Банкнота",
+    "en": "Banknote"
+   },
+   "description": "Банкнота с медальоном",
+   "keywords": {
+    "ru": [
+     "купюра",
+     "наличные",
+     "деньги"
+    ],
+    "uk": [
+     "банкнота",
+     "готівка",
+     "гроші"
+    ],
+    "en": [
+     "banknote",
+     "cash",
+     "bill"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/finance/banknote.svg"
+  },
+  {
+   "id": "FIN-012",
+   "slug": "currency-exchange",
+   "category": "finance",
+   "name": "Обмен валют",
+   "names": {
+    "ru": "Обмен валют",
+    "uk": "Обмін валют",
+    "en": "Currency Exchange"
+   },
+   "description": "Две монеты и стрелки обмена",
+   "keywords": {
+    "ru": [
+     "обмен",
+     "валюта",
+     "конвертация"
+    ],
+    "uk": [
+     "обмін",
+     "валюта",
+     "конвертація"
+    ],
+    "en": [
+     "currency exchange",
+     "fx",
+     "conversion"
+    ]
+   },
+   "tags": [
+    "action"
+   ],
+   "file": "icons/finance/currency-exchange.svg"
+  },
+  {
+   "id": "FIN-013",
+   "slug": "loan",
+   "category": "finance",
+   "name": "Кредит",
+   "names": {
+    "ru": "Кредит",
+    "uk": "Кредит",
+    "en": "Loan"
+   },
+   "description": "Ладонь принимает монету",
+   "keywords": {
+    "ru": [
+     "кредит",
+     "займ",
+     "заём"
+    ],
+    "uk": [
+     "кредит",
+     "позика",
+     "позичка"
+    ],
+    "en": [
+     "loan",
+     "credit",
+     "lending"
+    ]
+   },
+   "tags": [
+    "action"
+   ],
+   "file": "icons/finance/loan.svg"
+  },
+  {
+   "id": "FIN-014",
+   "slug": "piggy-bank",
+   "category": "finance",
+   "name": "Копилка",
+   "names": {
+    "ru": "Копилка",
+    "uk": "Скарбничка",
+    "en": "Piggy Bank"
+   },
+   "description": "Свинья-копилка с прорезью",
+   "keywords": {
+    "ru": [
+     "копилка",
+     "сбережения",
+     "накопления"
+    ],
+    "uk": [
+     "скарбничка",
+     "заощадження",
+     "накопичення"
+    ],
+    "en": [
+     "piggy bank",
+     "savings",
+     "save"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/finance/piggy-bank.svg"
+  },
+  {
+   "id": "FIN-015",
+   "slug": "atm",
+   "category": "finance",
+   "name": "Банкомат",
+   "names": {
+    "ru": "Банкомат",
+    "uk": "Банкомат",
+    "en": "ATM"
+   },
+   "description": "Аппарат, выдающий купюру",
+   "keywords": {
+    "ru": [
+     "банкомат",
+     "снятие",
+     "наличные"
+    ],
+    "uk": [
+     "банкомат",
+     "зняття",
+     "готівка"
+    ],
+    "en": [
+     "atm",
+     "cash withdrawal",
+     "machine"
+    ]
+   },
+   "tags": [
+    "device"
+   ],
+   "file": "icons/finance/atm.svg"
+  },
+  {
+   "id": "FIN-016",
+   "slug": "pos-terminal",
+   "category": "finance",
+   "name": "Платёжный терминал",
+   "names": {
+    "ru": "Платёжный терминал",
+    "uk": "Платіжний термінал",
+    "en": "POS Terminal"
+   },
+   "description": "Терминал со вставленной картой",
+   "keywords": {
+    "ru": [
+     "терминал",
+     "эквайринг",
+     "оплата"
+    ],
+    "uk": [
+     "термінал",
+     "еквайринг",
+     "оплата"
+    ],
+    "en": [
+     "pos",
+     "terminal",
+     "acquiring"
+    ]
+   },
+   "tags": [
+    "device"
+   ],
+   "file": "icons/finance/pos-terminal.svg"
+  },
+  {
+   "id": "FIN-017",
+   "slug": "contactless",
+   "category": "finance",
+   "name": "Бесконтактная оплата",
+   "names": {
+    "ru": "Бесконтактная оплата",
+    "uk": "Безконтактна оплата",
+    "en": "Contactless Payment"
+   },
+   "description": "Расходящиеся дуги сигнала",
+   "keywords": {
+    "ru": [
+     "бесконтактно",
+     "NFC",
+     "оплата"
+    ],
+    "uk": [
+     "безконтактно",
+     "NFC",
+     "оплата"
+    ],
+    "en": [
+     "contactless",
+     "nfc",
+     "tap to pay"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/finance/contactless.svg"
+  },
+  {
+   "id": "FIN-018",
+   "slug": "financial-security",
+   "category": "finance",
+   "name": "Финансовая безопасность",
+   "names": {
+    "ru": "Финансовая безопасность",
+    "uk": "Фінансова безпека",
+    "en": "Financial Security"
+   },
+   "description": "Щит с монетой",
+   "keywords": {
+    "ru": [
+     "защита средств",
+     "безопасность",
+     "мошенничество"
+    ],
+    "uk": [
+     "захист коштів",
+     "безпека",
+     "шахрайство"
+    ],
+    "en": [
+     "financial security",
+     "fraud protection",
+     "safe funds"
+    ]
+   },
+   "tags": [
+    "security"
+   ],
+   "file": "icons/finance/financial-security.svg"
+  },
+  {
+   "id": "FIN-019",
+   "slug": "stock-market",
+   "category": "finance",
+   "name": "Фондовый рынок",
+   "names": {
+    "ru": "Фондовый рынок",
+    "uk": "Фондовий ринок",
+    "en": "Stock Market"
+   },
+   "description": "Японские свечи",
+   "keywords": {
+    "ru": [
+     "биржа",
+     "акции",
+     "торги"
+    ],
+    "uk": [
+     "біржа",
+     "акції",
+     "торги"
+    ],
+    "en": [
+     "stocks",
+     "exchange",
+     "trading"
+    ]
+   },
+   "tags": [
+    "chart"
+   ],
+   "file": "icons/finance/stock-market.svg"
+  },
+  {
+   "id": "FIN-020",
+   "slug": "cryptocurrency",
+   "category": "finance",
+   "name": "Криптовалюта",
+   "names": {
+    "ru": "Криптовалюта",
+    "uk": "Криптовалюта",
+    "en": "Cryptocurrency"
+   },
+   "description": "Монета с шестигранником",
+   "keywords": {
+    "ru": [
+     "крипта",
+     "токен",
+     "цифровые активы"
+    ],
+    "uk": [
+     "крипта",
+     "токен",
+     "цифрові активи"
+    ],
+    "en": [
+     "crypto",
+     "token",
+     "digital asset"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/finance/cryptocurrency.svg"
+  },
+  {
+   "id": "FIN-021",
+   "slug": "mobile-banking",
+   "category": "finance",
+   "name": "Мобильный банк",
+   "names": {
+    "ru": "Мобильный банк",
+    "uk": "Мобільний банк",
+    "en": "Mobile Banking"
+   },
+   "description": "Смартфон и монета",
+   "keywords": {
+    "ru": [
+     "мобильный банк",
+     "приложение",
+     "платежи"
+    ],
+    "uk": [
+     "мобільний банк",
+     "застосунок",
+     "платежі"
+    ],
+    "en": [
+     "mobile banking",
+     "app",
+     "payments"
+    ]
+   },
+   "tags": [
+    "device"
+   ],
+   "file": "icons/finance/mobile-banking.svg"
+  },
+  {
+   "id": "FIN-022",
+   "slug": "mortgage",
+   "category": "finance",
+   "name": "Ипотека",
+   "names": {
+    "ru": "Ипотека",
+    "uk": "Іпотека",
+    "en": "Mortgage"
+   },
+   "description": "Дом со знаком процента",
+   "keywords": {
+    "ru": [
+     "ипотека",
+     "жильё",
+     "кредит"
+    ],
+    "uk": [
+     "іпотека",
+     "житло",
+     "кредит"
+    ],
+    "en": [
+     "mortgage",
+     "home loan",
+     "housing"
+    ]
+   },
+   "tags": [
+    "building"
+   ],
+   "file": "icons/finance/mortgage.svg"
+  },
+  {
+   "id": "FIN-023",
+   "slug": "insurance",
+   "category": "finance",
+   "name": "Страхование",
+   "names": {
+    "ru": "Страхование",
+    "uk": "Страхування",
+    "en": "Insurance"
+   },
+   "description": "Раскрытый зонт",
+   "keywords": {
+    "ru": [
+     "страхование",
+     "полис",
+     "риски"
+    ],
+    "uk": [
+     "страхування",
+     "поліс",
+     "ризики"
+    ],
+    "en": [
+     "insurance",
+     "coverage",
+     "risk"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/finance/insurance.svg"
+  },
+  {
+   "id": "FIN-024",
+   "slug": "savings-jar",
+   "category": "finance",
+   "name": "Накопления",
+   "names": {
+    "ru": "Накопления",
+    "uk": "Накопичення",
+    "en": "Savings"
+   },
+   "description": "Банка с монетой",
+   "keywords": {
+    "ru": [
+     "накопления",
+     "резерв",
+     "цель"
+    ],
+    "uk": [
+     "накопичення",
+     "резерв",
+     "ціль"
+    ],
+    "en": [
+     "savings",
+     "reserve",
+     "goal"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/finance/savings-jar.svg"
+  },
+  {
+   "id": "FIN-025",
+   "slug": "bank-statement",
+   "category": "finance",
+   "name": "Банковская выписка",
+   "names": {
+    "ru": "Банковская выписка",
+    "uk": "Банківська виписка",
+    "en": "Bank Statement"
+   },
+   "description": "Лист со строками операций и суммами",
+   "keywords": {
+    "ru": [
+     "выписка",
+     "операции",
+     "счёт"
+    ],
+    "uk": [
+     "виписка",
+     "операції",
+     "рахунок"
+    ],
+    "en": [
+     "statement",
+     "account",
+     "transactions"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/finance/bank-statement.svg"
+  },
+  {
+   "id": "FIN-026",
+   "slug": "money-bag",
+   "category": "finance",
+   "name": "Денежные средства",
+   "names": {
+    "ru": "Денежные средства",
+    "uk": "Грошові кошти",
+    "en": "Money Bag"
+   },
+   "description": "Мешок со знаком доллара",
+   "keywords": {
+    "ru": [
+     "деньги",
+     "капитал",
+     "средства"
+    ],
+    "uk": [
+     "гроші",
+     "капітал",
+     "кошти"
+    ],
+    "en": [
+     "money bag",
+     "funds",
+     "capital"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/finance/money-bag.svg"
+  },
+  {
+   "id": "FIN-027",
+   "slug": "safe",
+   "category": "finance",
+   "name": "Сейф",
+   "names": {
+    "ru": "Сейф",
+    "uk": "Сейф",
+    "en": "Safe"
+   },
+   "description": "Сейф с кодовым замком",
+   "keywords": {
+    "ru": [
+     "сейф",
+     "хранение",
+     "ценности"
+    ],
+    "uk": [
+     "сейф",
+     "зберігання",
+     "цінності"
+    ],
+    "en": [
+     "safe",
+     "vault",
+     "valuables"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/finance/safe.svg"
+  },
+  {
+   "id": "FIN-028",
+   "slug": "exchange-rates",
+   "category": "finance",
+   "name": "Курсы валют",
+   "names": {
+    "ru": "Курсы валют",
+    "uk": "Курси валют",
+    "en": "Exchange Rates"
+   },
+   "description": "Стрелки роста и падения",
+   "keywords": {
+    "ru": [
+     "курс",
+     "котировки",
+     "волатильность"
+    ],
+    "uk": [
+     "курс",
+     "котирування",
+     "волатильність"
+    ],
+    "en": [
+     "exchange rate",
+     "quotes",
+     "fx rates"
+    ]
+   },
+   "tags": [
+    "chart"
+   ],
+   "file": "icons/finance/exchange-rates.svg"
+  },
+  {
+   "id": "FIN-029",
+   "slug": "spending-limits",
+   "category": "finance",
+   "name": "Лимиты расходов",
+   "names": {
+    "ru": "Лимиты расходов",
+    "uk": "Ліміти витрат",
+    "en": "Spending Limits"
+   },
+   "description": "Три полосы разной длины",
+   "keywords": {
+    "ru": [
+     "лимит",
+     "расходы",
+     "план"
+    ],
+    "uk": [
+     "ліміт",
+     "витрати",
+     "план"
+    ],
+    "en": [
+     "spending limit",
+     "expenses",
+     "allocation"
+    ]
+   },
+   "tags": [
+    "chart"
+   ],
+   "file": "icons/finance/spending-limits.svg"
+  },
+  {
+   "id": "FIN-030",
+   "slug": "cashback",
+   "category": "finance",
+   "name": "Кешбэк",
+   "names": {
+    "ru": "Кешбэк",
+    "uk": "Кешбек",
+    "en": "Cashback"
+   },
+   "description": "Монета в круговой стрелке",
+   "keywords": {
+    "ru": [
+     "кешбэк",
+     "возврат",
+     "бонус"
+    ],
+    "uk": [
+     "кешбек",
+     "повернення",
+     "бонус"
+    ],
+    "en": [
+     "cashback",
+     "reward",
+     "bonus"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/finance/cashback.svg"
+  },
+  {
+   "id": "FIN-031",
+   "slug": "inflation",
+   "category": "finance",
+   "name": "Инфляция",
+   "names": {
+    "ru": "Инфляция",
+    "uk": "Інфляція",
+    "en": "Inflation"
+   },
+   "description": "Купюра и стрелка вверх",
+   "keywords": {
+    "ru": [
+     "инфляция",
+     "цены",
+     "рост цен"
+    ],
+    "uk": [
+     "інфляція",
+     "ціни",
+     "зростання цін"
+    ],
+    "en": [
+     "inflation",
+     "prices",
+     "cost of living"
+    ]
+   },
+   "tags": [
+    "chart"
+   ],
+   "file": "icons/finance/inflation.svg"
+  },
+  {
+   "id": "FIN-032",
+   "slug": "cash",
+   "category": "finance",
+   "name": "Наличные",
+   "names": {
+    "ru": "Наличные",
+    "uk": "Готівка",
+    "en": "Cash"
+   },
+   "description": "Пачка банкнот",
+   "keywords": {
+    "ru": [
+     "наличные",
+     "купюры",
+     "касса"
+    ],
+    "uk": [
+     "готівка",
+     "купюри",
+     "каса"
+    ],
+    "en": [
+     "cash",
+     "bills",
+     "notes"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/finance/cash.svg"
+  },
+  {
+   "id": "FIN-033",
+   "slug": "international-transfer",
+   "category": "finance",
+   "name": "Международный перевод",
+   "names": {
+    "ru": "Международный перевод",
+    "uk": "Міжнародний переказ",
+    "en": "International Transfer"
+   },
+   "description": "Глобус и исходящая стрелка",
+   "keywords": {
+    "ru": [
+     "SWIFT",
+     "зарубежный перевод",
+     "валюта"
+    ],
+    "uk": [
+     "SWIFT",
+     "закордонний переказ",
+     "валюта"
+    ],
+    "en": [
+     "swift",
+     "cross-border",
+     "wire"
+    ]
+   },
+   "tags": [
+    "action"
+   ],
+   "file": "icons/finance/international-transfer.svg"
+  },
+  {
+   "id": "FIN-034",
+   "slug": "online-banking",
+   "category": "finance",
+   "name": "Интернет-банк",
+   "names": {
+    "ru": "Интернет-банк",
+    "uk": "Інтернет-банк",
+    "en": "Online Banking"
+   },
+   "description": "Окно браузера с картой",
+   "keywords": {
+    "ru": [
+     "онлайн-банк",
+     "кабинет",
+     "веб"
+    ],
+    "uk": [
+     "онлайн-банк",
+     "кабінет",
+     "веб"
+    ],
+    "en": [
+     "online banking",
+     "web",
+     "account"
+    ]
+   },
+   "tags": [
+    "interface"
+   ],
+   "file": "icons/finance/online-banking.svg"
+  },
+  {
+   "id": "FIN-035",
+   "slug": "real-economy",
+   "category": "finance",
+   "name": "Реальный сектор",
+   "names": {
+    "ru": "Реальный сектор",
+    "uk": "Реальний сектор",
+    "en": "Real Economy"
+   },
+   "description": "Завод с трубой",
+   "keywords": {
+    "ru": [
+     "промышленность",
+     "экономика",
+     "производство"
+    ],
+    "uk": [
+     "промисловість",
+     "економіка",
+     "виробництво"
+    ],
+    "en": [
+     "industry",
+     "economy",
+     "manufacturing"
+    ]
+   },
+   "tags": [
+    "building"
+   ],
+   "file": "icons/finance/real-economy.svg"
+  },
+  {
+   "id": "FIN-036",
+   "slug": "financial-audit",
+   "category": "finance",
+   "name": "Финансовый аудит",
+   "names": {
+    "ru": "Финансовый аудит",
+    "uk": "Фінансовий аудит",
+    "en": "Financial Audit"
+   },
+   "description": "Лупа со знаком доллара",
+   "keywords": {
+    "ru": [
+     "аудит",
+     "проверка",
+     "контроль"
+    ],
+    "uk": [
+     "аудит",
+     "перевірка",
+     "контроль"
+    ],
+    "en": [
+     "audit",
+     "review",
+     "financial control"
+    ]
+   },
+   "tags": [
+    "action"
+   ],
+   "file": "icons/finance/financial-audit.svg"
+  },
+  {
+   "id": "FIN-037",
+   "slug": "deposit",
+   "category": "finance",
+   "name": "Вклад",
+   "names": {
+    "ru": "Вклад",
+    "uk": "Вклад",
+    "en": "Deposit"
+   },
+   "description": "Монета над прорезью",
+   "keywords": {
+    "ru": [
+     "вклад",
+     "депозит",
+     "пополнение"
+    ],
+    "uk": [
+     "вклад",
+     "депозит",
+     "поповнення"
+    ],
+    "en": [
+     "deposit",
+     "savings account",
+     "top up"
+    ]
+   },
+   "tags": [
+    "action"
+   ],
+   "file": "icons/finance/deposit.svg"
+  },
+  {
+   "id": "FIN-038",
+   "slug": "payment-success",
+   "category": "finance",
+   "name": "Платёж выполнен",
+   "names": {
+    "ru": "Платёж выполнен",
+    "uk": "Платіж виконано",
+    "en": "Payment Completed"
+   },
+   "description": "Карта с галочкой подтверждения",
+   "keywords": {
+    "ru": [
+     "оплачено",
+     "подтверждение",
+     "успех"
+    ],
+    "uk": [
+     "сплачено",
+     "підтвердження",
+     "успіх"
+    ],
+    "en": [
+     "payment success",
+     "paid",
+     "confirmed"
+    ]
+   },
+   "tags": [
+    "status"
+   ],
+   "file": "icons/finance/payment-success.svg"
+  },
+  {
+   "id": "FIN-039",
+   "slug": "refund",
+   "category": "finance",
+   "name": "Возврат средств",
+   "names": {
+    "ru": "Возврат средств",
+    "uk": "Повернення коштів",
+    "en": "Refund"
+   },
+   "description": "Стрелка, возвращающаяся назад",
+   "keywords": {
+    "ru": [
+     "возврат",
+     "refund",
+     "компенсация"
+    ],
+    "uk": [
+     "повернення",
+     "refund",
+     "компенсація"
+    ],
+    "en": [
+     "refund",
+     "return",
+     "chargeback"
+    ]
+   },
+   "tags": [
+    "action"
+   ],
+   "file": "icons/finance/refund.svg"
+  },
+  {
+   "id": "FIN-040",
+   "slug": "debt-burden",
+   "category": "finance",
+   "name": "Долговая нагрузка",
+   "names": {
+    "ru": "Долговая нагрузка",
+    "uk": "Боргове навантаження",
+    "en": "Debt Burden"
+   },
+   "description": "Гиря",
+   "keywords": {
+    "ru": [
+     "долг",
+     "нагрузка",
+     "обязательства"
+    ],
+    "uk": [
+     "борг",
+     "навантаження",
+     "зобов’язання"
+    ],
+    "en": [
+     "debt",
+     "burden",
+     "liabilities"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/finance/debt-burden.svg"
+  },
+  {
+   "id": "FIN-041",
+   "slug": "gold-reserves",
+   "category": "finance",
+   "name": "Золотой резерв",
+   "names": {
+    "ru": "Золотой резерв",
+    "uk": "Золотий резерв",
+    "en": "Gold Reserves"
+   },
+   "description": "Пирамида из слитков",
+   "keywords": {
+    "ru": [
+     "золото",
+     "резервы",
+     "слитки"
+    ],
+    "uk": [
+     "золото",
+     "резерви",
+     "зливки"
+    ],
+    "en": [
+     "gold",
+     "reserves",
+     "bullion"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/finance/gold-reserves.svg"
+  },
+  {
+   "id": "FIN-042",
+   "slug": "financial-literacy",
+   "category": "finance",
+   "name": "Финансовая грамотность",
+   "names": {
+    "ru": "Финансовая грамотность",
+    "uk": "Фінансова грамотність",
+    "en": "Financial Literacy"
+   },
+   "description": "Раскрытая книга и монета",
+   "keywords": {
+    "ru": [
+     "обучение",
+     "грамотность",
+     "финансы"
+    ],
+    "uk": [
+     "навчання",
+     "грамотність",
+     "фінанси"
+    ],
+    "en": [
+     "financial literacy",
+     "education",
+     "learning"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/finance/financial-literacy.svg"
+  },
+  {
+   "id": "FIN-043",
+   "slug": "bonds",
+   "category": "finance",
+   "name": "Облигации",
+   "names": {
+    "ru": "Облигации",
+    "uk": "Облігації",
+    "en": "Bonds"
+   },
+   "description": "Сертификат с рамкой",
+   "keywords": {
+    "ru": [
+     "облигации",
+     "ценные бумаги",
+     "долг"
+    ],
+    "uk": [
+     "облігації",
+     "цінні папери",
+     "борг"
+    ],
+    "en": [
+     "bonds",
+     "securities",
+     "certificate"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/finance/bonds.svg"
+  },
+  {
+   "id": "FIN-044",
+   "slug": "safe-deposit-key",
+   "category": "finance",
+   "name": "Банковская ячейка",
+   "names": {
+    "ru": "Банковская ячейка",
+    "uk": "Банківська комірка",
+    "en": "Safe Deposit Key"
+   },
+   "description": "Ключ с бородкой",
+   "keywords": {
+    "ru": [
+     "ячейка",
+     "ключ",
+     "хранение"
+    ],
+    "uk": [
+     "комірка",
+     "ключ",
+     "зберігання"
+    ],
+    "en": [
+     "safe deposit",
+     "key",
+     "box"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/finance/safe-deposit-key.svg"
+  },
+  {
+   "id": "FIN-045",
+   "slug": "payment-calendar",
+   "category": "finance",
+   "name": "Календарь платежей",
+   "names": {
+    "ru": "Календарь платежей",
+    "uk": "Календар платежів",
+    "en": "Payment Calendar"
+   },
+   "description": "Календарь с монетой",
+   "keywords": {
+    "ru": [
+     "платежи",
+     "сроки",
+     "график"
+    ],
+    "uk": [
+     "платежі",
+     "терміни",
+     "графік"
+    ],
+    "en": [
+     "payment schedule",
+     "due dates",
+     "calendar"
+    ]
+   },
+   "tags": [
+    "time"
+   ],
+   "file": "icons/finance/payment-calendar.svg"
+  },
+  {
+   "id": "FIN-046",
+   "slug": "capital-growth",
+   "category": "finance",
+   "name": "Рост капитала",
+   "names": {
+    "ru": "Рост капитала",
+    "uk": "Зростання капіталу",
+    "en": "Capital Growth"
+   },
+   "description": "Росток из монеты",
+   "keywords": {
+    "ru": [
+     "рост",
+     "капитал",
+     "доход"
+    ],
+    "uk": [
+     "зростання",
+     "капітал",
+     "дохід"
+    ],
+    "en": [
+     "growth",
+     "capital",
+     "returns"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/finance/capital-growth.svg"
+  },
+  {
+   "id": "FIN-047",
+   "slug": "p2p-transfer",
+   "category": "finance",
+   "name": "Перевод между людьми",
+   "names": {
+    "ru": "Перевод между людьми",
+    "uk": "Переказ між людьми",
+    "en": "P2P Transfer"
+   },
+   "description": "Два человека и стрелка",
+   "keywords": {
+    "ru": [
+     "P2P",
+     "перевод",
+     "друзьям"
+    ],
+    "uk": [
+     "P2P",
+     "переказ",
+     "друзям"
+    ],
+    "en": [
+     "p2p",
+     "peer transfer",
+     "send money"
+    ]
+   },
+   "tags": [
+    "person"
+   ],
+   "file": "icons/finance/p2p-transfer.svg"
+  },
+  {
+   "id": "FIN-048",
+   "slug": "budget-deficit",
+   "category": "finance",
+   "name": "Дефицит бюджета",
+   "names": {
+    "ru": "Дефицит бюджета",
+    "uk": "Дефіцит бюджету",
+    "en": "Budget Deficit"
+   },
+   "description": "Ломаная, уходящая вниз",
+   "keywords": {
+    "ru": [
+     "дефицит",
+     "спад",
+     "убыток"
+    ],
+    "uk": [
+     "дефіцит",
+     "спад",
+     "збиток"
+    ],
+    "en": [
+     "deficit",
+     "decline",
+     "loss"
+    ]
+   },
+   "tags": [
+    "chart"
+   ],
+   "file": "icons/finance/budget-deficit.svg"
+  },
+  {
+   "id": "FIN-049",
+   "slug": "pension",
+   "category": "finance",
+   "name": "Пенсия",
+   "names": {
+    "ru": "Пенсия",
+    "uk": "Пенсія",
+    "en": "Pension"
+   },
+   "description": "Часы и монета",
+   "keywords": {
+    "ru": [
+     "пенсия",
+     "накопления",
+     "будущее"
+    ],
+    "uk": [
+     "пенсія",
+     "накопичення",
+     "майбутнє"
+    ],
+    "en": [
+     "pension",
+     "retirement",
+     "long-term savings"
+    ]
+   },
+   "tags": [
+    "time"
+   ],
+   "file": "icons/finance/pension.svg"
+  },
+  {
+   "id": "FIN-050",
+   "slug": "asset-structure",
+   "category": "finance",
+   "name": "Структура активов",
+   "names": {
+    "ru": "Структура активов",
+    "uk": "Структура активів",
+    "en": "Asset Allocation"
+   },
+   "description": "Кольцевая диаграмма с сегментами",
+   "keywords": {
+    "ru": [
+     "активы",
+     "доли",
+     "диверсификация"
+    ],
+    "uk": [
+     "активи",
+     "частки",
+     "диверсифікація"
+    ],
+    "en": [
+     "assets",
+     "allocation",
+     "diversification"
+    ]
+   },
+   "tags": [
+    "chart"
+   ],
+   "file": "icons/finance/asset-structure.svg"
   }
  ]
 }
