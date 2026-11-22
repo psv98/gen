@@ -368,7 +368,7 @@
     "uk": "Правовий захист",
     "en": "Legal Protection"
    },
-   "description": "Щит с символом весов",
+   "description": "Щит с молотком судьи",
    "keywords": {
     "ru": [
      "защита",
@@ -423,6 +423,4633 @@
     "communication"
    ],
    "file": "icons/legal/legal-consultation.svg"
+  },
+  {
+   "id": "LAW-011",
+   "slug": "appeal",
+   "category": "legal",
+   "name": "Апелляция",
+   "names": {
+    "ru": "Апелляция",
+    "uk": "Апеляція",
+    "en": "Appeal"
+   },
+   "description": "Документ со стрелкой вверх — обжалование в высшую инстанцию",
+   "keywords": {
+    "ru": [
+     "обжалование",
+     "инстанция",
+     "жалоба"
+    ],
+    "uk": [
+     "оскарження",
+     "інстанція",
+     "скарга"
+    ],
+    "en": [
+     "appeal",
+     "review",
+     "higher court"
+    ]
+   },
+   "tags": [
+    "document",
+    "action"
+   ],
+   "file": "icons/legal/appeal.svg"
+  },
+  {
+   "id": "LAW-012",
+   "slug": "evidence-bag",
+   "category": "legal",
+   "name": "Вещественное доказательство",
+   "names": {
+    "ru": "Вещественное доказательство",
+    "uk": "Речовий доказ",
+    "en": "Evidence Bag"
+   },
+   "description": "Пакет с застёжкой и биркой",
+   "keywords": {
+    "ru": [
+     "улика",
+     "доказательство",
+     "экспертиза"
+    ],
+    "uk": [
+     "доказ",
+     "улика",
+     "експертиза"
+    ],
+    "en": [
+     "evidence",
+     "proof",
+     "forensics"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/legal/evidence-bag.svg"
+  },
+  {
+   "id": "LAW-013",
+   "slug": "fingerprint",
+   "category": "legal",
+   "name": "Отпечаток пальца",
+   "names": {
+    "ru": "Отпечаток пальца",
+    "uk": "Відбиток пальця",
+    "en": "Fingerprint"
+   },
+   "description": "Концентрические дуги папиллярного узора",
+   "keywords": {
+    "ru": [
+     "отпечаток",
+     "идентификация",
+     "криминалистика"
+    ],
+    "uk": [
+     "відбиток",
+     "ідентифікація",
+     "криміналістика"
+    ],
+    "en": [
+     "fingerprint",
+     "identity",
+     "forensics"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/legal/fingerprint.svg"
+  },
+  {
+   "id": "LAW-014",
+   "slug": "witness",
+   "category": "legal",
+   "name": "Свидетель",
+   "names": {
+    "ru": "Свидетель",
+    "uk": "Свідок",
+    "en": "Witness"
+   },
+   "description": "Человек и реплика с показаниями",
+   "keywords": {
+    "ru": [
+     "свидетель",
+     "показания",
+     "допрос"
+    ],
+    "uk": [
+     "свідок",
+     "показання",
+     "допит"
+    ],
+    "en": [
+     "witness",
+     "testimony",
+     "statement"
+    ]
+   },
+   "tags": [
+    "person"
+   ],
+   "file": "icons/legal/witness.svg"
+  },
+  {
+   "id": "LAW-015",
+   "slug": "judge",
+   "category": "legal",
+   "name": "Судья",
+   "names": {
+    "ru": "Судья",
+    "uk": "Суддя",
+    "en": "Judge"
+   },
+   "description": "Человек за судейской трибуной",
+   "keywords": {
+    "ru": [
+     "судья",
+     "председательствующий",
+     "трибуна"
+    ],
+    "uk": [
+     "суддя",
+     "головуючий",
+     "трибуна"
+    ],
+    "en": [
+     "judge",
+     "bench",
+     "magistrate"
+    ]
+   },
+   "tags": [
+    "person"
+   ],
+   "file": "icons/legal/judge.svg"
+  },
+  {
+   "id": "LAW-016",
+   "slug": "jury",
+   "category": "legal",
+   "name": "Присяжные",
+   "names": {
+    "ru": "Присяжные",
+    "uk": "Присяжні",
+    "en": "Jury"
+   },
+   "description": "Три участника на скамье",
+   "keywords": {
+    "ru": [
+     "присяжные",
+     "коллегия",
+     "заседатели"
+    ],
+    "uk": [
+     "присяжні",
+     "колегія",
+     "засідателі"
+    ],
+    "en": [
+     "jury",
+     "panel",
+     "peers"
+    ]
+   },
+   "tags": [
+    "person",
+    "group"
+   ],
+   "file": "icons/legal/jury.svg"
+  },
+  {
+   "id": "LAW-017",
+   "slug": "handcuffs",
+   "category": "legal",
+   "name": "Наручники",
+   "names": {
+    "ru": "Наручники",
+    "uk": "Кайданки",
+    "en": "Handcuffs"
+   },
+   "description": "Два браслета, соединённые звеном",
+   "keywords": {
+    "ru": [
+     "задержание",
+     "арест",
+     "наручники"
+    ],
+    "uk": [
+     "затримання",
+     "арешт",
+     "кайданки"
+    ],
+    "en": [
+     "arrest",
+     "detention",
+     "cuffs"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/legal/handcuffs.svg"
+  },
+  {
+   "id": "LAW-018",
+   "slug": "detention",
+   "category": "legal",
+   "name": "Заключение под стражу",
+   "names": {
+    "ru": "Заключение под стражу",
+    "uk": "Взяття під варту",
+    "en": "Detention"
+   },
+   "description": "Окно с решёткой",
+   "keywords": {
+    "ru": [
+     "тюрьма",
+     "стража",
+     "изоляция"
+    ],
+    "uk": [
+     "в’язниця",
+     "варта",
+     "ізоляція"
+    ],
+    "en": [
+     "prison",
+     "custody",
+     "jail"
+    ]
+   },
+   "tags": [
+    "building"
+   ],
+   "file": "icons/legal/detention.svg"
+  },
+  {
+   "id": "LAW-019",
+   "slug": "verdict",
+   "category": "legal",
+   "name": "Решение суда",
+   "names": {
+    "ru": "Решение суда",
+    "uk": "Рішення суду",
+    "en": "Court Ruling"
+   },
+   "description": "Документ со знаком подтверждения",
+   "keywords": {
+    "ru": [
+     "решение",
+     "приговор",
+     "постановление"
+    ],
+    "uk": [
+     "рішення",
+     "вирок",
+     "постанова"
+    ],
+    "en": [
+     "verdict",
+     "ruling",
+     "judgment"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/legal/verdict.svg"
+  },
+  {
+   "id": "LAW-020",
+   "slug": "law-library",
+   "category": "legal",
+   "name": "Законодательство",
+   "names": {
+    "ru": "Законодательство",
+    "uk": "Законодавство",
+    "en": "Legislation"
+   },
+   "description": "Книги законов на полке",
+   "keywords": {
+    "ru": [
+     "законы",
+     "кодексы",
+     "нормативная база"
+    ],
+    "uk": [
+     "закони",
+     "кодекси",
+     "нормативна база"
+    ],
+    "en": [
+     "legislation",
+     "statutes",
+     "law books"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/legal/law-library.svg"
+  },
+  {
+   "id": "LAW-021",
+   "slug": "human-rights",
+   "category": "legal",
+   "name": "Права человека",
+   "names": {
+    "ru": "Права человека",
+    "uk": "Права людини",
+    "en": "Human Rights"
+   },
+   "description": "Человек в бережных ладонях",
+   "keywords": {
+    "ru": [
+     "права",
+     "свобода",
+     "достоинство"
+    ],
+    "uk": [
+     "права",
+     "свобода",
+     "гідність"
+    ],
+    "en": [
+     "human rights",
+     "dignity",
+     "freedom"
+    ]
+   },
+   "tags": [
+    "person",
+    "symbol"
+   ],
+   "file": "icons/legal/human-rights.svg"
+  },
+  {
+   "id": "LAW-022",
+   "slug": "constitution",
+   "category": "legal",
+   "name": "Конституция",
+   "names": {
+    "ru": "Конституция",
+    "uk": "Конституція",
+    "en": "Constitution"
+   },
+   "description": "Свиток основного закона",
+   "keywords": {
+    "ru": [
+     "конституция",
+     "основной закон",
+     "свиток"
+    ],
+    "uk": [
+     "конституція",
+     "основний закон",
+     "сувій"
+    ],
+    "en": [
+     "constitution",
+     "charter",
+     "scroll"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/legal/constitution.svg"
+  },
+  {
+   "id": "LAW-023",
+   "slug": "paragraph",
+   "category": "legal",
+   "name": "Статья закона",
+   "names": {
+    "ru": "Статья закона",
+    "uk": "Стаття закону",
+    "en": "Legal Section"
+   },
+   "description": "Знак параграфа в круге",
+   "keywords": {
+    "ru": [
+     "параграф",
+     "статья",
+     "норма"
+    ],
+    "uk": [
+     "параграф",
+     "стаття",
+     "норма"
+    ],
+    "en": [
+     "section",
+     "article",
+     "clause"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/legal/paragraph.svg"
+  },
+  {
+   "id": "LAW-024",
+   "slug": "power-of-attorney",
+   "category": "legal",
+   "name": "Доверенность",
+   "names": {
+    "ru": "Доверенность",
+    "uk": "Довіреність",
+    "en": "Power of Attorney"
+   },
+   "description": "Документ с представителем",
+   "keywords": {
+    "ru": [
+     "доверенность",
+     "представитель",
+     "полномочия"
+    ],
+    "uk": [
+     "довіреність",
+     "представник",
+     "повноваження"
+    ],
+    "en": [
+     "attorney",
+     "proxy",
+     "authority"
+    ]
+   },
+   "tags": [
+    "document",
+    "person"
+   ],
+   "file": "icons/legal/power-of-attorney.svg"
+  },
+  {
+   "id": "LAW-025",
+   "slug": "testament",
+   "category": "legal",
+   "name": "Завещание",
+   "names": {
+    "ru": "Завещание",
+    "uk": "Заповіт",
+    "en": "Last Will"
+   },
+   "description": "Конверт с сургучной печатью",
+   "keywords": {
+    "ru": [
+     "завещание",
+     "наследство",
+     "печать"
+    ],
+    "uk": [
+     "заповіт",
+     "спадщина",
+     "печатка"
+    ],
+    "en": [
+     "will",
+     "testament",
+     "inheritance"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/legal/testament.svg"
+  },
+  {
+   "id": "LAW-026",
+   "slug": "property-seizure",
+   "category": "legal",
+   "name": "Арест имущества",
+   "names": {
+    "ru": "Арест имущества",
+    "uk": "Арешт майна",
+    "en": "Property Seizure"
+   },
+   "description": "Дом, опечатанный лентой",
+   "keywords": {
+    "ru": [
+     "арест",
+     "исполнение",
+     "имущество"
+    ],
+    "uk": [
+     "арешт",
+     "виконання",
+     "майно"
+    ],
+    "en": [
+     "seizure",
+     "enforcement",
+     "lien"
+    ]
+   },
+   "tags": [
+    "building"
+   ],
+   "file": "icons/legal/property-seizure.svg"
+  },
+  {
+   "id": "LAW-027",
+   "slug": "mediation",
+   "category": "legal",
+   "name": "Медиация",
+   "names": {
+    "ru": "Медиация",
+    "uk": "Медіація",
+    "en": "Mediation"
+   },
+   "description": "Две стороны и встречные стрелки",
+   "keywords": {
+    "ru": [
+     "медиация",
+     "примирение",
+     "спор"
+    ],
+    "uk": [
+     "медіація",
+     "примирення",
+     "спір"
+    ],
+    "en": [
+     "mediation",
+     "settlement",
+     "dispute"
+    ]
+   },
+   "tags": [
+    "person",
+    "group"
+   ],
+   "file": "icons/legal/mediation.svg"
+  },
+  {
+   "id": "LAW-028",
+   "slug": "lawsuit",
+   "category": "legal",
+   "name": "Исковое заявление",
+   "names": {
+    "ru": "Исковое заявление",
+    "uk": "Позовна заява",
+    "en": "Lawsuit"
+   },
+   "description": "Документ с восклицательным знаком",
+   "keywords": {
+    "ru": [
+     "иск",
+     "претензия",
+     "истец"
+    ],
+    "uk": [
+     "позов",
+     "претензія",
+     "позивач"
+    ],
+    "en": [
+     "lawsuit",
+     "claim",
+     "filing"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/legal/lawsuit.svg"
+  },
+  {
+   "id": "LAW-029",
+   "slug": "summons",
+   "category": "legal",
+   "name": "Судебная повестка",
+   "names": {
+    "ru": "Судебная повестка",
+    "uk": "Судова повістка",
+    "en": "Court Summons"
+   },
+   "description": "Открытый конверт с вызовом",
+   "keywords": {
+    "ru": [
+     "повестка",
+     "вызов",
+     "уведомление"
+    ],
+    "uk": [
+     "повістка",
+     "виклик",
+     "повідомлення"
+    ],
+    "en": [
+     "summons",
+     "subpoena",
+     "notice"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/legal/summons.svg"
+  },
+  {
+   "id": "LAW-030",
+   "slug": "legal-aid",
+   "category": "legal",
+   "name": "Бесплатная правовая помощь",
+   "names": {
+    "ru": "Бесплатная правовая помощь",
+    "uk": "Безоплатна правова допомога",
+    "en": "Legal Aid"
+   },
+   "description": "Ладонь поддерживает документ",
+   "keywords": {
+    "ru": [
+     "помощь",
+     "бесплатно",
+     "поддержка"
+    ],
+    "uk": [
+     "допомога",
+     "безоплатно",
+     "підтримка"
+    ],
+    "en": [
+     "legal aid",
+     "pro bono",
+     "support"
+    ]
+   },
+   "tags": [
+    "action"
+   ],
+   "file": "icons/legal/legal-aid.svg"
+  },
+  {
+   "id": "LAW-031",
+   "slug": "copyright",
+   "category": "legal",
+   "name": "Авторское право",
+   "names": {
+    "ru": "Авторское право",
+    "uk": "Авторське право",
+    "en": "Copyright"
+   },
+   "description": "Буква C в круге",
+   "keywords": {
+    "ru": [
+     "авторское право",
+     "копирайт",
+     "охрана"
+    ],
+    "uk": [
+     "авторське право",
+     "копірайт",
+     "охорона"
+    ],
+    "en": [
+     "copyright",
+     "authorship",
+     "ip"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/legal/copyright.svg"
+  },
+  {
+   "id": "LAW-032",
+   "slug": "trademark",
+   "category": "legal",
+   "name": "Товарный знак",
+   "names": {
+    "ru": "Товарный знак",
+    "uk": "Торговельна марка",
+    "en": "Registered Trademark"
+   },
+   "description": "Буква R в круге",
+   "keywords": {
+    "ru": [
+     "товарный знак",
+     "бренд",
+     "регистрация"
+    ],
+    "uk": [
+     "торгова марка",
+     "бренд",
+     "реєстрація"
+    ],
+    "en": [
+     "trademark",
+     "registered",
+     "brand"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/legal/trademark.svg"
+  },
+  {
+   "id": "LAW-033",
+   "slug": "patent",
+   "category": "legal",
+   "name": "Патент",
+   "names": {
+    "ru": "Патент",
+    "uk": "Патент",
+    "en": "Patent"
+   },
+   "description": "Документ с лампочкой изобретения",
+   "keywords": {
+    "ru": [
+     "патент",
+     "изобретение",
+     "идея"
+    ],
+    "uk": [
+     "патент",
+     "винахід",
+     "ідея"
+    ],
+    "en": [
+     "patent",
+     "invention",
+     "innovation"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/legal/patent.svg"
+  },
+  {
+   "id": "LAW-034",
+   "slug": "license",
+   "category": "legal",
+   "name": "Лицензия",
+   "names": {
+    "ru": "Лицензия",
+    "uk": "Ліцензія",
+    "en": "License"
+   },
+   "description": "Карточка с наградным знаком",
+   "keywords": {
+    "ru": [
+     "лицензия",
+     "разрешение",
+     "допуск"
+    ],
+    "uk": [
+     "ліцензія",
+     "дозвіл",
+     "допуск"
+    ],
+    "en": [
+     "license",
+     "permit",
+     "certificate"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/legal/license.svg"
+  },
+  {
+   "id": "LAW-035",
+   "slug": "personal-data",
+   "category": "legal",
+   "name": "Защита персональных данных",
+   "names": {
+    "ru": "Защита персональных данных",
+    "uk": "Захист персональних даних",
+    "en": "Personal Data Protection"
+   },
+   "description": "Удостоверение с замком",
+   "keywords": {
+    "ru": [
+     "персональные данные",
+     "приватность",
+     "GDPR"
+    ],
+    "uk": [
+     "персональні дані",
+     "приватність",
+     "GDPR"
+    ],
+    "en": [
+     "privacy",
+     "personal data",
+     "gdpr"
+    ]
+   },
+   "tags": [
+    "document",
+    "security"
+   ],
+   "file": "icons/legal/personal-data.svg"
+  },
+  {
+   "id": "LAW-036",
+   "slug": "police-report",
+   "category": "legal",
+   "name": "Протокол",
+   "names": {
+    "ru": "Протокол",
+    "uk": "Протокол",
+    "en": "Police Report"
+   },
+   "description": "Планшет со звездой-жетоном",
+   "keywords": {
+    "ru": [
+     "протокол",
+     "полиция",
+     "заявление"
+    ],
+    "uk": [
+     "протокол",
+     "поліція",
+     "заява"
+    ],
+    "en": [
+     "police report",
+     "record",
+     "complaint"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/legal/police-report.svg"
+  },
+  {
+   "id": "LAW-037",
+   "slug": "investigation",
+   "category": "legal",
+   "name": "Следствие",
+   "names": {
+    "ru": "Следствие",
+    "uk": "Слідство",
+    "en": "Investigation"
+   },
+   "description": "Лупа с вопросительным знаком",
+   "keywords": {
+    "ru": [
+     "расследование",
+     "следствие",
+     "поиск"
+    ],
+    "uk": [
+     "розслідування",
+     "слідство",
+     "пошук"
+    ],
+    "en": [
+     "investigation",
+     "inquiry",
+     "search"
+    ]
+   },
+   "tags": [
+    "action"
+   ],
+   "file": "icons/legal/investigation.svg"
+  },
+  {
+   "id": "LAW-038",
+   "slug": "defense-attorney",
+   "category": "legal",
+   "name": "Адвокат",
+   "names": {
+    "ru": "Адвокат",
+    "uk": "Адвокат",
+    "en": "Defense Attorney"
+   },
+   "description": "Человек в костюме с галстуком",
+   "keywords": {
+    "ru": [
+     "адвокат",
+     "защитник",
+     "юрист"
+    ],
+    "uk": [
+     "адвокат",
+     "захисник",
+     "юрист"
+    ],
+    "en": [
+     "lawyer",
+     "counsel",
+     "attorney"
+    ]
+   },
+   "tags": [
+    "person"
+   ],
+   "file": "icons/legal/defense-attorney.svg"
+  },
+  {
+   "id": "LAW-039",
+   "slug": "court-calendar",
+   "category": "legal",
+   "name": "График заседаний",
+   "names": {
+    "ru": "График заседаний",
+    "uk": "Графік засідань",
+    "en": "Court Calendar"
+   },
+   "description": "Календарь с отмеченной датой",
+   "keywords": {
+    "ru": [
+     "заседание",
+     "дата",
+     "график"
+    ],
+    "uk": [
+     "засідання",
+     "дата",
+     "графік"
+    ],
+    "en": [
+     "hearing date",
+     "docket",
+     "schedule"
+    ]
+   },
+   "tags": [
+    "time"
+   ],
+   "file": "icons/legal/court-calendar.svg"
+  },
+  {
+   "id": "LAW-040",
+   "slug": "statute-of-limitations",
+   "category": "legal",
+   "name": "Срок давности",
+   "names": {
+    "ru": "Срок давности",
+    "uk": "Строк давності",
+    "en": "Statute of Limitations"
+   },
+   "description": "Песочные часы",
+   "keywords": {
+    "ru": [
+     "срок",
+     "давность",
+     "время"
+    ],
+    "uk": [
+     "строк",
+     "давність",
+     "час"
+    ],
+    "en": [
+     "deadline",
+     "limitation",
+     "time"
+    ]
+   },
+   "tags": [
+    "time"
+   ],
+   "file": "icons/legal/statute-of-limitations.svg"
+  },
+  {
+   "id": "LAW-041",
+   "slug": "signing",
+   "category": "legal",
+   "name": "Подписание",
+   "names": {
+    "ru": "Подписание",
+    "uk": "Підписання",
+    "en": "Signing"
+   },
+   "description": "Перьевая ручка и росчерк",
+   "keywords": {
+    "ru": [
+     "подписание",
+     "автограф",
+     "ручка"
+    ],
+    "uk": [
+     "підписання",
+     "автограф",
+     "ручка"
+    ],
+    "en": [
+     "signing",
+     "pen",
+     "autograph"
+    ]
+   },
+   "tags": [
+    "action"
+   ],
+   "file": "icons/legal/signing.svg"
+  },
+  {
+   "id": "LAW-042",
+   "slug": "oath",
+   "category": "legal",
+   "name": "Присяга",
+   "names": {
+    "ru": "Присяга",
+    "uk": "Присяга",
+    "en": "Oath"
+   },
+   "description": "Поднятая открытая ладонь",
+   "keywords": {
+    "ru": [
+     "присяга",
+     "клятва",
+     "обязательство"
+    ],
+    "uk": [
+     "присяга",
+     "клятва",
+     "зобов’язання"
+    ],
+    "en": [
+     "oath",
+     "pledge",
+     "swear"
+    ]
+   },
+   "tags": [
+    "action"
+   ],
+   "file": "icons/legal/oath.svg"
+  },
+  {
+   "id": "LAW-043",
+   "slug": "injunction",
+   "category": "legal",
+   "name": "Судебный запрет",
+   "names": {
+    "ru": "Судебный запрет",
+    "uk": "Судова заборона",
+    "en": "Injunction"
+   },
+   "description": "Документ со знаком запрета",
+   "keywords": {
+    "ru": [
+     "запрет",
+     "ограничение",
+     "обеспечительная мера"
+    ],
+    "uk": [
+     "заборона",
+     "обмеження",
+     "забезпечувальний захід"
+    ],
+    "en": [
+     "injunction",
+     "restraint",
+     "ban"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/legal/injunction.svg"
+  },
+  {
+   "id": "LAW-044",
+   "slug": "law-firm",
+   "category": "legal",
+   "name": "Юридическая фирма",
+   "names": {
+    "ru": "Юридическая фирма",
+    "uk": "Юридична фірма",
+    "en": "Law Firm"
+   },
+   "description": "Офисное здание с пристройкой",
+   "keywords": {
+    "ru": [
+     "фирма",
+     "офис",
+     "бюро"
+    ],
+    "uk": [
+     "фірма",
+     "офіс",
+     "бюро"
+    ],
+    "en": [
+     "law firm",
+     "office",
+     "practice"
+    ]
+   },
+   "tags": [
+    "building"
+   ],
+   "file": "icons/legal/law-firm.svg"
+  },
+  {
+   "id": "LAW-045",
+   "slug": "complaint",
+   "category": "legal",
+   "name": "Жалоба",
+   "names": {
+    "ru": "Жалоба",
+    "uk": "Скарга",
+    "en": "Complaint"
+   },
+   "description": "Реплика с восклицательным знаком",
+   "keywords": {
+    "ru": [
+     "жалоба",
+     "обращение",
+     "нарушение"
+    ],
+    "uk": [
+     "скарга",
+     "звернення",
+     "порушення"
+    ],
+    "en": [
+     "complaint",
+     "grievance",
+     "report"
+    ]
+   },
+   "tags": [
+    "communication"
+   ],
+   "file": "icons/legal/complaint.svg"
+  },
+  {
+   "id": "LAW-046",
+   "slug": "legal-research",
+   "category": "legal",
+   "name": "Правовой анализ",
+   "names": {
+    "ru": "Правовой анализ",
+    "uk": "Правовий аналіз",
+    "en": "Legal Research"
+   },
+   "description": "Раскрытая книга и лупа",
+   "keywords": {
+    "ru": [
+     "анализ",
+     "исследование",
+     "практика"
+    ],
+    "uk": [
+     "аналіз",
+     "дослідження",
+     "практика"
+    ],
+    "en": [
+     "research",
+     "case law",
+     "analysis"
+    ]
+   },
+   "tags": [
+    "document",
+    "action"
+   ],
+   "file": "icons/legal/legal-research.svg"
+  },
+  {
+   "id": "LAW-047",
+   "slug": "international-law",
+   "category": "legal",
+   "name": "Международное право",
+   "names": {
+    "ru": "Международное право",
+    "uk": "Міжнародне право",
+    "en": "International Law"
+   },
+   "description": "Глобус над раскрытой книгой",
+   "keywords": {
+    "ru": [
+     "международное",
+     "право",
+     "конвенция"
+    ],
+    "uk": [
+     "міжнародне",
+     "право",
+     "конвенція"
+    ],
+    "en": [
+     "international law",
+     "treaty",
+     "convention"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/legal/international-law.svg"
+  },
+  {
+   "id": "LAW-048",
+   "slug": "property-rights",
+   "category": "legal",
+   "name": "Право собственности",
+   "names": {
+    "ru": "Право собственности",
+    "uk": "Право власності",
+    "en": "Property Rights"
+   },
+   "description": "Дом с замочной скважиной",
+   "keywords": {
+    "ru": [
+     "собственность",
+     "недвижимость",
+     "владение"
+    ],
+    "uk": [
+     "власність",
+     "нерухомість",
+     "володіння"
+    ],
+    "en": [
+     "property",
+     "ownership",
+     "real estate"
+    ]
+   },
+   "tags": [
+    "building"
+   ],
+   "file": "icons/legal/property-rights.svg"
+  },
+  {
+   "id": "LAW-049",
+   "slug": "family-law",
+   "category": "legal",
+   "name": "Семейное право",
+   "names": {
+    "ru": "Семейное право",
+    "uk": "Сімейне право",
+    "en": "Family Law"
+   },
+   "description": "Два сцепленных кольца",
+   "keywords": {
+    "ru": [
+     "брак",
+     "семья",
+     "развод"
+    ],
+    "uk": [
+     "шлюб",
+     "сім’я",
+     "розлучення"
+    ],
+    "en": [
+     "family",
+     "marriage",
+     "divorce"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/legal/family-law.svg"
+  },
+  {
+   "id": "LAW-050",
+   "slug": "release",
+   "category": "legal",
+   "name": "Освобождение",
+   "names": {
+    "ru": "Освобождение",
+    "uk": "Звільнення",
+    "en": "Release"
+   },
+   "description": "Разорванная цепь",
+   "keywords": {
+    "ru": [
+     "освобождение",
+     "амнистия",
+     "свобода"
+    ],
+    "uk": [
+     "звільнення",
+     "амністія",
+     "свобода"
+    ],
+    "en": [
+     "release",
+     "amnesty",
+     "freedom"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/legal/release.svg"
+  },
+  {
+   "id": "MDA-001",
+   "slug": "studio-microphone",
+   "category": "media",
+   "name": "Микрофон",
+   "names": {
+    "ru": "Микрофон",
+    "uk": "Мікрофон",
+    "en": "Microphone"
+   },
+   "description": "Студийный микрофон на стойке",
+   "keywords": {
+    "ru": [
+     "микрофон",
+     "эфир",
+     "запись"
+    ],
+    "uk": [
+     "мікрофон",
+     "ефір",
+     "запис"
+    ],
+    "en": [
+     "microphone",
+     "voice",
+     "recording"
+    ]
+   },
+   "tags": [
+    "device"
+   ],
+   "file": "icons/media/studio-microphone.svg"
+  },
+  {
+   "id": "MDA-002",
+   "slug": "press-card",
+   "category": "media",
+   "name": "Пресс-карта",
+   "names": {
+    "ru": "Пресс-карта",
+    "uk": "Прес-карта",
+    "en": "Press Card"
+   },
+   "description": "Удостоверение на ленте с фото",
+   "keywords": {
+    "ru": [
+     "пресс-карта",
+     "журналист",
+     "удостоверение"
+    ],
+    "uk": [
+     "прес-карта",
+     "журналіст",
+     "посвідчення"
+    ],
+    "en": [
+     "press pass",
+     "credentials",
+     "journalist"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/media/press-card.svg"
+  },
+  {
+   "id": "MDA-003",
+   "slug": "photo-camera",
+   "category": "media",
+   "name": "Фотокамера",
+   "names": {
+    "ru": "Фотокамера",
+    "uk": "Фотокамера",
+    "en": "Photo Camera"
+   },
+   "description": "Корпус камеры с объективом",
+   "keywords": {
+    "ru": [
+     "фото",
+     "камера",
+     "съёмка"
+    ],
+    "uk": [
+     "фото",
+     "камера",
+     "зйомка"
+    ],
+    "en": [
+     "camera",
+     "photo",
+     "photojournalism"
+    ]
+   },
+   "tags": [
+    "device"
+   ],
+   "file": "icons/media/photo-camera.svg"
+  },
+  {
+   "id": "MDA-004",
+   "slug": "video-camera",
+   "category": "media",
+   "name": "Видеорепортаж",
+   "names": {
+    "ru": "Видеорепортаж",
+    "uk": "Відеорепортаж",
+    "en": "Video Report"
+   },
+   "description": "Видеокамера с индикатором записи",
+   "keywords": {
+    "ru": [
+     "видео",
+     "репортаж",
+     "съёмка"
+    ],
+    "uk": [
+     "відео",
+     "репортаж",
+     "зйомка"
+    ],
+    "en": [
+     "video",
+     "report",
+     "footage"
+    ]
+   },
+   "tags": [
+    "device"
+   ],
+   "file": "icons/media/video-camera.svg"
+  },
+  {
+   "id": "MDA-005",
+   "slug": "investigative-journalism",
+   "category": "media",
+   "name": "Журналистское расследование",
+   "names": {
+    "ru": "Журналистское расследование",
+    "uk": "Журналістське розслідування",
+    "en": "Investigative Journalism"
+   },
+   "description": "Страница материала под лупой",
+   "keywords": {
+    "ru": [
+     "расследование",
+     "материал",
+     "источники"
+    ],
+    "uk": [
+     "розслідування",
+     "матеріал",
+     "джерела"
+    ],
+    "en": [
+     "investigation",
+     "reporting",
+     "exposé"
+    ]
+   },
+   "tags": [
+    "action"
+   ],
+   "file": "icons/media/investigative-journalism.svg"
+  },
+  {
+   "id": "MDA-006",
+   "slug": "fact-check",
+   "category": "media",
+   "name": "Проверка фактов",
+   "names": {
+    "ru": "Проверка фактов",
+    "uk": "Перевірка фактів",
+    "en": "Fact Check"
+   },
+   "description": "Лупа с галочкой",
+   "keywords": {
+    "ru": [
+     "фактчекинг",
+     "верификация",
+     "проверка"
+    ],
+    "uk": [
+     "фактчекінг",
+     "верифікація",
+     "перевірка"
+    ],
+    "en": [
+     "fact-checking",
+     "verification",
+     "accuracy"
+    ]
+   },
+   "tags": [
+    "action"
+   ],
+   "file": "icons/media/fact-check.svg"
+  },
+  {
+   "id": "MDA-007",
+   "slug": "editorial-calendar",
+   "category": "media",
+   "name": "Редакционный календарь",
+   "names": {
+    "ru": "Редакционный календарь",
+    "uk": "Редакційний календар",
+    "en": "Editorial Calendar"
+   },
+   "description": "Календарь с запланированными материалами",
+   "keywords": {
+    "ru": [
+     "план",
+     "выпуск",
+     "календарь"
+    ],
+    "uk": [
+     "план",
+     "випуск",
+     "календар"
+    ],
+    "en": [
+     "editorial plan",
+     "schedule",
+     "content calendar"
+    ]
+   },
+   "tags": [
+    "time"
+   ],
+   "file": "icons/media/editorial-calendar.svg"
+  },
+  {
+   "id": "MDA-008",
+   "slug": "voice-recorder",
+   "category": "media",
+   "name": "Диктофон",
+   "names": {
+    "ru": "Диктофон",
+    "uk": "Диктофон",
+    "en": "Voice Recorder"
+   },
+   "description": "Диктофон с решёткой и кнопкой записи",
+   "keywords": {
+    "ru": [
+     "диктофон",
+     "интервью",
+     "аудиозапись"
+    ],
+    "uk": [
+     "диктофон",
+     "інтерв’ю",
+     "аудіозапис"
+    ],
+    "en": [
+     "recorder",
+     "audio",
+     "dictaphone"
+    ]
+   },
+   "tags": [
+    "device"
+   ],
+   "file": "icons/media/voice-recorder.svg"
+  },
+  {
+   "id": "MDA-009",
+   "slug": "news-feed",
+   "category": "media",
+   "name": "Новостная лента",
+   "names": {
+    "ru": "Новостная лента",
+    "uk": "Стрічка новин",
+    "en": "News Feed"
+   },
+   "description": "Список материалов с превью",
+   "keywords": {
+    "ru": [
+     "лента",
+     "новости",
+     "поток"
+    ],
+    "uk": [
+     "стрічка",
+     "новини",
+     "потік"
+    ],
+    "en": [
+     "news feed",
+     "stream",
+     "headlines"
+    ]
+   },
+   "tags": [
+    "interface"
+   ],
+   "file": "icons/media/news-feed.svg"
+  },
+  {
+   "id": "MDA-010",
+   "slug": "publish",
+   "category": "media",
+   "name": "Публикация материала",
+   "names": {
+    "ru": "Публикация материала",
+    "uk": "Публікація матеріалу",
+    "en": "Publish"
+   },
+   "description": "Рамка страницы со стрелкой наружу",
+   "keywords": {
+    "ru": [
+     "публикация",
+     "выпуск",
+     "опубликовать"
+    ],
+    "uk": [
+     "публікація",
+     "випуск",
+     "опублікувати"
+    ],
+    "en": [
+     "publish",
+     "release",
+     "go live"
+    ]
+   },
+   "tags": [
+    "action"
+   ],
+   "file": "icons/media/publish.svg"
+  },
+  {
+   "id": "MDA-011",
+   "slug": "newspaper",
+   "category": "media",
+   "name": "Газета",
+   "names": {
+    "ru": "Газета",
+    "uk": "Газета",
+    "en": "Newspaper"
+   },
+   "description": "Сложенная газета с заголовком и фото",
+   "keywords": {
+    "ru": [
+     "газета",
+     "пресса",
+     "выпуск"
+    ],
+    "uk": [
+     "газета",
+     "преса",
+     "випуск"
+    ],
+    "en": [
+     "newspaper",
+     "print",
+     "press"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/media/newspaper.svg"
+  },
+  {
+   "id": "MDA-012",
+   "slug": "radio",
+   "category": "media",
+   "name": "Радио",
+   "names": {
+    "ru": "Радио",
+    "uk": "Радіо",
+    "en": "Radio"
+   },
+   "description": "Радиоприёмник с антенной",
+   "keywords": {
+    "ru": [
+     "радио",
+     "эфир",
+     "FM"
+    ],
+    "uk": [
+     "радіо",
+     "ефір",
+     "FM"
+    ],
+    "en": [
+     "radio",
+     "broadcast",
+     "fm"
+    ]
+   },
+   "tags": [
+    "device"
+   ],
+   "file": "icons/media/radio.svg"
+  },
+  {
+   "id": "MDA-013",
+   "slug": "television",
+   "category": "media",
+   "name": "Телевидение",
+   "names": {
+    "ru": "Телевидение",
+    "uk": "Телебачення",
+    "en": "Television"
+   },
+   "description": "Экран с антенной",
+   "keywords": {
+    "ru": [
+     "ТВ",
+     "телевидение",
+     "канал"
+    ],
+    "uk": [
+     "ТБ",
+     "телебачення",
+     "канал"
+    ],
+    "en": [
+     "tv",
+     "television",
+     "channel"
+    ]
+   },
+   "tags": [
+    "device"
+   ],
+   "file": "icons/media/television.svg"
+  },
+  {
+   "id": "MDA-014",
+   "slug": "live-broadcast",
+   "category": "media",
+   "name": "Прямой эфир",
+   "names": {
+    "ru": "Прямой эфир",
+    "uk": "Прямий ефір",
+    "en": "Live Broadcast"
+   },
+   "description": "Точка с расходящимися волнами",
+   "keywords": {
+    "ru": [
+     "эфир",
+     "трансляция",
+     "онлайн"
+    ],
+    "uk": [
+     "ефір",
+     "трансляція",
+     "онлайн"
+    ],
+    "en": [
+     "live",
+     "stream",
+     "on air"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/media/live-broadcast.svg"
+  },
+  {
+   "id": "MDA-015",
+   "slug": "podcast",
+   "category": "media",
+   "name": "Подкаст",
+   "names": {
+    "ru": "Подкаст",
+    "uk": "Подкаст",
+    "en": "Podcast"
+   },
+   "description": "Источник звука с кольцами",
+   "keywords": {
+    "ru": [
+     "подкаст",
+     "аудио",
+     "выпуск"
+    ],
+    "uk": [
+     "подкаст",
+     "аудіо",
+     "випуск"
+    ],
+    "en": [
+     "podcast",
+     "audio show",
+     "episode"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/media/podcast.svg"
+  },
+  {
+   "id": "MDA-016",
+   "slug": "social-sharing",
+   "category": "media",
+   "name": "Соцсети и репост",
+   "names": {
+    "ru": "Соцсети и репост",
+    "uk": "Соцмережі та репост",
+    "en": "Social Sharing"
+   },
+   "description": "Три связанных узла",
+   "keywords": {
+    "ru": [
+     "соцсети",
+     "репост",
+     "поделиться"
+    ],
+    "uk": [
+     "соцмережі",
+     "репост",
+     "поширити"
+    ],
+    "en": [
+     "social media",
+     "share",
+     "repost"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/media/social-sharing.svg"
+  },
+  {
+   "id": "MDA-017",
+   "slug": "hashtag",
+   "category": "media",
+   "name": "Хэштег",
+   "names": {
+    "ru": "Хэштег",
+    "uk": "Хештег",
+    "en": "Hashtag"
+   },
+   "description": "Знак решётки",
+   "keywords": {
+    "ru": [
+     "хэштег",
+     "тема",
+     "тег"
+    ],
+    "uk": [
+     "хештег",
+     "тема",
+     "тег"
+    ],
+    "en": [
+     "hashtag",
+     "topic",
+     "tag"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/media/hashtag.svg"
+  },
+  {
+   "id": "MDA-018",
+   "slug": "article-layout",
+   "category": "media",
+   "name": "Вёрстка статьи",
+   "names": {
+    "ru": "Вёрстка статьи",
+    "uk": "Верстка статті",
+    "en": "Article Layout"
+   },
+   "description": "Страница с заголовком и двумя колонками",
+   "keywords": {
+    "ru": [
+     "статья",
+     "вёрстка",
+     "колонки"
+    ],
+    "uk": [
+     "стаття",
+     "верстка",
+     "колонки"
+    ],
+    "en": [
+     "article",
+     "layout",
+     "columns"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/media/article-layout.svg"
+  },
+  {
+   "id": "MDA-019",
+   "slug": "interview",
+   "category": "media",
+   "name": "Интервью",
+   "names": {
+    "ru": "Интервью",
+    "uk": "Інтерв’ю",
+    "en": "Interview"
+   },
+   "description": "Собеседник и микрофон",
+   "keywords": {
+    "ru": [
+     "интервью",
+     "беседа",
+     "гость"
+    ],
+    "uk": [
+     "інтерв’ю",
+     "бесіда",
+     "гість"
+    ],
+    "en": [
+     "interview",
+     "guest",
+     "conversation"
+    ]
+   },
+   "tags": [
+    "person"
+   ],
+   "file": "icons/media/interview.svg"
+  },
+  {
+   "id": "MDA-020",
+   "slug": "breaking-news",
+   "category": "media",
+   "name": "Срочная новость",
+   "names": {
+    "ru": "Срочная новость",
+    "uk": "Термінова новина",
+    "en": "Breaking News"
+   },
+   "description": "Экран с молнией",
+   "keywords": {
+    "ru": [
+     "срочно",
+     "молния",
+     "экстренно"
+    ],
+    "uk": [
+     "терміново",
+     "блискавка",
+     "екстрено"
+    ],
+    "en": [
+     "breaking",
+     "urgent",
+     "flash"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/media/breaking-news.svg"
+  },
+  {
+   "id": "MDA-021",
+   "slug": "press-conference",
+   "category": "media",
+   "name": "Пресс-конференция",
+   "names": {
+    "ru": "Пресс-конференция",
+    "uk": "Прес-конференція",
+    "en": "Press Conference"
+   },
+   "description": "Трибуна с микрофонами",
+   "keywords": {
+    "ru": [
+     "брифинг",
+     "трибуна",
+     "заявление"
+    ],
+    "uk": [
+     "брифінг",
+     "трибуна",
+     "заява"
+    ],
+    "en": [
+     "press conference",
+     "briefing",
+     "podium"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/media/press-conference.svg"
+  },
+  {
+   "id": "MDA-022",
+   "slug": "journalist-safety",
+   "category": "media",
+   "name": "Безопасность журналистов",
+   "names": {
+    "ru": "Безопасность журналистов",
+    "uk": "Безпека журналістів",
+    "en": "Journalist Safety"
+   },
+   "description": "Щит с пером",
+   "keywords": {
+    "ru": [
+     "безопасность",
+     "журналисты",
+     "защита"
+    ],
+    "uk": [
+     "безпека",
+     "журналісти",
+     "захист"
+    ],
+    "en": [
+     "press safety",
+     "protection",
+     "journalists"
+    ]
+   },
+   "tags": [
+    "security"
+   ],
+   "file": "icons/media/journalist-safety.svg"
+  },
+  {
+   "id": "MDA-023",
+   "slug": "media-monitoring",
+   "category": "media",
+   "name": "Медиамониторинг",
+   "names": {
+    "ru": "Медиамониторинг",
+    "uk": "Медіамоніторинг",
+    "en": "Media Monitoring"
+   },
+   "description": "Экран с графиком упоминаний",
+   "keywords": {
+    "ru": [
+     "мониторинг",
+     "упоминания",
+     "аналитика"
+    ],
+    "uk": [
+     "моніторинг",
+     "згадки",
+     "аналітика"
+    ],
+    "en": [
+     "monitoring",
+     "mentions",
+     "analytics"
+    ]
+   },
+   "tags": [
+    "interface"
+   ],
+   "file": "icons/media/media-monitoring.svg"
+  },
+  {
+   "id": "MDA-024",
+   "slug": "editing",
+   "category": "media",
+   "name": "Редактирование",
+   "names": {
+    "ru": "Редактирование",
+    "uk": "Редагування",
+    "en": "Editing"
+   },
+   "description": "Строки текста и карандаш",
+   "keywords": {
+    "ru": [
+     "редактура",
+     "правка",
+     "корректура"
+    ],
+    "uk": [
+     "редагування",
+     "правка",
+     "коректура"
+    ],
+    "en": [
+     "editing",
+     "proofreading",
+     "revision"
+    ]
+   },
+   "tags": [
+    "action"
+   ],
+   "file": "icons/media/editing.svg"
+  },
+  {
+   "id": "MDA-025",
+   "slug": "quote",
+   "category": "media",
+   "name": "Цитата",
+   "names": {
+    "ru": "Цитата",
+    "uk": "Цитата",
+    "en": "Quote"
+   },
+   "description": "Две кавычки",
+   "keywords": {
+    "ru": [
+     "цитата",
+     "высказывание",
+     "прямая речь"
+    ],
+    "uk": [
+     "цитата",
+     "висловлювання",
+     "пряма мова"
+    ],
+    "en": [
+     "quote",
+     "citation",
+     "statement"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/media/quote.svg"
+  },
+  {
+   "id": "MDA-026",
+   "slug": "photo-gallery",
+   "category": "media",
+   "name": "Фотогалерея",
+   "names": {
+    "ru": "Фотогалерея",
+    "uk": "Фотогалерея",
+    "en": "Photo Gallery"
+   },
+   "description": "Стопка снимков с пейзажем",
+   "keywords": {
+    "ru": [
+     "фото",
+     "галерея",
+     "снимки"
+    ],
+    "uk": [
+     "фото",
+     "галерея",
+     "знімки"
+    ],
+    "en": [
+     "gallery",
+     "photos",
+     "album"
+    ]
+   },
+   "tags": [
+    "media"
+   ],
+   "file": "icons/media/photo-gallery.svg"
+  },
+  {
+   "id": "MDA-027",
+   "slug": "video-play",
+   "category": "media",
+   "name": "Видео",
+   "names": {
+    "ru": "Видео",
+    "uk": "Відео",
+    "en": "Video"
+   },
+   "description": "Кнопка воспроизведения в рамке",
+   "keywords": {
+    "ru": [
+     "видео",
+     "ролик",
+     "воспроизведение"
+    ],
+    "uk": [
+     "відео",
+     "ролик",
+     "відтворення"
+    ],
+    "en": [
+     "video",
+     "play",
+     "clip"
+    ]
+   },
+   "tags": [
+    "media"
+   ],
+   "file": "icons/media/video-play.svg"
+  },
+  {
+   "id": "MDA-028",
+   "slug": "documentary",
+   "category": "media",
+   "name": "Документальное кино",
+   "names": {
+    "ru": "Документальное кино",
+    "uk": "Документальне кіно",
+    "en": "Documentary"
+   },
+   "description": "Хлопушка",
+   "keywords": {
+    "ru": [
+     "кино",
+     "документалистика",
+     "съёмка"
+    ],
+    "uk": [
+     "кіно",
+     "документалістика",
+     "зйомка"
+    ],
+    "en": [
+     "documentary",
+     "film",
+     "clapperboard"
+    ]
+   },
+   "tags": [
+    "media"
+   ],
+   "file": "icons/media/documentary.svg"
+  },
+  {
+   "id": "MDA-029",
+   "slug": "headphones",
+   "category": "media",
+   "name": "Наушники",
+   "names": {
+    "ru": "Наушники",
+    "uk": "Навушники",
+    "en": "Headphones"
+   },
+   "description": "Наушники с оголовьем",
+   "keywords": {
+    "ru": [
+     "аудио",
+     "прослушивание",
+     "звук"
+    ],
+    "uk": [
+     "аудіо",
+     "прослуховування",
+     "звук"
+    ],
+    "en": [
+     "headphones",
+     "listening",
+     "audio"
+    ]
+   },
+   "tags": [
+    "device"
+   ],
+   "file": "icons/media/headphones.svg"
+  },
+  {
+   "id": "MDA-030",
+   "slug": "press-release",
+   "category": "media",
+   "name": "Пресс-релиз",
+   "names": {
+    "ru": "Пресс-релиз",
+    "uk": "Прес-реліз",
+    "en": "Press Release"
+   },
+   "description": "Документ и волны распространения",
+   "keywords": {
+    "ru": [
+     "пресс-релиз",
+     "заявление",
+     "рассылка"
+    ],
+    "uk": [
+     "прес-реліз",
+     "заява",
+     "розсилка"
+    ],
+    "en": [
+     "press release",
+     "announcement",
+     "statement"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/media/press-release.svg"
+  },
+  {
+   "id": "MDA-031",
+   "slug": "rss-subscription",
+   "category": "media",
+   "name": "RSS-подписка",
+   "names": {
+    "ru": "RSS-подписка",
+    "uk": "RSS-підписка",
+    "en": "RSS Subscription"
+   },
+   "description": "Точка и две дуги",
+   "keywords": {
+    "ru": [
+     "подписка",
+     "RSS",
+     "обновления"
+    ],
+    "uk": [
+     "підписка",
+     "RSS",
+     "оновлення"
+    ],
+    "en": [
+     "rss",
+     "feed",
+     "subscribe"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/media/rss-subscription.svg"
+  },
+  {
+   "id": "MDA-032",
+   "slug": "newsroom",
+   "category": "media",
+   "name": "Редакция",
+   "names": {
+    "ru": "Редакция",
+    "uk": "Редакція",
+    "en": "Newsroom"
+   },
+   "description": "Рабочий стол с двумя мониторами",
+   "keywords": {
+    "ru": [
+     "редакция",
+     "ньюсрум",
+     "команда"
+    ],
+    "uk": [
+     "редакція",
+     "ньюзрум",
+     "команда"
+    ],
+    "en": [
+     "newsroom",
+     "desk",
+     "editorial office"
+    ]
+   },
+   "tags": [
+    "place"
+   ],
+   "file": "icons/media/newsroom.svg"
+  },
+  {
+   "id": "MDA-033",
+   "slug": "tv-presenter",
+   "category": "media",
+   "name": "Ведущий эфира",
+   "names": {
+    "ru": "Ведущий эфира",
+    "uk": "Ведучий ефіру",
+    "en": "TV Presenter"
+   },
+   "description": "Человек в кадре экрана",
+   "keywords": {
+    "ru": [
+     "ведущий",
+     "эфир",
+     "диктор"
+    ],
+    "uk": [
+     "ведучий",
+     "ефір",
+     "диктор"
+    ],
+    "en": [
+     "presenter",
+     "anchor",
+     "host"
+    ]
+   },
+   "tags": [
+    "person"
+   ],
+   "file": "icons/media/tv-presenter.svg"
+  },
+  {
+   "id": "MDA-034",
+   "slug": "views",
+   "category": "media",
+   "name": "Просмотры",
+   "names": {
+    "ru": "Просмотры",
+    "uk": "Перегляди",
+    "en": "Views"
+   },
+   "description": "Глаз со зрачком",
+   "keywords": {
+    "ru": [
+     "просмотры",
+     "охват",
+     "аудитория"
+    ],
+    "uk": [
+     "перегляди",
+     "охоплення",
+     "аудиторія"
+    ],
+    "en": [
+     "views",
+     "reach",
+     "impressions"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/media/views.svg"
+  },
+  {
+   "id": "MDA-035",
+   "slug": "like",
+   "category": "media",
+   "name": "Отметка «Нравится»",
+   "names": {
+    "ru": "Отметка «Нравится»",
+    "uk": "Вподобання",
+    "en": "Like"
+   },
+   "description": "Поднятый большой палец",
+   "keywords": {
+    "ru": [
+     "лайк",
+     "реакция",
+     "одобрение"
+    ],
+    "uk": [
+     "лайк",
+     "реакція",
+     "схвалення"
+    ],
+    "en": [
+     "like",
+     "reaction",
+     "approval"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/media/like.svg"
+  },
+  {
+   "id": "MDA-036",
+   "slug": "comments",
+   "category": "media",
+   "name": "Комментарии",
+   "names": {
+    "ru": "Комментарии",
+    "uk": "Коментарі",
+    "en": "Comments"
+   },
+   "description": "Облачко реплики с многоточием",
+   "keywords": {
+    "ru": [
+     "комментарии",
+     "обсуждение",
+     "отзывы"
+    ],
+    "uk": [
+     "коментарі",
+     "обговорення",
+     "відгуки"
+    ],
+    "en": [
+     "comments",
+     "discussion",
+     "replies"
+    ]
+   },
+   "tags": [
+    "communication"
+   ],
+   "file": "icons/media/comments.svg"
+  },
+  {
+   "id": "MDA-037",
+   "slug": "trending",
+   "category": "media",
+   "name": "В тренде",
+   "names": {
+    "ru": "В тренде",
+    "uk": "У тренді",
+    "en": "Trending"
+   },
+   "description": "Ломаная, уходящая вверх",
+   "keywords": {
+    "ru": [
+     "тренд",
+     "популярность",
+     "рост"
+    ],
+    "uk": [
+     "тренд",
+     "популярність",
+     "зростання"
+    ],
+    "en": [
+     "trending",
+     "viral",
+     "popular"
+    ]
+   },
+   "tags": [
+    "chart"
+   ],
+   "file": "icons/media/trending.svg"
+  },
+  {
+   "id": "MDA-038",
+   "slug": "verified-source",
+   "category": "media",
+   "name": "Проверенный источник",
+   "names": {
+    "ru": "Проверенный источник",
+    "uk": "Перевірене джерело",
+    "en": "Verified Source"
+   },
+   "description": "Розетка с галочкой",
+   "keywords": {
+    "ru": [
+     "источник",
+     "верификация",
+     "доверие"
+    ],
+    "uk": [
+     "джерело",
+     "верифікація",
+     "довіра"
+    ],
+    "en": [
+     "verified",
+     "trusted source",
+     "badge"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/media/verified-source.svg"
+  },
+  {
+   "id": "MDA-039",
+   "slug": "fake-news",
+   "category": "media",
+   "name": "Фейк",
+   "names": {
+    "ru": "Фейк",
+    "uk": "Фейк",
+    "en": "Fake News"
+   },
+   "description": "Страница с перечёркнутым значком",
+   "keywords": {
+    "ru": [
+     "фейк",
+     "дезинформация",
+     "опровержение"
+    ],
+    "uk": [
+     "фейк",
+     "дезінформація",
+     "спростування"
+    ],
+    "en": [
+     "fake news",
+     "disinformation",
+     "debunk"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/media/fake-news.svg"
+  },
+  {
+   "id": "MDA-040",
+   "slug": "anonymous-source",
+   "category": "media",
+   "name": "Анонимный источник",
+   "names": {
+    "ru": "Анонимный источник",
+    "uk": "Анонімне джерело",
+    "en": "Anonymous Source"
+   },
+   "description": "Человек с повязкой на глазах",
+   "keywords": {
+    "ru": [
+     "источник",
+     "анонимность",
+     "конфиденциальность"
+    ],
+    "uk": [
+     "джерело",
+     "анонімність",
+     "конфіденційність"
+    ],
+    "en": [
+     "anonymous source",
+     "whistleblower",
+     "confidential"
+    ]
+   },
+   "tags": [
+    "person"
+   ],
+   "file": "icons/media/anonymous-source.svg"
+  },
+  {
+   "id": "MDA-041",
+   "slug": "broadcast-tower",
+   "category": "media",
+   "name": "Вещание",
+   "names": {
+    "ru": "Вещание",
+    "uk": "Мовлення",
+    "en": "Broadcasting"
+   },
+   "description": "Мачта с волнами сигнала",
+   "keywords": {
+    "ru": [
+     "вещание",
+     "сигнал",
+     "передатчик"
+    ],
+    "uk": [
+     "мовлення",
+     "сигнал",
+     "передавач"
+    ],
+    "en": [
+     "broadcast",
+     "tower",
+     "transmitter"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/media/broadcast-tower.svg"
+  },
+  {
+   "id": "MDA-042",
+   "slug": "satellite-dish",
+   "category": "media",
+   "name": "Спутниковая связь",
+   "names": {
+    "ru": "Спутниковая связь",
+    "uk": "Супутниковий зв’язок",
+    "en": "Satellite Link"
+   },
+   "description": "Параболическая антенна с сигналом",
+   "keywords": {
+    "ru": [
+     "спутник",
+     "антенна",
+     "сигнал"
+    ],
+    "uk": [
+     "супутник",
+     "антена",
+     "сигнал"
+    ],
+    "en": [
+     "satellite",
+     "dish",
+     "uplink"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/media/satellite-dish.svg"
+  },
+  {
+   "id": "MDA-043",
+   "slug": "crop-frame",
+   "category": "media",
+   "name": "Кадрирование",
+   "names": {
+    "ru": "Кадрирование",
+    "uk": "Кадрування",
+    "en": "Crop"
+   },
+   "description": "Угловые метки обрезки",
+   "keywords": {
+    "ru": [
+     "кадр",
+     "обрезка",
+     "фоторедактор"
+    ],
+    "uk": [
+     "кадр",
+     "обрізка",
+     "фоторедактор"
+    ],
+    "en": [
+     "crop",
+     "frame",
+     "photo edit"
+    ]
+   },
+   "tags": [
+    "action"
+   ],
+   "file": "icons/media/crop-frame.svg"
+  },
+  {
+   "id": "MDA-044",
+   "slug": "printing",
+   "category": "media",
+   "name": "Печать тиража",
+   "names": {
+    "ru": "Печать тиража",
+    "uk": "Друк накладу",
+    "en": "Printing"
+   },
+   "description": "Принтер с листом",
+   "keywords": {
+    "ru": [
+     "печать",
+     "тираж",
+     "типография"
+    ],
+    "uk": [
+     "друк",
+     "наклад",
+     "друкарня"
+    ],
+    "en": [
+     "print",
+     "press run",
+     "printer"
+    ]
+   },
+   "tags": [
+    "device"
+   ],
+   "file": "icons/media/printing.svg"
+  },
+  {
+   "id": "MDA-045",
+   "slug": "paywall",
+   "category": "media",
+   "name": "Платный доступ",
+   "names": {
+    "ru": "Платный доступ",
+    "uk": "Платний доступ",
+    "en": "Paywall"
+   },
+   "description": "Окно браузера с замком",
+   "keywords": {
+    "ru": [
+     "пейволл",
+     "подписка",
+     "доступ"
+    ],
+    "uk": [
+     "пейвол",
+     "підписка",
+     "доступ"
+    ],
+    "en": [
+     "paywall",
+     "premium",
+     "locked content"
+    ]
+   },
+   "tags": [
+    "interface"
+   ],
+   "file": "icons/media/paywall.svg"
+  },
+  {
+   "id": "MDA-046",
+   "slug": "free-speech",
+   "category": "media",
+   "name": "Свобода слова",
+   "names": {
+    "ru": "Свобода слова",
+    "uk": "Свобода слова",
+    "en": "Free Speech"
+   },
+   "description": "Реплика с лучами голоса",
+   "keywords": {
+    "ru": [
+     "свобода слова",
+     "голос",
+     "мнение"
+    ],
+    "uk": [
+     "свобода слова",
+     "голос",
+     "думка"
+    ],
+    "en": [
+     "free speech",
+     "voice",
+     "expression"
+    ]
+   },
+   "tags": [
+    "communication"
+   ],
+   "file": "icons/media/free-speech.svg"
+  },
+  {
+   "id": "MDA-047",
+   "slug": "columnist",
+   "category": "media",
+   "name": "Колумнист",
+   "names": {
+    "ru": "Колумнист",
+    "uk": "Колумніст",
+    "en": "Columnist"
+   },
+   "description": "Автор и строки колонки",
+   "keywords": {
+    "ru": [
+     "автор",
+     "колонка",
+     "мнение"
+    ],
+    "uk": [
+     "автор",
+     "колонка",
+     "думка"
+    ],
+    "en": [
+     "columnist",
+     "author",
+     "opinion"
+    ]
+   },
+   "tags": [
+    "person"
+   ],
+   "file": "icons/media/columnist.svg"
+  },
+  {
+   "id": "MDA-048",
+   "slug": "film-archive",
+   "category": "media",
+   "name": "Видеоархив",
+   "names": {
+    "ru": "Видеоархив",
+    "uk": "Відеоархів",
+    "en": "Film Archive"
+   },
+   "description": "Киноплёнка с перфорацией",
+   "keywords": {
+    "ru": [
+     "архив",
+     "плёнка",
+     "хроника"
+    ],
+    "uk": [
+     "архів",
+     "плівка",
+     "хроніка"
+    ],
+    "en": [
+     "film",
+     "archive",
+     "footage"
+    ]
+   },
+   "tags": [
+    "media"
+   ],
+   "file": "icons/media/film-archive.svg"
+  },
+  {
+   "id": "MDA-049",
+   "slug": "accreditation",
+   "category": "media",
+   "name": "Аккредитация",
+   "names": {
+    "ru": "Аккредитация",
+    "uk": "Акредитація",
+    "en": "Accreditation"
+   },
+   "description": "Человек и подтверждение допуска",
+   "keywords": {
+    "ru": [
+     "аккредитация",
+     "допуск",
+     "СМИ"
+    ],
+    "uk": [
+     "акредитація",
+     "допуск",
+     "ЗМІ"
+    ],
+    "en": [
+     "accreditation",
+     "clearance",
+     "press access"
+    ]
+   },
+   "tags": [
+    "person"
+   ],
+   "file": "icons/media/accreditation.svg"
+  },
+  {
+   "id": "MDA-050",
+   "slug": "subtitles",
+   "category": "media",
+   "name": "Субтитры",
+   "names": {
+    "ru": "Субтитры",
+    "uk": "Субтитри",
+    "en": "Subtitles"
+   },
+   "description": "Экран со строками субтитров",
+   "keywords": {
+    "ru": [
+     "субтитры",
+     "перевод",
+     "доступность"
+    ],
+    "uk": [
+     "субтитри",
+     "переклад",
+     "доступність"
+    ],
+    "en": [
+     "subtitles",
+     "captions",
+     "translation"
+    ]
+   },
+   "tags": [
+    "media"
+   ],
+   "file": "icons/media/subtitles.svg"
+  },
+  {
+   "id": "TEC-001",
+   "slug": "laptop",
+   "category": "technology",
+   "name": "Ноутбук",
+   "names": {
+    "ru": "Ноутбук",
+    "uk": "Ноутбук",
+    "en": "Laptop"
+   },
+   "description": "Открытый ноутбук",
+   "keywords": {
+    "ru": [
+     "ноутбук",
+     "компьютер",
+     "работа"
+    ],
+    "uk": [
+     "ноутбук",
+     "комп’ютер",
+     "робота"
+    ],
+    "en": [
+     "laptop",
+     "computer",
+     "notebook"
+    ]
+   },
+   "tags": [
+    "device"
+   ],
+   "file": "icons/technology/laptop.svg"
+  },
+  {
+   "id": "TEC-002",
+   "slug": "desktop-monitor",
+   "category": "technology",
+   "name": "Монитор",
+   "names": {
+    "ru": "Монитор",
+    "uk": "Монітор",
+    "en": "Monitor"
+   },
+   "description": "Экран на подставке",
+   "keywords": {
+    "ru": [
+     "монитор",
+     "экран",
+     "дисплей"
+    ],
+    "uk": [
+     "монітор",
+     "екран",
+     "дисплей"
+    ],
+    "en": [
+     "monitor",
+     "display",
+     "screen"
+    ]
+   },
+   "tags": [
+    "device"
+   ],
+   "file": "icons/technology/desktop-monitor.svg"
+  },
+  {
+   "id": "TEC-003",
+   "slug": "server",
+   "category": "technology",
+   "name": "Сервер",
+   "names": {
+    "ru": "Сервер",
+    "uk": "Сервер",
+    "en": "Server"
+   },
+   "description": "Два серверных модуля с индикаторами",
+   "keywords": {
+    "ru": [
+     "сервер",
+     "хостинг",
+     "железо"
+    ],
+    "uk": [
+     "сервер",
+     "хостинг",
+     "залізо"
+    ],
+    "en": [
+     "server",
+     "hosting",
+     "hardware"
+    ]
+   },
+   "tags": [
+    "device"
+   ],
+   "file": "icons/technology/server.svg"
+  },
+  {
+   "id": "TEC-004",
+   "slug": "code",
+   "category": "technology",
+   "name": "Код",
+   "names": {
+    "ru": "Код",
+    "uk": "Код",
+    "en": "Code"
+   },
+   "description": "Угловые скобки и косая черта",
+   "keywords": {
+    "ru": [
+     "код",
+     "программирование",
+     "разработка"
+    ],
+    "uk": [
+     "код",
+     "програмування",
+     "розробка"
+    ],
+    "en": [
+     "code",
+     "programming",
+     "development"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/technology/code.svg"
+  },
+  {
+   "id": "TEC-005",
+   "slug": "terminal",
+   "category": "technology",
+   "name": "Терминал",
+   "names": {
+    "ru": "Терминал",
+    "uk": "Термінал",
+    "en": "Terminal"
+   },
+   "description": "Окно командной строки",
+   "keywords": {
+    "ru": [
+     "терминал",
+     "консоль",
+     "командная строка"
+    ],
+    "uk": [
+     "термінал",
+     "консоль",
+     "командний рядок"
+    ],
+    "en": [
+     "terminal",
+     "console",
+     "shell"
+    ]
+   },
+   "tags": [
+    "interface"
+   ],
+   "file": "icons/technology/terminal.svg"
+  },
+  {
+   "id": "TEC-006",
+   "slug": "neural-network",
+   "category": "technology",
+   "name": "Нейросеть",
+   "names": {
+    "ru": "Нейросеть",
+    "uk": "Нейромережа",
+    "en": "Neural Network"
+   },
+   "description": "Три слоя связанных узлов",
+   "keywords": {
+    "ru": [
+     "нейросеть",
+     "модель",
+     "слои"
+    ],
+    "uk": [
+     "нейромережа",
+     "модель",
+     "шари"
+    ],
+    "en": [
+     "neural network",
+     "model",
+     "deep learning"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/technology/neural-network.svg"
+  },
+  {
+   "id": "TEC-007",
+   "slug": "database",
+   "category": "technology",
+   "name": "База данных",
+   "names": {
+    "ru": "База данных",
+    "uk": "База даних",
+    "en": "Database"
+   },
+   "description": "Цилиндр хранилища данных",
+   "keywords": {
+    "ru": [
+     "база данных",
+     "SQL",
+     "хранилище"
+    ],
+    "uk": [
+     "база даних",
+     "SQL",
+     "сховище"
+    ],
+    "en": [
+     "database",
+     "sql",
+     "storage"
+    ]
+   },
+   "tags": [
+    "device"
+   ],
+   "file": "icons/technology/database.svg"
+  },
+  {
+   "id": "TEC-008",
+   "slug": "cloud",
+   "category": "technology",
+   "name": "Облако",
+   "names": {
+    "ru": "Облако",
+    "uk": "Хмара",
+    "en": "Cloud"
+   },
+   "description": "Облачный контур",
+   "keywords": {
+    "ru": [
+     "облако",
+     "облачные технологии",
+     "SaaS"
+    ],
+    "uk": [
+     "хмара",
+     "хмарні технології",
+     "SaaS"
+    ],
+    "en": [
+     "cloud",
+     "saas",
+     "online"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/technology/cloud.svg"
+  },
+  {
+   "id": "TEC-009",
+   "slug": "api-integration",
+   "category": "technology",
+   "name": "API",
+   "names": {
+    "ru": "API",
+    "uk": "API",
+    "en": "API"
+   },
+   "description": "Фигурные скобки с точками вызова",
+   "keywords": {
+    "ru": [
+     "API",
+     "интеграция",
+     "интерфейс"
+    ],
+    "uk": [
+     "API",
+     "інтеграція",
+     "інтерфейс"
+    ],
+    "en": [
+     "api",
+     "integration",
+     "endpoint"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/technology/api-integration.svg"
+  },
+  {
+   "id": "TEC-010",
+   "slug": "microchip",
+   "category": "technology",
+   "name": "Микрочип",
+   "names": {
+    "ru": "Микрочип",
+    "uk": "Мікрочип",
+    "en": "Microchip"
+   },
+   "description": "Кристалл с выводами",
+   "keywords": {
+    "ru": [
+     "чип",
+     "процессор",
+     "электроника"
+    ],
+    "uk": [
+     "чип",
+     "процесор",
+     "електроніка"
+    ],
+    "en": [
+     "chip",
+     "processor",
+     "cpu"
+    ]
+   },
+   "tags": [
+    "device"
+   ],
+   "file": "icons/technology/microchip.svg"
+  },
+  {
+   "id": "TEC-011",
+   "slug": "wifi",
+   "category": "technology",
+   "name": "Wi-Fi",
+   "names": {
+    "ru": "Wi-Fi",
+    "uk": "Wi-Fi",
+    "en": "Wi-Fi"
+   },
+   "description": "Точка и три дуги сигнала",
+   "keywords": {
+    "ru": [
+     "wi-fi",
+     "беспроводная сеть",
+     "интернет"
+    ],
+    "uk": [
+     "wi-fi",
+     "бездротова мережа",
+     "інтернет"
+    ],
+    "en": [
+     "wifi",
+     "wireless",
+     "internet"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/technology/wifi.svg"
+  },
+  {
+   "id": "TEC-012",
+   "slug": "network",
+   "category": "technology",
+   "name": "Локальная сеть",
+   "names": {
+    "ru": "Локальная сеть",
+    "uk": "Локальна мережа",
+    "en": "Network"
+   },
+   "description": "Маршрутизатор и три узла",
+   "keywords": {
+    "ru": [
+     "сеть",
+     "LAN",
+     "инфраструктура"
+    ],
+    "uk": [
+     "мережа",
+     "LAN",
+     "інфраструктура"
+    ],
+    "en": [
+     "network",
+     "lan",
+     "infrastructure"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/technology/network.svg"
+  },
+  {
+   "id": "TEC-013",
+   "slug": "bug",
+   "category": "technology",
+   "name": "Ошибка в коде",
+   "names": {
+    "ru": "Ошибка в коде",
+    "uk": "Помилка в коді",
+    "en": "Bug"
+   },
+   "description": "Жук с лапками",
+   "keywords": {
+    "ru": [
+     "баг",
+     "ошибка",
+     "отладка"
+    ],
+    "uk": [
+     "баг",
+     "помилка",
+     "налагодження"
+    ],
+    "en": [
+     "bug",
+     "error",
+     "debugging"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/technology/bug.svg"
+  },
+  {
+   "id": "TEC-014",
+   "slug": "git-branch",
+   "category": "technology",
+   "name": "Ветка репозитория",
+   "names": {
+    "ru": "Ветка репозитория",
+    "uk": "Гілка репозиторію",
+    "en": "Git Branch"
+   },
+   "description": "Ствол и ответвление с узлами",
+   "keywords": {
+    "ru": [
+     "git",
+     "ветка",
+     "версия"
+    ],
+    "uk": [
+     "git",
+     "гілка",
+     "версія"
+    ],
+    "en": [
+     "git",
+     "branch",
+     "version control"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/technology/git-branch.svg"
+  },
+  {
+   "id": "TEC-015",
+   "slug": "artificial-intelligence",
+   "category": "technology",
+   "name": "Искусственный интеллект",
+   "names": {
+    "ru": "Искусственный интеллект",
+    "uk": "Штучний інтелект",
+    "en": "Artificial Intelligence"
+   },
+   "description": "Четырёхлучевая искра с малыми искрами",
+   "keywords": {
+    "ru": [
+     "ИИ",
+     "генерация",
+     "модель"
+    ],
+    "uk": [
+     "ШІ",
+     "генерація",
+     "модель"
+    ],
+    "en": [
+     "ai",
+     "generative",
+     "machine intelligence"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/technology/artificial-intelligence.svg"
+  },
+  {
+   "id": "TEC-016",
+   "slug": "sync",
+   "category": "technology",
+   "name": "Синхронизация",
+   "names": {
+    "ru": "Синхронизация",
+    "uk": "Синхронізація",
+    "en": "Sync"
+   },
+   "description": "Две встречные круговые стрелки",
+   "keywords": {
+    "ru": [
+     "синхронизация",
+     "обновление",
+     "цикл"
+    ],
+    "uk": [
+     "синхронізація",
+     "оновлення",
+     "цикл"
+    ],
+    "en": [
+     "sync",
+     "refresh",
+     "update"
+    ]
+   },
+   "tags": [
+    "action"
+   ],
+   "file": "icons/technology/sync.svg"
+  },
+  {
+   "id": "TEC-017",
+   "slug": "smartphone",
+   "category": "technology",
+   "name": "Смартфон",
+   "names": {
+    "ru": "Смартфон",
+    "uk": "Смартфон",
+    "en": "Smartphone"
+   },
+   "description": "Телефон с индикатором",
+   "keywords": {
+    "ru": [
+     "телефон",
+     "мобильный",
+     "смартфон"
+    ],
+    "uk": [
+     "телефон",
+     "мобільний",
+     "смартфон"
+    ],
+    "en": [
+     "phone",
+     "mobile",
+     "smartphone"
+    ]
+   },
+   "tags": [
+    "device"
+   ],
+   "file": "icons/technology/smartphone.svg"
+  },
+  {
+   "id": "TEC-018",
+   "slug": "tablet",
+   "category": "technology",
+   "name": "Планшет",
+   "names": {
+    "ru": "Планшет",
+    "uk": "Планшет",
+    "en": "Tablet"
+   },
+   "description": "Широкий планшет с кнопкой",
+   "keywords": {
+    "ru": [
+     "планшет",
+     "устройство",
+     "экран"
+    ],
+    "uk": [
+     "планшет",
+     "пристрій",
+     "екран"
+    ],
+    "en": [
+     "tablet",
+     "device",
+     "touchscreen"
+    ]
+   },
+   "tags": [
+    "device"
+   ],
+   "file": "icons/technology/tablet.svg"
+  },
+  {
+   "id": "TEC-019",
+   "slug": "keyboard",
+   "category": "technology",
+   "name": "Клавиатура",
+   "names": {
+    "ru": "Клавиатура",
+    "uk": "Клавіатура",
+    "en": "Keyboard"
+   },
+   "description": "Клавиши и пробел",
+   "keywords": {
+    "ru": [
+     "клавиатура",
+     "ввод",
+     "набор"
+    ],
+    "uk": [
+     "клавіатура",
+     "введення",
+     "набір"
+    ],
+    "en": [
+     "keyboard",
+     "input",
+     "typing"
+    ]
+   },
+   "tags": [
+    "device"
+   ],
+   "file": "icons/technology/keyboard.svg"
+  },
+  {
+   "id": "TEC-020",
+   "slug": "mouse",
+   "category": "technology",
+   "name": "Компьютерная мышь",
+   "names": {
+    "ru": "Компьютерная мышь",
+    "uk": "Комп’ютерна миша",
+    "en": "Mouse"
+   },
+   "description": "Мышь с колесом прокрутки",
+   "keywords": {
+    "ru": [
+     "мышь",
+     "указатель",
+     "устройство ввода"
+    ],
+    "uk": [
+     "миша",
+     "вказівник",
+     "пристрій введення"
+    ],
+    "en": [
+     "mouse",
+     "pointer",
+     "input device"
+    ]
+   },
+   "tags": [
+    "device"
+   ],
+   "file": "icons/technology/mouse.svg"
+  },
+  {
+   "id": "TEC-021",
+   "slug": "automation-bot",
+   "category": "technology",
+   "name": "Автоматизация",
+   "names": {
+    "ru": "Автоматизация",
+    "uk": "Автоматизація",
+    "en": "Automation Bot"
+   },
+   "description": "Голова робота с антенной",
+   "keywords": {
+    "ru": [
+     "робот",
+     "бот",
+     "автоматизация"
+    ],
+    "uk": [
+     "робот",
+     "бот",
+     "автоматизація"
+    ],
+    "en": [
+     "bot",
+     "robot",
+     "automation"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/technology/automation-bot.svg"
+  },
+  {
+   "id": "TEC-022",
+   "slug": "system-settings",
+   "category": "technology",
+   "name": "Настройки системы",
+   "names": {
+    "ru": "Настройки системы",
+    "uk": "Налаштування системи",
+    "en": "Settings"
+   },
+   "description": "Шестерня с осью",
+   "keywords": {
+    "ru": [
+     "настройки",
+     "конфигурация",
+     "параметры"
+    ],
+    "uk": [
+     "налаштування",
+     "конфігурація",
+     "параметри"
+    ],
+    "en": [
+     "settings",
+     "configuration",
+     "gear"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/technology/system-settings.svg"
+  },
+  {
+   "id": "TEC-023",
+   "slug": "cloud-upload",
+   "category": "technology",
+   "name": "Загрузка в облако",
+   "names": {
+    "ru": "Загрузка в облако",
+    "uk": "Завантаження в хмару",
+    "en": "Cloud Upload"
+   },
+   "description": "Облако со стрелкой вверх",
+   "keywords": {
+    "ru": [
+     "облако",
+     "выгрузка",
+     "бэкап"
+    ],
+    "uk": [
+     "хмара",
+     "вивантаження",
+     "бекап"
+    ],
+    "en": [
+     "upload",
+     "cloud",
+     "backup"
+    ]
+   },
+   "tags": [
+    "action"
+   ],
+   "file": "icons/technology/cloud-upload.svg"
+  },
+  {
+   "id": "TEC-024",
+   "slug": "download",
+   "category": "technology",
+   "name": "Скачивание файла",
+   "names": {
+    "ru": "Скачивание файла",
+    "uk": "Завантаження файлу",
+    "en": "Download"
+   },
+   "description": "Стрелка вниз в лоток",
+   "keywords": {
+    "ru": [
+     "скачать",
+     "загрузка",
+     "файл"
+    ],
+    "uk": [
+     "завантажити",
+     "файл",
+     "отримати"
+    ],
+    "en": [
+     "download",
+     "save",
+     "file"
+    ]
+   },
+   "tags": [
+    "action"
+   ],
+   "file": "icons/technology/download.svg"
+  },
+  {
+   "id": "TEC-025",
+   "slug": "internet",
+   "category": "technology",
+   "name": "Интернет",
+   "names": {
+    "ru": "Интернет",
+    "uk": "Інтернет",
+    "en": "Internet"
+   },
+   "description": "Глобус с меридианом",
+   "keywords": {
+    "ru": [
+     "интернет",
+     "веб",
+     "глобальная сеть"
+    ],
+    "uk": [
+     "інтернет",
+     "веб",
+     "глобальна мережа"
+    ],
+    "en": [
+     "internet",
+     "web",
+     "global"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/technology/internet.svg"
+  },
+  {
+   "id": "TEC-026",
+   "slug": "ui-layout",
+   "category": "technology",
+   "name": "Интерфейс",
+   "names": {
+    "ru": "Интерфейс",
+    "uk": "Інтерфейс",
+    "en": "UI Layout"
+   },
+   "description": "Каркас экрана с шапкой и боковой панелью",
+   "keywords": {
+    "ru": [
+     "интерфейс",
+     "макет",
+     "UX"
+    ],
+    "uk": [
+     "інтерфейс",
+     "макет",
+     "UX"
+    ],
+    "en": [
+     "ui",
+     "layout",
+     "wireframe"
+    ]
+   },
+   "tags": [
+    "interface"
+   ],
+   "file": "icons/technology/ui-layout.svg"
+  },
+  {
+   "id": "TEC-027",
+   "slug": "algorithm",
+   "category": "technology",
+   "name": "Алгоритм",
+   "names": {
+    "ru": "Алгоритм",
+    "uk": "Алгоритм",
+    "en": "Algorithm"
+   },
+   "description": "Блок-схема с условием",
+   "keywords": {
+    "ru": [
+     "алгоритм",
+     "логика",
+     "блок-схема"
+    ],
+    "uk": [
+     "алгоритм",
+     "логіка",
+     "блок-схема"
+    ],
+    "en": [
+     "algorithm",
+     "flowchart",
+     "logic"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/technology/algorithm.svg"
+  },
+  {
+   "id": "TEC-028",
+   "slug": "qr-code",
+   "category": "technology",
+   "name": "QR-код",
+   "names": {
+    "ru": "QR-код",
+    "uk": "QR-код",
+    "en": "QR Code"
+   },
+   "description": "Три метки позиционирования и модули",
+   "keywords": {
+    "ru": [
+     "QR",
+     "код",
+     "сканирование"
+    ],
+    "uk": [
+     "QR",
+     "код",
+     "сканування"
+    ],
+    "en": [
+     "qr code",
+     "scan",
+     "link"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/technology/qr-code.svg"
+  },
+  {
+   "id": "TEC-029",
+   "slug": "blockchain",
+   "category": "technology",
+   "name": "Блокчейн",
+   "names": {
+    "ru": "Блокчейн",
+    "uk": "Блокчейн",
+    "en": "Blockchain"
+   },
+   "description": "Четыре блока, замкнутые в цепь",
+   "keywords": {
+    "ru": [
+     "блокчейн",
+     "распределённый реестр",
+     "цепочка"
+    ],
+    "uk": [
+     "блокчейн",
+     "розподілений реєстр",
+     "ланцюжок"
+    ],
+    "en": [
+     "blockchain",
+     "ledger",
+     "distributed"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/technology/blockchain.svg"
+  },
+  {
+   "id": "TEC-030",
+   "slug": "data-center",
+   "category": "technology",
+   "name": "Дата-центр",
+   "names": {
+    "ru": "Дата-центр",
+    "uk": "Дата-центр",
+    "en": "Data Center"
+   },
+   "description": "Стойка с тремя полками",
+   "keywords": {
+    "ru": [
+     "дата-центр",
+     "стойка",
+     "инфраструктура"
+    ],
+    "uk": [
+     "дата-центр",
+     "стійка",
+     "інфраструктура"
+    ],
+    "en": [
+     "data center",
+     "rack",
+     "infrastructure"
+    ]
+   },
+   "tags": [
+    "device"
+   ],
+   "file": "icons/technology/data-center.svg"
+  },
+  {
+   "id": "TEC-031",
+   "slug": "usb",
+   "category": "technology",
+   "name": "USB",
+   "names": {
+    "ru": "USB",
+    "uk": "USB",
+    "en": "USB"
+   },
+   "description": "Трезубец разъёма USB",
+   "keywords": {
+    "ru": [
+     "USB",
+     "подключение",
+     "порт"
+    ],
+    "uk": [
+     "USB",
+     "підключення",
+     "порт"
+    ],
+    "en": [
+     "usb",
+     "connector",
+     "port"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/technology/usb.svg"
+  },
+  {
+   "id": "TEC-032",
+   "slug": "integration",
+   "category": "technology",
+   "name": "Интеграция модулей",
+   "names": {
+    "ru": "Интеграция модулей",
+    "uk": "Інтеграція модулів",
+    "en": "Integration"
+   },
+   "description": "Фрагмент пазла",
+   "keywords": {
+    "ru": [
+     "интеграция",
+     "модуль",
+     "совместимость"
+    ],
+    "uk": [
+     "інтеграція",
+     "модуль",
+     "сумісність"
+    ],
+    "en": [
+     "integration",
+     "plugin",
+     "module"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/technology/integration.svg"
+  },
+  {
+   "id": "TEC-033",
+   "slug": "vr-headset",
+   "category": "technology",
+   "name": "VR-гарнитура",
+   "names": {
+    "ru": "VR-гарнитура",
+    "uk": "VR-гарнітура",
+    "en": "VR Headset"
+   },
+   "description": "Очки виртуальной реальности",
+   "keywords": {
+    "ru": [
+     "VR",
+     "виртуальная реальность",
+     "иммерсив"
+    ],
+    "uk": [
+     "VR",
+     "віртуальна реальність",
+     "імерсив"
+    ],
+    "en": [
+     "vr",
+     "virtual reality",
+     "immersive"
+    ]
+   },
+   "tags": [
+    "device"
+   ],
+   "file": "icons/technology/vr-headset.svg"
+  },
+  {
+   "id": "TEC-034",
+   "slug": "smartwatch",
+   "category": "technology",
+   "name": "Умные часы",
+   "names": {
+    "ru": "Умные часы",
+    "uk": "Розумний годинник",
+    "en": "Smartwatch"
+   },
+   "description": "Часы с ремешком",
+   "keywords": {
+    "ru": [
+     "носимые устройства",
+     "часы",
+     "IoT"
+    ],
+    "uk": [
+     "носимі пристрої",
+     "годинник",
+     "IoT"
+    ],
+    "en": [
+     "smartwatch",
+     "wearable",
+     "iot"
+    ]
+   },
+   "tags": [
+    "device"
+   ],
+   "file": "icons/technology/smartwatch.svg"
+  },
+  {
+   "id": "TEC-035",
+   "slug": "password",
+   "category": "technology",
+   "name": "Пароль",
+   "names": {
+    "ru": "Пароль",
+    "uk": "Пароль",
+    "en": "Password"
+   },
+   "description": "Поле ввода со скрытыми символами",
+   "keywords": {
+    "ru": [
+     "пароль",
+     "вход",
+     "авторизация"
+    ],
+    "uk": [
+     "пароль",
+     "вхід",
+     "авторизація"
+    ],
+    "en": [
+     "password",
+     "login",
+     "credentials"
+    ]
+   },
+   "tags": [
+    "interface"
+   ],
+   "file": "icons/technology/password.svg"
+  },
+  {
+   "id": "TEC-036",
+   "slug": "cursor-click",
+   "category": "technology",
+   "name": "Клик",
+   "names": {
+    "ru": "Клик",
+    "uk": "Клік",
+    "en": "Click"
+   },
+   "description": "Указатель мыши",
+   "keywords": {
+    "ru": [
+     "клик",
+     "курсор",
+     "взаимодействие"
+    ],
+    "uk": [
+     "клік",
+     "курсор",
+     "взаємодія"
+    ],
+    "en": [
+     "click",
+     "cursor",
+     "pointer"
+    ]
+   },
+   "tags": [
+    "interface"
+   ],
+   "file": "icons/technology/cursor-click.svg"
+  },
+  {
+   "id": "TEC-037",
+   "slug": "backup",
+   "category": "technology",
+   "name": "Резервное копирование",
+   "names": {
+    "ru": "Резервное копирование",
+    "uk": "Резервне копіювання",
+    "en": "Backup"
+   },
+   "description": "Накопитель и круговая стрелка",
+   "keywords": {
+    "ru": [
+     "бэкап",
+     "резервная копия",
+     "восстановление"
+    ],
+    "uk": [
+     "бекап",
+     "резервна копія",
+     "відновлення"
+    ],
+    "en": [
+     "backup",
+     "restore",
+     "storage"
+    ]
+   },
+   "tags": [
+    "action"
+   ],
+   "file": "icons/technology/backup.svg"
+  },
+  {
+   "id": "TEC-038",
+   "slug": "web-development",
+   "category": "technology",
+   "name": "Веб-разработка",
+   "names": {
+    "ru": "Веб-разработка",
+    "uk": "Веб-розробка",
+    "en": "Web Development"
+   },
+   "description": "Окно браузера с кодом",
+   "keywords": {
+    "ru": [
+     "веб",
+     "фронтенд",
+     "сайт"
+    ],
+    "uk": [
+     "веб",
+     "фронтенд",
+     "сайт"
+    ],
+    "en": [
+     "web dev",
+     "frontend",
+     "website"
+    ]
+   },
+   "tags": [
+    "interface"
+   ],
+   "file": "icons/technology/web-development.svg"
+  },
+  {
+   "id": "TEC-039",
+   "slug": "signal-strength",
+   "category": "technology",
+   "name": "Сигнал сети",
+   "names": {
+    "ru": "Сигнал сети",
+    "uk": "Сигнал мережі",
+    "en": "Signal Strength"
+   },
+   "description": "Четыре столбика уровня",
+   "keywords": {
+    "ru": [
+     "сигнал",
+     "связь",
+     "мобильная сеть"
+    ],
+    "uk": [
+     "сигнал",
+     "зв’язок",
+     "мобільна мережа"
+    ],
+    "en": [
+     "signal",
+     "cellular",
+     "coverage"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/technology/signal-strength.svg"
+  },
+  {
+   "id": "TEC-040",
+   "slug": "battery",
+   "category": "technology",
+   "name": "Аккумулятор",
+   "names": {
+    "ru": "Аккумулятор",
+    "uk": "Акумулятор",
+    "en": "Battery"
+   },
+   "description": "Батарея с уровнем заряда",
+   "keywords": {
+    "ru": [
+     "батарея",
+     "питание",
+     "заряд"
+    ],
+    "uk": [
+     "батарея",
+     "живлення",
+     "заряд"
+    ],
+    "en": [
+     "battery",
+     "power",
+     "charge"
+    ]
+   },
+   "tags": [
+    "device"
+   ],
+   "file": "icons/technology/battery.svg"
+  },
+  {
+   "id": "TEC-041",
+   "slug": "firewall",
+   "category": "technology",
+   "name": "Межсетевой экран",
+   "names": {
+    "ru": "Межсетевой экран",
+    "uk": "Міжмережевий екран",
+    "en": "Firewall"
+   },
+   "description": "Кирпичная стена",
+   "keywords": {
+    "ru": [
+     "файрвол",
+     "брандмауэр",
+     "фильтрация"
+    ],
+    "uk": [
+     "файрвол",
+     "брандмауер",
+     "фільтрація"
+    ],
+    "en": [
+     "firewall",
+     "network security",
+     "filter"
+    ]
+   },
+   "tags": [
+    "security"
+   ],
+   "file": "icons/technology/firewall.svg"
+  },
+  {
+   "id": "TEC-042",
+   "slug": "database-search",
+   "category": "technology",
+   "name": "Поиск по базе",
+   "names": {
+    "ru": "Поиск по базе",
+    "uk": "Пошук у базі",
+    "en": "Database Query"
+   },
+   "description": "Цилиндр базы и лупа",
+   "keywords": {
+    "ru": [
+     "запрос",
+     "поиск",
+     "SQL"
+    ],
+    "uk": [
+     "запит",
+     "пошук",
+     "SQL"
+    ],
+    "en": [
+     "query",
+     "search",
+     "lookup"
+    ]
+   },
+   "tags": [
+    "action"
+   ],
+   "file": "icons/technology/database-search.svg"
+  },
+  {
+   "id": "TEC-043",
+   "slug": "performance",
+   "category": "technology",
+   "name": "Производительность",
+   "names": {
+    "ru": "Производительность",
+    "uk": "Продуктивність",
+    "en": "Performance"
+   },
+   "description": "Спидометр со стрелкой",
+   "keywords": {
+    "ru": [
+     "скорость",
+     "нагрузка",
+     "оптимизация"
+    ],
+    "uk": [
+     "швидкість",
+     "навантаження",
+     "оптимізація"
+    ],
+    "en": [
+     "performance",
+     "speed",
+     "benchmark"
+    ]
+   },
+   "tags": [
+    "chart"
+   ],
+   "file": "icons/technology/performance.svg"
+  },
+  {
+   "id": "TEC-044",
+   "slug": "circuit-board",
+   "category": "technology",
+   "name": "Печатная плата",
+   "names": {
+    "ru": "Печатная плата",
+    "uk": "Друкована плата",
+    "en": "Circuit Board"
+   },
+   "description": "Дорожки с контактами",
+   "keywords": {
+    "ru": [
+     "плата",
+     "схема",
+     "электроника"
+    ],
+    "uk": [
+     "плата",
+     "схема",
+     "електроніка"
+    ],
+    "en": [
+     "circuit",
+     "pcb",
+     "electronics"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/technology/circuit-board.svg"
+  },
+  {
+   "id": "TEC-045",
+   "slug": "machine-learning",
+   "category": "technology",
+   "name": "Машинное обучение",
+   "names": {
+    "ru": "Машинное обучение",
+    "uk": "Машинне навчання",
+    "en": "Machine Learning"
+   },
+   "description": "Стилизованный мозг",
+   "keywords": {
+    "ru": [
+     "машинное обучение",
+     "ИИ",
+     "обучение модели"
+    ],
+    "uk": [
+     "машинне навчання",
+     "ШІ",
+     "навчання моделі"
+    ],
+    "en": [
+     "machine learning",
+     "training",
+     "brain"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/technology/machine-learning.svg"
+  },
+  {
+   "id": "TEC-046",
+   "slug": "chatbot",
+   "category": "technology",
+   "name": "Чат-бот",
+   "names": {
+    "ru": "Чат-бот",
+    "uk": "Чат-бот",
+    "en": "Chatbot"
+   },
+   "description": "Реплика с лицом бота",
+   "keywords": {
+    "ru": [
+     "чат-бот",
+     "ассистент",
+     "диалог"
+    ],
+    "uk": [
+     "чат-бот",
+     "асистент",
+     "діалог"
+    ],
+    "en": [
+     "chatbot",
+     "assistant",
+     "conversation"
+    ]
+   },
+   "tags": [
+    "communication"
+   ],
+   "file": "icons/technology/chatbot.svg"
+  },
+  {
+   "id": "TEC-047",
+   "slug": "ethernet",
+   "category": "technology",
+   "name": "Сетевое подключение",
+   "names": {
+    "ru": "Сетевое подключение",
+    "uk": "Мережеве підключення",
+    "en": "Ethernet"
+   },
+   "description": "Коннектор RJ-45",
+   "keywords": {
+    "ru": [
+     "кабель",
+     "Ethernet",
+     "подключение"
+    ],
+    "uk": [
+     "кабель",
+     "Ethernet",
+     "підключення"
+    ],
+    "en": [
+     "ethernet",
+     "cable",
+     "connection"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/technology/ethernet.svg"
+  },
+  {
+   "id": "TEC-048",
+   "slug": "apps",
+   "category": "technology",
+   "name": "Приложения",
+   "names": {
+    "ru": "Приложения",
+    "uk": "Застосунки",
+    "en": "Apps"
+   },
+   "description": "Плитки приложений и плюс",
+   "keywords": {
+    "ru": [
+     "приложения",
+     "сервисы",
+     "каталог"
+    ],
+    "uk": [
+     "застосунки",
+     "сервіси",
+     "каталог"
+    ],
+    "en": [
+     "apps",
+     "services",
+     "catalog"
+    ]
+   },
+   "tags": [
+    "interface"
+   ],
+   "file": "icons/technology/apps.svg"
+  },
+  {
+   "id": "TEC-049",
+   "slug": "software-package",
+   "category": "technology",
+   "name": "Пакет сборки",
+   "names": {
+    "ru": "Пакет сборки",
+    "uk": "Пакет збірки",
+    "en": "Software Package"
+   },
+   "description": "Изометрический куб-упаковка",
+   "keywords": {
+    "ru": [
+     "пакет",
+     "сборка",
+     "релиз"
+    ],
+    "uk": [
+     "пакет",
+     "збірка",
+     "реліз"
+    ],
+    "en": [
+     "package",
+     "build",
+     "release"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/technology/software-package.svg"
+  },
+  {
+   "id": "TEC-050",
+   "slug": "usb-drive",
+   "category": "technology",
+   "name": "USB-накопитель",
+   "names": {
+    "ru": "USB-накопитель",
+    "uk": "USB-накопичувач",
+    "en": "USB Drive"
+   },
+   "description": "Флешка с разъёмом",
+   "keywords": {
+    "ru": [
+     "флешка",
+     "накопитель",
+     "данные"
+    ],
+    "uk": [
+     "флешка",
+     "накопичувач",
+     "дані"
+    ],
+    "en": [
+     "usb drive",
+     "flash",
+     "storage"
+    ]
+   },
+   "tags": [
+    "device"
+   ],
+   "file": "icons/technology/usb-drive.svg"
   }
  ]
 }
