@@ -8350,6 +8350,1658 @@
     "chart"
    ],
    "file": "icons/finance/asset-structure.svg"
+  },
+  {
+   "id": "DOC-001",
+   "slug": "document",
+   "category": "documents",
+   "name": "Документ",
+   "names": {
+    "ru": "Документ",
+    "uk": "Документ",
+    "en": "Document"
+   },
+   "description": "Лист с загнутым углом и текстом",
+   "keywords": {
+    "ru": [
+     "документ",
+     "файл",
+     "бумага"
+    ],
+    "uk": [
+     "документ",
+     "файл",
+     "папір"
+    ],
+    "en": [
+     "document",
+     "file",
+     "paper"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/documents/document.svg"
+  },
+  {
+   "id": "DOC-002",
+   "slug": "spreadsheet",
+   "category": "documents",
+   "name": "Таблица",
+   "names": {
+    "ru": "Таблица",
+    "uk": "Таблиця",
+    "en": "Spreadsheet"
+   },
+   "description": "Сетка с шапкой и столбцами",
+   "keywords": {
+    "ru": [
+     "таблица",
+     "Excel",
+     "данные"
+    ],
+    "uk": [
+     "таблиця",
+     "Excel",
+     "дані"
+    ],
+    "en": [
+     "spreadsheet",
+     "table",
+     "sheet"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/documents/spreadsheet.svg"
+  },
+  {
+   "id": "DOC-003",
+   "slug": "invoice",
+   "category": "documents",
+   "name": "Счёт-фактура",
+   "names": {
+    "ru": "Счёт-фактура",
+    "uk": "Рахунок-фактура",
+    "en": "Invoice"
+   },
+   "description": "Документ с позициями и суммами",
+   "keywords": {
+    "ru": [
+     "счёт",
+     "фактура",
+     "оплата"
+    ],
+    "uk": [
+     "рахунок",
+     "фактура",
+     "оплата"
+    ],
+    "en": [
+     "invoice",
+     "bill",
+     "billing"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/documents/invoice.svg"
+  },
+  {
+   "id": "DOC-004",
+   "slug": "receipt",
+   "category": "documents",
+   "name": "Квитанция",
+   "names": {
+    "ru": "Квитанция",
+    "uk": "Квитанція",
+    "en": "Receipt"
+   },
+   "description": "Чек с зубчатым краем",
+   "keywords": {
+    "ru": [
+     "чек",
+     "квитанция",
+     "оплата"
+    ],
+    "uk": [
+     "чек",
+     "квитанція",
+     "оплата"
+    ],
+    "en": [
+     "receipt",
+     "check",
+     "proof of payment"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/documents/receipt.svg"
+  },
+  {
+   "id": "DOC-005",
+   "slug": "rubber-stamp",
+   "category": "documents",
+   "name": "Печать",
+   "names": {
+    "ru": "Печать",
+    "uk": "Печатка",
+    "en": "Stamp"
+   },
+   "description": "Штамп с ручкой и оттиском",
+   "keywords": {
+    "ru": [
+     "печать",
+     "штамп",
+     "заверение"
+    ],
+    "uk": [
+     "печатка",
+     "штамп",
+     "засвідчення"
+    ],
+    "en": [
+     "stamp",
+     "approve",
+     "seal"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/documents/rubber-stamp.svg"
+  },
+  {
+   "id": "DOC-006",
+   "slug": "signature",
+   "category": "documents",
+   "name": "Подпись",
+   "names": {
+    "ru": "Подпись",
+    "uk": "Підпис",
+    "en": "Signature"
+   },
+   "description": "Росчерк на линии с отметкой",
+   "keywords": {
+    "ru": [
+     "подпись",
+     "автограф",
+     "визирование"
+    ],
+    "uk": [
+     "підпис",
+     "автограф",
+     "візування"
+    ],
+    "en": [
+     "signature",
+     "sign here",
+     "autograph"
+    ]
+   },
+   "tags": [
+    "action"
+   ],
+   "file": "icons/documents/signature.svg"
+  },
+  {
+   "id": "DOC-007",
+   "slug": "archive-box",
+   "category": "documents",
+   "name": "Архивная коробка",
+   "names": {
+    "ru": "Архивная коробка",
+    "uk": "Архівна коробка",
+    "en": "Archive Box"
+   },
+   "description": "Короб с крышкой и ручкой",
+   "keywords": {
+    "ru": [
+     "архив",
+     "хранение",
+     "дела"
+    ],
+    "uk": [
+     "архів",
+     "зберігання",
+     "справи"
+    ],
+    "en": [
+     "archive",
+     "storage",
+     "records"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/documents/archive-box.svg"
+  },
+  {
+   "id": "DOC-008",
+   "slug": "tax-return",
+   "category": "documents",
+   "name": "Налоговая декларация",
+   "names": {
+    "ru": "Налоговая декларация",
+    "uk": "Податкова декларація",
+    "en": "Tax Return"
+   },
+   "description": "Документ со знаком процента",
+   "keywords": {
+    "ru": [
+     "налоги",
+     "декларация",
+     "отчётность"
+    ],
+    "uk": [
+     "податки",
+     "декларація",
+     "звітність"
+    ],
+    "en": [
+     "tax return",
+     "declaration",
+     "filing"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/documents/tax-return.svg"
+  },
+  {
+   "id": "DOC-009",
+   "slug": "balance-sheet",
+   "category": "documents",
+   "name": "Бухгалтерский баланс",
+   "names": {
+    "ru": "Бухгалтерский баланс",
+    "uk": "Бухгалтерський баланс",
+    "en": "Balance Sheet"
+   },
+   "description": "Раскрытая книга с двумя колонками",
+   "keywords": {
+    "ru": [
+     "баланс",
+     "актив",
+     "пассив"
+    ],
+    "uk": [
+     "баланс",
+     "актив",
+     "пасив"
+    ],
+    "en": [
+     "balance sheet",
+     "assets",
+     "liabilities"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/documents/balance-sheet.svg"
+  },
+  {
+   "id": "DOC-010",
+   "slug": "e-document",
+   "category": "documents",
+   "name": "Электронный документ",
+   "names": {
+    "ru": "Электронный документ",
+    "uk": "Електронний документ",
+    "en": "E-Document"
+   },
+   "description": "Документ с кодовыми скобками",
+   "keywords": {
+    "ru": [
+     "электронный документ",
+     "ЭДО",
+     "цифровой"
+    ],
+    "uk": [
+     "електронний документ",
+     "ЕДО",
+     "цифровий"
+    ],
+    "en": [
+     "e-document",
+     "digital",
+     "edi"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/documents/e-document.svg"
+  },
+  {
+   "id": "DOC-011",
+   "slug": "document-stack",
+   "category": "documents",
+   "name": "Пакет документов",
+   "names": {
+    "ru": "Пакет документов",
+    "uk": "Пакет документів",
+    "en": "Document Set"
+   },
+   "description": "Стопка листов",
+   "keywords": {
+    "ru": [
+     "пакет",
+     "документы",
+     "комплект"
+    ],
+    "uk": [
+     "пакет",
+     "документи",
+     "комплект"
+    ],
+    "en": [
+     "documents",
+     "set",
+     "bundle"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/documents/document-stack.svg"
+  },
+  {
+   "id": "DOC-012",
+   "slug": "registry-journal",
+   "category": "documents",
+   "name": "Журнал регистрации",
+   "names": {
+    "ru": "Журнал регистрации",
+    "uk": "Журнал реєстрації",
+    "en": "Registry Log"
+   },
+   "description": "Журнал с корешком и строками",
+   "keywords": {
+    "ru": [
+     "регистрация",
+     "журнал",
+     "входящие"
+    ],
+    "uk": [
+     "реєстрація",
+     "журнал",
+     "вхідні"
+    ],
+    "en": [
+     "registry",
+     "log",
+     "register"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/documents/registry-journal.svg"
+  },
+  {
+   "id": "DOC-013",
+   "slug": "document-flow",
+   "category": "documents",
+   "name": "Документооборот",
+   "names": {
+    "ru": "Документооборот",
+    "uk": "Документообіг",
+    "en": "Document Workflow"
+   },
+   "description": "Два документа и встречные стрелки",
+   "keywords": {
+    "ru": [
+     "документооборот",
+     "маршрут",
+     "согласование"
+    ],
+    "uk": [
+     "документообіг",
+     "маршрут",
+     "погодження"
+    ],
+    "en": [
+     "workflow",
+     "routing",
+     "document flow"
+    ]
+   },
+   "tags": [
+    "action"
+   ],
+   "file": "icons/documents/document-flow.svg"
+  },
+  {
+   "id": "DOC-014",
+   "slug": "calculator",
+   "category": "documents",
+   "name": "Калькулятор",
+   "names": {
+    "ru": "Калькулятор",
+    "uk": "Калькулятор",
+    "en": "Calculator"
+   },
+   "description": "Калькулятор с дисплеем",
+   "keywords": {
+    "ru": [
+     "расчёт",
+     "калькулятор",
+     "бухгалтерия"
+    ],
+    "uk": [
+     "розрахунок",
+     "калькулятор",
+     "бухгалтерія"
+    ],
+    "en": [
+     "calculator",
+     "calculation",
+     "accounting"
+    ]
+   },
+   "tags": [
+    "device"
+   ],
+   "file": "icons/documents/calculator.svg"
+  },
+  {
+   "id": "DOC-015",
+   "slug": "ledger",
+   "category": "documents",
+   "name": "Бухгалтерская книга",
+   "names": {
+    "ru": "Бухгалтерская книга",
+    "uk": "Бухгалтерська книга",
+    "en": "Ledger"
+   },
+   "description": "Книга с закладкой",
+   "keywords": {
+    "ru": [
+     "учёт",
+     "гроссбух",
+     "проводки"
+    ],
+    "uk": [
+     "облік",
+     "гросбух",
+     "проводки"
+    ],
+    "en": [
+     "ledger",
+     "bookkeeping",
+     "journal"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/documents/ledger.svg"
+  },
+  {
+   "id": "DOC-016",
+   "slug": "new-folder",
+   "category": "documents",
+   "name": "Новая папка",
+   "names": {
+    "ru": "Новая папка",
+    "uk": "Нова тека",
+    "en": "New Folder"
+   },
+   "description": "Папка с плюсом",
+   "keywords": {
+    "ru": [
+     "папка",
+     "создать",
+     "каталог"
+    ],
+    "uk": [
+     "тека",
+     "створити",
+     "каталог"
+    ],
+    "en": [
+     "folder",
+     "new",
+     "directory"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/documents/new-folder.svg"
+  },
+  {
+   "id": "DOC-017",
+   "slug": "attachment",
+   "category": "documents",
+   "name": "Вложение",
+   "names": {
+    "ru": "Вложение",
+    "uk": "Вкладення",
+    "en": "Attachment"
+   },
+   "description": "Скрепка",
+   "keywords": {
+    "ru": [
+     "вложение",
+     "скрепка",
+     "файл"
+    ],
+    "uk": [
+     "вкладення",
+     "скріпка",
+     "файл"
+    ],
+    "en": [
+     "attachment",
+     "paperclip",
+     "attach"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/documents/attachment.svg"
+  },
+  {
+   "id": "DOC-018",
+   "slug": "report",
+   "category": "documents",
+   "name": "Отчёт",
+   "names": {
+    "ru": "Отчёт",
+    "uk": "Звіт",
+    "en": "Report"
+   },
+   "description": "Лист со столбиковой диаграммой",
+   "keywords": {
+    "ru": [
+     "отчёт",
+     "показатели",
+     "итоги"
+    ],
+    "uk": [
+     "звіт",
+     "показники",
+     "підсумки"
+    ],
+    "en": [
+     "report",
+     "results",
+     "summary"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/documents/report.svg"
+  },
+  {
+   "id": "DOC-019",
+   "slug": "acceptance-act",
+   "category": "documents",
+   "name": "Акт выполненных работ",
+   "names": {
+    "ru": "Акт выполненных работ",
+    "uk": "Акт виконаних робіт",
+    "en": "Acceptance Certificate"
+   },
+   "description": "Документ с отмеченными пунктами",
+   "keywords": {
+    "ru": [
+     "акт",
+     "приёмка",
+     "работы"
+    ],
+    "uk": [
+     "акт",
+     "приймання",
+     "роботи"
+    ],
+    "en": [
+     "acceptance",
+     "completion",
+     "sign-off"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/documents/acceptance-act.svg"
+  },
+  {
+   "id": "DOC-020",
+   "slug": "payment-invoice",
+   "category": "documents",
+   "name": "Счёт на оплату",
+   "names": {
+    "ru": "Счёт на оплату",
+    "uk": "Рахунок на оплату",
+    "en": "Payment Request"
+   },
+   "description": "Документ с монетой",
+   "keywords": {
+    "ru": [
+     "счёт",
+     "к оплате",
+     "сумма"
+    ],
+    "uk": [
+     "рахунок",
+     "до сплати",
+     "сума"
+    ],
+    "en": [
+     "bill",
+     "payment request",
+     "amount due"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/documents/payment-invoice.svg"
+  },
+  {
+   "id": "DOC-021",
+   "slug": "scan-document",
+   "category": "documents",
+   "name": "Сканирование",
+   "names": {
+    "ru": "Сканирование",
+    "uk": "Сканування",
+    "en": "Scan Document"
+   },
+   "description": "Лист с лучом сканера",
+   "keywords": {
+    "ru": [
+     "скан",
+     "оцифровка",
+     "копия"
+    ],
+    "uk": [
+     "скан",
+     "оцифрування",
+     "копія"
+    ],
+    "en": [
+     "scan",
+     "digitize",
+     "copy"
+    ]
+   },
+   "tags": [
+    "action"
+   ],
+   "file": "icons/documents/scan-document.svg"
+  },
+  {
+   "id": "DOC-022",
+   "slug": "copy-document",
+   "category": "documents",
+   "name": "Копия документа",
+   "names": {
+    "ru": "Копия документа",
+    "uk": "Копія документа",
+    "en": "Copy"
+   },
+   "description": "Два наложенных листа",
+   "keywords": {
+    "ru": [
+     "копия",
+     "дубликат",
+     "копировать"
+    ],
+    "uk": [
+     "копія",
+     "дублікат",
+     "копіювати"
+    ],
+    "en": [
+     "copy",
+     "duplicate",
+     "clone"
+    ]
+   },
+   "tags": [
+    "action"
+   ],
+   "file": "icons/documents/copy-document.svg"
+  },
+  {
+   "id": "DOC-023",
+   "slug": "shredder",
+   "category": "documents",
+   "name": "Уничтожение документов",
+   "names": {
+    "ru": "Уничтожение документов",
+    "uk": "Знищення документів",
+    "en": "Shredder"
+   },
+   "description": "Шредер с полосками бумаги",
+   "keywords": {
+    "ru": [
+     "шредер",
+     "уничтожение",
+     "конфиденциальность"
+    ],
+    "uk": [
+     "шредер",
+     "знищення",
+     "конфіденційність"
+    ],
+    "en": [
+     "shredder",
+     "destroy",
+     "disposal"
+    ]
+   },
+   "tags": [
+    "device"
+   ],
+   "file": "icons/documents/shredder.svg"
+  },
+  {
+   "id": "DOC-024",
+   "slug": "barcode",
+   "category": "documents",
+   "name": "Штрихкод",
+   "names": {
+    "ru": "Штрихкод",
+    "uk": "Штрихкод",
+    "en": "Barcode"
+   },
+   "description": "Полосы штрихкода",
+   "keywords": {
+    "ru": [
+     "штрихкод",
+     "маркировка",
+     "учёт"
+    ],
+    "uk": [
+     "штрихкод",
+     "маркування",
+     "облік"
+    ],
+    "en": [
+     "barcode",
+     "label",
+     "inventory"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/documents/barcode.svg"
+  },
+  {
+   "id": "DOC-025",
+   "slug": "registration-number",
+   "category": "documents",
+   "name": "Регистрационный номер",
+   "names": {
+    "ru": "Регистрационный номер",
+    "uk": "Реєстраційний номер",
+    "en": "Registration Number"
+   },
+   "description": "Документ со знаком номера",
+   "keywords": {
+    "ru": [
+     "номер",
+     "регистрация",
+     "индекс"
+    ],
+    "uk": [
+     "номер",
+     "реєстрація",
+     "індекс"
+    ],
+    "en": [
+     "registration number",
+     "id",
+     "reference"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/documents/registration-number.svg"
+  },
+  {
+   "id": "DOC-026",
+   "slug": "inbox",
+   "category": "documents",
+   "name": "Входящие документы",
+   "names": {
+    "ru": "Входящие документы",
+    "uk": "Вхідні документи",
+    "en": "Inbox"
+   },
+   "description": "Лоток для входящих",
+   "keywords": {
+    "ru": [
+     "входящие",
+     "лоток",
+     "поступления"
+    ],
+    "uk": [
+     "вхідні",
+     "лоток",
+     "надходження"
+    ],
+    "en": [
+     "inbox",
+     "incoming",
+     "tray"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/documents/inbox.svg"
+  },
+  {
+   "id": "DOC-027",
+   "slug": "outbox",
+   "category": "documents",
+   "name": "Исходящие документы",
+   "names": {
+    "ru": "Исходящие документы",
+    "uk": "Вихідні документи",
+    "en": "Outbox"
+   },
+   "description": "Лоток со стрелкой вверх",
+   "keywords": {
+    "ru": [
+     "исходящие",
+     "отправка",
+     "корреспонденция"
+    ],
+    "uk": [
+     "вихідні",
+     "відправлення",
+     "кореспонденція"
+    ],
+    "en": [
+     "outbox",
+     "outgoing",
+     "send"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/documents/outbox.svg"
+  },
+  {
+   "id": "DOC-028",
+   "slug": "binder",
+   "category": "documents",
+   "name": "Папка-регистратор",
+   "names": {
+    "ru": "Папка-регистратор",
+    "uk": "Тека-реєстратор",
+    "en": "Binder"
+   },
+   "description": "Папка с корешком и ярлыком",
+   "keywords": {
+    "ru": [
+     "регистратор",
+     "подшивка",
+     "дела"
+    ],
+    "uk": [
+     "реєстратор",
+     "підшивка",
+     "справи"
+    ],
+    "en": [
+     "binder",
+     "file folder",
+     "records"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/documents/binder.svg"
+  },
+  {
+   "id": "DOC-029",
+   "slug": "sticky-note",
+   "category": "documents",
+   "name": "Заметка",
+   "names": {
+    "ru": "Заметка",
+    "uk": "Нотатка",
+    "en": "Sticky Note"
+   },
+   "description": "Стикер с загнутым углом",
+   "keywords": {
+    "ru": [
+     "заметка",
+     "стикер",
+     "напоминание"
+    ],
+    "uk": [
+     "нотатка",
+     "стікер",
+     "нагадування"
+    ],
+    "en": [
+     "note",
+     "sticky",
+     "memo"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/documents/sticky-note.svg"
+  },
+  {
+   "id": "DOC-030",
+   "slug": "checklist",
+   "category": "documents",
+   "name": "Чек-лист",
+   "names": {
+    "ru": "Чек-лист",
+    "uk": "Чек-лист",
+    "en": "Checklist"
+   },
+   "description": "Список с галочками",
+   "keywords": {
+    "ru": [
+     "список",
+     "проверка",
+     "задачи"
+    ],
+    "uk": [
+     "список",
+     "перевірка",
+     "завдання"
+    ],
+    "en": [
+     "checklist",
+     "to-do",
+     "verification"
+    ]
+   },
+   "tags": [
+    "interface"
+   ],
+   "file": "icons/documents/checklist.svg"
+  },
+  {
+   "id": "DOC-031",
+   "slug": "payroll",
+   "category": "documents",
+   "name": "Расчёт зарплаты",
+   "names": {
+    "ru": "Расчёт зарплаты",
+    "uk": "Розрахунок зарплати",
+    "en": "Payroll"
+   },
+   "description": "Сотрудник и купюра",
+   "keywords": {
+    "ru": [
+     "зарплата",
+     "ведомость",
+     "выплаты"
+    ],
+    "uk": [
+     "зарплата",
+     "відомість",
+     "виплати"
+    ],
+    "en": [
+     "payroll",
+     "salary",
+     "wages"
+    ]
+   },
+   "tags": [
+    "person"
+   ],
+   "file": "icons/documents/payroll.svg"
+  },
+  {
+   "id": "DOC-032",
+   "slug": "vat",
+   "category": "documents",
+   "name": "НДС в чеке",
+   "names": {
+    "ru": "НДС в чеке",
+    "uk": "ПДВ у чеку",
+    "en": "VAT"
+   },
+   "description": "Чек со знаком процента",
+   "keywords": {
+    "ru": [
+     "НДС",
+     "налог",
+     "чек"
+    ],
+    "uk": [
+     "ПДВ",
+     "податок",
+     "чек"
+    ],
+    "en": [
+     "vat",
+     "sales tax",
+     "receipt"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/documents/vat.svg"
+  },
+  {
+   "id": "DOC-033",
+   "slug": "period-closing",
+   "category": "documents",
+   "name": "Закрытие периода",
+   "names": {
+    "ru": "Закрытие периода",
+    "uk": "Закриття періоду",
+    "en": "Period Closing"
+   },
+   "description": "Календарь с подтверждением",
+   "keywords": {
+    "ru": [
+     "закрытие",
+     "период",
+     "месяц"
+    ],
+    "uk": [
+     "закриття",
+     "період",
+     "місяць"
+    ],
+    "en": [
+     "period close",
+     "month end",
+     "fiscal period"
+    ]
+   },
+   "tags": [
+    "time"
+   ],
+   "file": "icons/documents/period-closing.svg"
+  },
+  {
+   "id": "DOC-034",
+   "slug": "confidential-document",
+   "category": "documents",
+   "name": "Конфиденциальный документ",
+   "names": {
+    "ru": "Конфиденциальный документ",
+    "uk": "Конфіденційний документ",
+    "en": "Confidential Document"
+   },
+   "description": "Документ с замком",
+   "keywords": {
+    "ru": [
+     "конфиденциально",
+     "гриф",
+     "доступ"
+    ],
+    "uk": [
+     "конфіденційно",
+     "гриф",
+     "доступ"
+    ],
+    "en": [
+     "confidential",
+     "restricted",
+     "locked"
+    ]
+   },
+   "tags": [
+    "document",
+    "security"
+   ],
+   "file": "icons/documents/confidential-document.svg"
+  },
+  {
+   "id": "DOC-035",
+   "slug": "document-export",
+   "category": "documents",
+   "name": "Экспорт документа",
+   "names": {
+    "ru": "Экспорт документа",
+    "uk": "Експорт документа",
+    "en": "Export Document"
+   },
+   "description": "Документ со стрелкой вверх внутри",
+   "keywords": {
+    "ru": [
+     "экспорт",
+     "выгрузка",
+     "файл"
+    ],
+    "uk": [
+     "експорт",
+     "вивантаження",
+     "файл"
+    ],
+    "en": [
+     "export",
+     "save as",
+     "output"
+    ]
+   },
+   "tags": [
+    "action"
+   ],
+   "file": "icons/documents/document-export.svg"
+  },
+  {
+   "id": "DOC-036",
+   "slug": "document-search",
+   "category": "documents",
+   "name": "Поиск документов",
+   "names": {
+    "ru": "Поиск документов",
+    "uk": "Пошук документів",
+    "en": "Document Search"
+   },
+   "description": "Документ и лупа",
+   "keywords": {
+    "ru": [
+     "поиск",
+     "найти",
+     "архив"
+    ],
+    "uk": [
+     "пошук",
+     "знайти",
+     "архів"
+    ],
+    "en": [
+     "search",
+     "find",
+     "lookup"
+    ]
+   },
+   "tags": [
+    "action"
+   ],
+   "file": "icons/documents/document-search.svg"
+  },
+  {
+   "id": "DOC-037",
+   "slug": "version-history",
+   "category": "documents",
+   "name": "История версий",
+   "names": {
+    "ru": "История версий",
+    "uk": "Історія версій",
+    "en": "Version History"
+   },
+   "description": "Документ с часами",
+   "keywords": {
+    "ru": [
+     "версии",
+     "изменения",
+     "история"
+    ],
+    "uk": [
+     "версії",
+     "зміни",
+     "історія"
+    ],
+    "en": [
+     "versions",
+     "history",
+     "changes"
+    ]
+   },
+   "tags": [
+    "document",
+    "time"
+   ],
+   "file": "icons/documents/version-history.svg"
+  },
+  {
+   "id": "DOC-038",
+   "slug": "approved",
+   "category": "documents",
+   "name": "Согласовано",
+   "names": {
+    "ru": "Согласовано",
+    "uk": "Погоджено",
+    "en": "Approved"
+   },
+   "description": "Планшет с галочкой",
+   "keywords": {
+    "ru": [
+     "согласование",
+     "утверждено",
+     "виза"
+    ],
+    "uk": [
+     "погодження",
+     "затверджено",
+     "віза"
+    ],
+    "en": [
+     "approved",
+     "accepted",
+     "signed off"
+    ]
+   },
+   "tags": [
+    "status"
+   ],
+   "file": "icons/documents/approved.svg"
+  },
+  {
+   "id": "DOC-039",
+   "slug": "rejected",
+   "category": "documents",
+   "name": "Отклонено",
+   "names": {
+    "ru": "Отклонено",
+    "uk": "Відхилено",
+    "en": "Rejected"
+   },
+   "description": "Планшет с крестиком",
+   "keywords": {
+    "ru": [
+     "отказ",
+     "отклонено",
+     "возврат"
+    ],
+    "uk": [
+     "відмова",
+     "відхилено",
+     "повернення"
+    ],
+    "en": [
+     "rejected",
+     "declined",
+     "returned"
+    ]
+   },
+   "tags": [
+    "status"
+   ],
+   "file": "icons/documents/rejected.svg"
+  },
+  {
+   "id": "DOC-040",
+   "slug": "draft",
+   "category": "documents",
+   "name": "Черновик",
+   "names": {
+    "ru": "Черновик",
+    "uk": "Чернетка",
+    "en": "Draft"
+   },
+   "description": "Документ и карандаш",
+   "keywords": {
+    "ru": [
+     "черновик",
+     "правка",
+     "редакция"
+    ],
+    "uk": [
+     "чернетка",
+     "правка",
+     "редакція"
+    ],
+    "en": [
+     "draft",
+     "edit",
+     "revision"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/documents/draft.svg"
+  },
+  {
+   "id": "DOC-041",
+   "slug": "correspondence",
+   "category": "documents",
+   "name": "Корреспонденция",
+   "names": {
+    "ru": "Корреспонденция",
+    "uk": "Кореспонденція",
+    "en": "Correspondence"
+   },
+   "description": "Конверт",
+   "keywords": {
+    "ru": [
+     "письмо",
+     "почта",
+     "корреспонденция"
+    ],
+    "uk": [
+     "лист",
+     "пошта",
+     "кореспонденція"
+    ],
+    "en": [
+     "mail",
+     "letter",
+     "correspondence"
+    ]
+   },
+   "tags": [
+    "communication"
+   ],
+   "file": "icons/documents/correspondence.svg"
+  },
+  {
+   "id": "DOC-042",
+   "slug": "cash-register",
+   "category": "documents",
+   "name": "Кассовый аппарат",
+   "names": {
+    "ru": "Кассовый аппарат",
+    "uk": "Касовий апарат",
+    "en": "Cash Register"
+   },
+   "description": "Касса с дисплеем и ящиком",
+   "keywords": {
+    "ru": [
+     "касса",
+     "приход",
+     "выручка"
+    ],
+    "uk": [
+     "каса",
+     "прибуток",
+     "виторг"
+    ],
+    "en": [
+     "cash register",
+     "till",
+     "sales"
+    ]
+   },
+   "tags": [
+    "device"
+   ],
+   "file": "icons/documents/cash-register.svg"
+  },
+  {
+   "id": "DOC-043",
+   "slug": "inventory-list",
+   "category": "documents",
+   "name": "Опись документов",
+   "names": {
+    "ru": "Опись документов",
+    "uk": "Опис документів",
+    "en": "Inventory List"
+   },
+   "description": "Лист со списком пунктов",
+   "keywords": {
+    "ru": [
+     "опись",
+     "перечень",
+     "реестр"
+    ],
+    "uk": [
+     "опис",
+     "перелік",
+     "реєстр"
+    ],
+    "en": [
+     "inventory",
+     "list",
+     "register"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/documents/inventory-list.svg"
+  },
+  {
+   "id": "DOC-044",
+   "slug": "asset-tag",
+   "category": "documents",
+   "name": "Инвентарная бирка",
+   "names": {
+    "ru": "Инвентарная бирка",
+    "uk": "Інвентарна бирка",
+    "en": "Asset Tag"
+   },
+   "description": "Бирка с отверстием",
+   "keywords": {
+    "ru": [
+     "инвентаризация",
+     "основные средства",
+     "бирка"
+    ],
+    "uk": [
+     "інвентаризація",
+     "основні засоби",
+     "бирка"
+    ],
+    "en": [
+     "asset tag",
+     "inventory",
+     "fixed assets"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/documents/asset-tag.svg"
+  },
+  {
+   "id": "DOC-045",
+   "slug": "e-signature",
+   "category": "documents",
+   "name": "Электронная подпись",
+   "names": {
+    "ru": "Электронная подпись",
+    "uk": "Електронний підпис",
+    "en": "E-Signature"
+   },
+   "description": "Планшет с росчерком и стилус",
+   "keywords": {
+    "ru": [
+     "ЭЦП",
+     "электронная подпись",
+     "КЭП"
+    ],
+    "uk": [
+     "ЕЦП",
+     "електронний підпис",
+     "КЕП"
+    ],
+    "en": [
+     "e-signature",
+     "digital signature",
+     "qes"
+    ]
+   },
+   "tags": [
+    "action"
+   ],
+   "file": "icons/documents/e-signature.svg"
+  },
+  {
+   "id": "DOC-046",
+   "slug": "reconciliation",
+   "category": "documents",
+   "name": "Сверка расчётов",
+   "names": {
+    "ru": "Сверка расчётов",
+    "uk": "Звірка розрахунків",
+    "en": "Reconciliation"
+   },
+   "description": "Два документа и встречные стрелки",
+   "keywords": {
+    "ru": [
+     "сверка",
+     "акт сверки",
+     "взаиморасчёты"
+    ],
+    "uk": [
+     "звірка",
+     "акт звірки",
+     "взаєморозрахунки"
+    ],
+    "en": [
+     "reconciliation",
+     "matching",
+     "settlement"
+    ]
+   },
+   "tags": [
+    "action"
+   ],
+   "file": "icons/documents/reconciliation.svg"
+  },
+  {
+   "id": "DOC-047",
+   "slug": "bookmark",
+   "category": "documents",
+   "name": "Закладка",
+   "names": {
+    "ru": "Закладка",
+    "uk": "Закладка",
+    "en": "Bookmark"
+   },
+   "description": "Флажок закладки",
+   "keywords": {
+    "ru": [
+     "закладка",
+     "сохранить",
+     "избранное"
+    ],
+    "uk": [
+     "закладка",
+     "зберегти",
+     "обране"
+    ],
+    "en": [
+     "bookmark",
+     "save",
+     "mark"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/documents/bookmark.svg"
+  },
+  {
+   "id": "DOC-048",
+   "slug": "document-template",
+   "category": "documents",
+   "name": "Шаблон документа",
+   "names": {
+    "ru": "Шаблон документа",
+    "uk": "Шаблон документа",
+    "en": "Document Template"
+   },
+   "description": "Лист с блоками-заполнителями",
+   "keywords": {
+    "ru": [
+     "шаблон",
+     "форма",
+     "бланк"
+    ],
+    "uk": [
+     "шаблон",
+     "форма",
+     "бланк"
+    ],
+    "en": [
+     "template",
+     "form",
+     "blank"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/documents/document-template.svg"
+  },
+  {
+   "id": "DOC-049",
+   "slug": "annual-report",
+   "category": "documents",
+   "name": "Годовой отчёт",
+   "names": {
+    "ru": "Годовой отчёт",
+    "uk": "Річний звіт",
+    "en": "Annual Report"
+   },
+   "description": "Лист с линейным графиком",
+   "keywords": {
+    "ru": [
+     "годовой отчёт",
+     "итоги года",
+     "результаты"
+    ],
+    "uk": [
+     "річний звіт",
+     "підсумки року",
+     "результати"
+    ],
+    "en": [
+     "annual report",
+     "yearly results",
+     "review"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/documents/annual-report.svg"
+  },
+  {
+   "id": "DOC-050",
+   "slug": "cloud-archive",
+   "category": "documents",
+   "name": "Электронный архив",
+   "names": {
+    "ru": "Электронный архив",
+    "uk": "Електронний архів",
+    "en": "Cloud Archive"
+   },
+   "description": "Облако со строками документов",
+   "keywords": {
+    "ru": [
+     "архив",
+     "облако",
+     "хранение"
+    ],
+    "uk": [
+     "архів",
+     "хмара",
+     "зберігання"
+    ],
+    "en": [
+     "cloud archive",
+     "storage",
+     "digital records"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/documents/cloud-archive.svg"
   }
  ]
 }
