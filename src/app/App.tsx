@@ -52,7 +52,7 @@ function useHashRoute() {
     window.addEventListener('hashchange', on);
     return () => window.removeEventListener('hashchange', on);
   }, []);
-  return hash.startsWith('#/quality') ? 'quality' : 'studio';
+  return /^#\/?quality/.test(hash) ? 'quality' : 'studio';
 }
 
 function useShortcuts() {
@@ -110,7 +110,7 @@ function TopBar() {
         <span className="mx-1 hidden h-5 w-px bg-line sm:block" />
         <IconButton label={t('savePreset')} className="hidden sm:inline-flex" onClick={() => s.setPresetDialog(true)}><Bookmark size={16} /></IconButton>
         <IconButton label={t('theme')} onClick={() => s.setTheme(s.theme === 'dark' ? 'light' : 'dark')}>{s.theme === 'dark' ? <Sun size={16} /> : <Moon size={16} />}</IconButton>
-        <a href="#/quality" className="hidden sm:inline-flex" aria-label={t('quality')}><IconButton label={t('quality')} tabIndex={-1}><ShieldCheck size={16} /></IconButton></a>
+        <a href="#quality" className="hidden sm:inline-flex" aria-label={t('quality')}><IconButton label={t('quality')} tabIndex={-1}><ShieldCheck size={16} /></IconButton></a>
         <IconButton label={`${t('shortcuts')} (?)`} className="hidden md:inline-flex" onClick={() => s.setShortcutsOpen(true)} tipPos="left"><Keyboard size={16} /></IconButton>
         <IconButton label={t('inspector')} className="lg:hidden" active={s.drawer === 'inspector'} onClick={() => s.setDrawer(s.drawer === 'inspector' ? 'none' : 'inspector')} tipPos="left"><SlidersHorizontal size={16} /></IconButton>
         <Button variant="primary" className="ml-1.5" onClick={() => s.setExportOpen(true)} data-testid="open-export"><Download size={14} /><span className="hidden sm:inline">{t('export')}</span></Button>

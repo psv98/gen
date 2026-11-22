@@ -76,7 +76,7 @@ test('favorites and custom presets persist after reload', async ({ page }) => {
 });
 
 test('quality gallery lists every category with 50 icons', async ({ page }) => {
-  await page.goto('/#/quality');
+  await page.goto('/#quality');
   await expect(page.getByRole('heading', { name: 'Icon Quality Gallery' })).toBeVisible();
   await expect(page.locator('main button')).toHaveCount(50);
 });

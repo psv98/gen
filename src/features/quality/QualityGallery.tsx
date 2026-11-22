@@ -24,7 +24,7 @@ export default function QualityGallery() {
   return (
     <div className="flex h-full flex-col">
       <header className="flex h-12 shrink-0 items-center gap-3 border-b border-line bg-panel px-4">
-        <a href="#/" className="inline-flex items-center gap-1.5 rounded-lg px-2 py-1 text-[13px] text-fg-2 hover:bg-raised hover:text-fg"><ArrowLeft size={15} />Студия</a>
+        <a href="#" className="inline-flex items-center gap-1.5 rounded-lg px-2 py-1 text-[13px] text-fg-2 hover:bg-raised hover:text-fg"><ArrowLeft size={15} />Студия</a>
         <h1 className="text-[14px] font-semibold">Icon Quality Gallery</h1>
         <span className="font-mono text-[12px] text-muted">{icons.length} иконок</span>
         <div className="ml-auto flex items-center gap-2">
@@ -72,7 +72,7 @@ export default function QualityGallery() {
                 <button
                   key={ic.id}
                   type="button"
-                  onClick={() => { s.selectIcon(ic.id); window.location.hash = '#/'; }}
+                  onClick={() => { s.selectIcon(ic.id); window.location.hash = ''; }}
                   className={cx('rounded-xl border p-3 text-left transition-colors', dark ? 'border-white/10 hover:border-white/30' : 'border-black/10 hover:border-black/30')}
                   title="Открыть в студии"
                 >
