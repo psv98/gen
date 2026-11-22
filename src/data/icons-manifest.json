@@ -13302,6 +13302,3307 @@
     "communication"
    ],
    "file": "icons/ngo/gratitude.svg"
+  },
+  {
+   "id": "SEC-001",
+   "slug": "shield",
+   "category": "security",
+   "name": "Щит",
+   "names": {
+    "ru": "Щит",
+    "uk": "Щит",
+    "en": "Shield"
+   },
+   "description": "Классический щит",
+   "keywords": {
+    "ru": [
+     "защита",
+     "безопасность",
+     "оборона"
+    ],
+    "uk": [
+     "захист",
+     "безпека",
+     "оборона"
+    ],
+    "en": [
+     "shield",
+     "protection",
+     "defense"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/security/shield.svg"
+  },
+  {
+   "id": "SEC-002",
+   "slug": "protective-helmet",
+   "category": "security",
+   "name": "Защитная каска",
+   "names": {
+    "ru": "Защитная каска",
+    "uk": "Захисний шолом",
+    "en": "Protective Helmet"
+   },
+   "description": "Каска с ободом",
+   "keywords": {
+    "ru": [
+     "каска",
+     "шлем",
+     "снаряжение"
+    ],
+    "uk": [
+     "шолом",
+     "каска",
+     "спорядження"
+    ],
+    "en": [
+     "helmet",
+     "protective gear",
+     "hard hat"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/security/protective-helmet.svg"
+  },
+  {
+   "id": "SEC-003",
+   "slug": "press-vest",
+   "category": "security",
+   "name": "Бронежилет журналиста",
+   "names": {
+    "ru": "Бронежилет журналиста",
+    "uk": "Бронежилет журналіста",
+    "en": "Press Vest"
+   },
+   "description": "Жилет с плитами и полосой маркировки",
+   "keywords": {
+    "ru": [
+     "бронежилет",
+     "пресса",
+     "защита"
+    ],
+    "uk": [
+     "бронежилет",
+     "преса",
+     "захист"
+    ],
+    "en": [
+     "body armor",
+     "press vest",
+     "protection"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/security/press-vest.svg"
+  },
+  {
+   "id": "SEC-004",
+   "slug": "padlock",
+   "category": "security",
+   "name": "Замок",
+   "names": {
+    "ru": "Замок",
+    "uk": "Замок",
+    "en": "Padlock"
+   },
+   "description": "Навесной замок со скважиной",
+   "keywords": {
+    "ru": [
+     "замок",
+     "закрыто",
+     "доступ"
+    ],
+    "uk": [
+     "замок",
+     "закрито",
+     "доступ"
+    ],
+    "en": [
+     "lock",
+     "locked",
+     "secure"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/security/padlock.svg"
+  },
+  {
+   "id": "SEC-005",
+   "slug": "secure-document",
+   "category": "security",
+   "name": "Защищённый документ",
+   "names": {
+    "ru": "Защищённый документ",
+    "uk": "Захищений документ",
+    "en": "Secure Document"
+   },
+   "description": "Документ со щитом",
+   "keywords": {
+    "ru": [
+     "защита документа",
+     "секретно",
+     "доступ"
+    ],
+    "uk": [
+     "захист документа",
+     "таємно",
+     "доступ"
+    ],
+    "en": [
+     "secure document",
+     "protected file",
+     "classified"
+    ]
+   },
+   "tags": [
+    "document",
+    "security"
+   ],
+   "file": "icons/security/secure-document.svg"
+  },
+  {
+   "id": "SEC-006",
+   "slug": "warning",
+   "category": "security",
+   "name": "Предупреждение",
+   "names": {
+    "ru": "Предупреждение",
+    "uk": "Попередження",
+    "en": "Warning"
+   },
+   "description": "Треугольник с восклицательным знаком",
+   "keywords": {
+    "ru": [
+     "опасность",
+     "внимание",
+     "предупреждение"
+    ],
+    "uk": [
+     "небезпека",
+     "увага",
+     "попередження"
+    ],
+    "en": [
+     "warning",
+     "danger",
+     "caution"
+    ]
+   },
+   "tags": [
+    "status"
+   ],
+   "file": "icons/security/warning.svg"
+  },
+  {
+   "id": "SEC-007",
+   "slug": "secure-messaging",
+   "category": "security",
+   "name": "Защищённая переписка",
+   "names": {
+    "ru": "Защищённая переписка",
+    "uk": "Захищене листування",
+    "en": "Secure Messaging"
+   },
+   "description": "Реплика с замком",
+   "keywords": {
+    "ru": [
+     "шифрованный чат",
+     "мессенджер",
+     "конфиденциально"
+    ],
+    "uk": [
+     "шифрований чат",
+     "месенджер",
+     "конфіденційно"
+    ],
+    "en": [
+     "secure chat",
+     "encrypted messaging",
+     "private"
+    ]
+   },
+   "tags": [
+    "communication"
+   ],
+   "file": "icons/security/secure-messaging.svg"
+  },
+  {
+   "id": "SEC-008",
+   "slug": "digital-protection",
+   "category": "security",
+   "name": "Цифровая защита",
+   "names": {
+    "ru": "Цифровая защита",
+    "uk": "Цифровий захист",
+    "en": "Digital Protection"
+   },
+   "description": "Щит с замочной скважиной",
+   "keywords": {
+    "ru": [
+     "кибербезопасность",
+     "защита данных",
+     "цифровой"
+    ],
+    "uk": [
+     "кібербезпека",
+     "захист даних",
+     "цифровий"
+    ],
+    "en": [
+     "cybersecurity",
+     "data protection",
+     "digital"
+    ]
+   },
+   "tags": [
+    "security"
+   ],
+   "file": "icons/security/digital-protection.svg"
+  },
+  {
+   "id": "SEC-009",
+   "slug": "veteran-support",
+   "category": "security",
+   "name": "Поддержка ветеранов",
+   "names": {
+    "ru": "Поддержка ветеранов",
+    "uk": "Підтримка ветеранів",
+    "en": "Veteran Support"
+   },
+   "description": "Человек и медаль",
+   "keywords": {
+    "ru": [
+     "ветераны",
+     "реабилитация",
+     "поддержка"
+    ],
+    "uk": [
+     "ветерани",
+     "реабілітація",
+     "підтримка"
+    ],
+    "en": [
+     "veterans",
+     "rehabilitation",
+     "support"
+    ]
+   },
+   "tags": [
+    "person"
+   ],
+   "file": "icons/security/veteran-support.svg"
+  },
+  {
+   "id": "SEC-010",
+   "slug": "civil-protection",
+   "category": "security",
+   "name": "Гражданская защита",
+   "names": {
+    "ru": "Гражданская защита",
+    "uk": "Цивільний захист",
+    "en": "Civil Protection"
+   },
+   "description": "Треугольник в круге",
+   "keywords": {
+    "ru": [
+     "гражданская защита",
+     "ГО",
+     "ЧС"
+    ],
+    "uk": [
+     "цивільний захист",
+     "ЦО",
+     "НС"
+    ],
+    "en": [
+     "civil protection",
+     "civil defense",
+     "emergency"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/security/civil-protection.svg"
+  },
+  {
+   "id": "SEC-011",
+   "slug": "alarm-siren",
+   "category": "security",
+   "name": "Тревожное оповещение",
+   "names": {
+    "ru": "Тревожное оповещение",
+    "uk": "Тривожне оповіщення",
+    "en": "Alarm Siren"
+   },
+   "description": "Проблесковый маячок с лучами",
+   "keywords": {
+    "ru": [
+     "тревога",
+     "сирена",
+     "оповещение"
+    ],
+    "uk": [
+     "тривога",
+     "сирена",
+     "оповіщення"
+    ],
+    "en": [
+     "alarm",
+     "siren",
+     "alert"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/security/alarm-siren.svg"
+  },
+  {
+   "id": "SEC-012",
+   "slug": "access-key",
+   "category": "security",
+   "name": "Ключ доступа",
+   "names": {
+    "ru": "Ключ доступа",
+    "uk": "Ключ доступу",
+    "en": "Access Key"
+   },
+   "description": "Ключ с кольцом",
+   "keywords": {
+    "ru": [
+     "ключ",
+     "доступ",
+     "авторизация"
+    ],
+    "uk": [
+     "ключ",
+     "доступ",
+     "авторизація"
+    ],
+    "en": [
+     "key",
+     "access",
+     "credentials"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/security/access-key.svg"
+  },
+  {
+   "id": "SEC-013",
+   "slug": "two-factor",
+   "category": "security",
+   "name": "Двухфакторная аутентификация",
+   "names": {
+    "ru": "Двухфакторная аутентификация",
+    "uk": "Двофакторна автентифікація",
+    "en": "Two-Factor Authentication"
+   },
+   "description": "Телефон с кодом и ключ",
+   "keywords": {
+    "ru": [
+     "2FA",
+     "код",
+     "вход"
+    ],
+    "uk": [
+     "2FA",
+     "код",
+     "вхід"
+    ],
+    "en": [
+     "2fa",
+     "mfa",
+     "verification code"
+    ]
+   },
+   "tags": [
+    "security"
+   ],
+   "file": "icons/security/two-factor.svg"
+  },
+  {
+   "id": "SEC-014",
+   "slug": "surveillance-camera",
+   "category": "security",
+   "name": "Видеонаблюдение",
+   "names": {
+    "ru": "Видеонаблюдение",
+    "uk": "Відеоспостереження",
+    "en": "Surveillance Camera"
+   },
+   "description": "Камера на кронштейне",
+   "keywords": {
+    "ru": [
+     "камера",
+     "видеонаблюдение",
+     "мониторинг"
+    ],
+    "uk": [
+     "камера",
+     "відеоспостереження",
+     "моніторинг"
+    ],
+    "en": [
+     "cctv",
+     "surveillance",
+     "camera"
+    ]
+   },
+   "tags": [
+    "device"
+   ],
+   "file": "icons/security/surveillance-camera.svg"
+  },
+  {
+   "id": "SEC-015",
+   "slug": "face-recognition",
+   "category": "security",
+   "name": "Биометрия",
+   "names": {
+    "ru": "Биометрия",
+    "uk": "Біометрія",
+    "en": "Biometrics"
+   },
+   "description": "Лицо в рамке сканирования",
+   "keywords": {
+    "ru": [
+     "биометрия",
+     "распознавание",
+     "лицо"
+    ],
+    "uk": [
+     "біометрія",
+     "розпізнавання",
+     "обличчя"
+    ],
+    "en": [
+     "biometrics",
+     "face id",
+     "recognition"
+    ]
+   },
+   "tags": [
+    "security"
+   ],
+   "file": "icons/security/face-recognition.svg"
+  },
+  {
+   "id": "SEC-016",
+   "slug": "drone",
+   "category": "security",
+   "name": "Дрон",
+   "names": {
+    "ru": "Дрон",
+    "uk": "Дрон",
+    "en": "Drone"
+   },
+   "description": "Квадрокоптер с четырьмя винтами",
+   "keywords": {
+    "ru": [
+     "дрон",
+     "БПЛА",
+     "разведка"
+    ],
+    "uk": [
+     "дрон",
+     "БПЛА",
+     "розвідка"
+    ],
+    "en": [
+     "drone",
+     "uav",
+     "quadcopter"
+    ]
+   },
+   "tags": [
+    "vehicle"
+   ],
+   "file": "icons/security/drone.svg"
+  },
+  {
+   "id": "SEC-017",
+   "slug": "radar",
+   "category": "security",
+   "name": "Радар",
+   "names": {
+    "ru": "Радар",
+    "uk": "Радар",
+    "en": "Radar"
+   },
+   "description": "Экран радара с лучом и целью",
+   "keywords": {
+    "ru": [
+     "радар",
+     "обнаружение",
+     "ПВО"
+    ],
+    "uk": [
+     "радар",
+     "виявлення",
+     "ППО"
+    ],
+    "en": [
+     "radar",
+     "detection",
+     "tracking"
+    ]
+   },
+   "tags": [
+    "device"
+   ],
+   "file": "icons/security/radar.svg"
+  },
+  {
+   "id": "SEC-018",
+   "slug": "perimeter-fence",
+   "category": "security",
+   "name": "Охрана периметра",
+   "names": {
+    "ru": "Охрана периметра",
+    "uk": "Охорона периметра",
+    "en": "Perimeter Security"
+   },
+   "description": "Забор с заострёнными столбами",
+   "keywords": {
+    "ru": [
+     "периметр",
+     "ограждение",
+     "объект"
+    ],
+    "uk": [
+     "периметр",
+     "огорожа",
+     "об’єкт"
+    ],
+    "en": [
+     "perimeter",
+     "fence",
+     "facility security"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/security/perimeter-fence.svg"
+  },
+  {
+   "id": "SEC-019",
+   "slug": "evacuation",
+   "category": "security",
+   "name": "Эвакуация",
+   "names": {
+    "ru": "Эвакуация",
+    "uk": "Евакуація",
+    "en": "Evacuation"
+   },
+   "description": "Дверь и стрелка выхода",
+   "keywords": {
+    "ru": [
+     "эвакуация",
+     "выход",
+     "спасение"
+    ],
+    "uk": [
+     "евакуація",
+     "вихід",
+     "порятунок"
+    ],
+    "en": [
+     "evacuation",
+     "exit",
+     "escape route"
+    ]
+   },
+   "tags": [
+    "action"
+   ],
+   "file": "icons/security/evacuation.svg"
+  },
+  {
+   "id": "SEC-020",
+   "slug": "fire-extinguisher",
+   "category": "security",
+   "name": "Огнетушитель",
+   "names": {
+    "ru": "Огнетушитель",
+    "uk": "Вогнегасник",
+    "en": "Fire Extinguisher"
+   },
+   "description": "Баллон с раструбом и шлангом",
+   "keywords": {
+    "ru": [
+     "огнетушитель",
+     "пожар",
+     "безопасность"
+    ],
+    "uk": [
+     "вогнегасник",
+     "пожежа",
+     "безпека"
+    ],
+    "en": [
+     "fire extinguisher",
+     "fire safety",
+     "equipment"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/security/fire-extinguisher.svg"
+  },
+  {
+   "id": "SEC-021",
+   "slug": "bomb-shelter",
+   "category": "security",
+   "name": "Укрытие",
+   "names": {
+    "ru": "Укрытие",
+    "uk": "Укриття",
+    "en": "Shelter"
+   },
+   "description": "Арочное укрытие со входом",
+   "keywords": {
+    "ru": [
+     "укрытие",
+     "бомбоубежище",
+     "безопасность"
+    ],
+    "uk": [
+     "укриття",
+     "бомбосховище",
+     "безпека"
+    ],
+    "en": [
+     "bomb shelter",
+     "bunker",
+     "safe room"
+    ]
+   },
+   "tags": [
+    "building"
+   ],
+   "file": "icons/security/bomb-shelter.svg"
+  },
+  {
+   "id": "SEC-022",
+   "slug": "military-rights",
+   "category": "security",
+   "name": "Права военнослужащих",
+   "names": {
+    "ru": "Права военнослужащих",
+    "uk": "Права військовослужбовців",
+    "en": "Service Members’ Rights"
+   },
+   "description": "Документ со звездой",
+   "keywords": {
+    "ru": [
+     "военнослужащие",
+     "права",
+     "гарантии"
+    ],
+    "uk": [
+     "військовослужбовці",
+     "права",
+     "гарантії"
+    ],
+    "en": [
+     "military rights",
+     "service members",
+     "guarantees"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/security/military-rights.svg"
+  },
+  {
+   "id": "SEC-023",
+   "slug": "dog-tag",
+   "category": "security",
+   "name": "Личный жетон",
+   "names": {
+    "ru": "Личный жетон",
+    "uk": "Особистий жетон",
+    "en": "Dog Tag"
+   },
+   "description": "Жетон на цепочке",
+   "keywords": {
+    "ru": [
+     "жетон",
+     "военнослужащий",
+     "идентификация"
+    ],
+    "uk": [
+     "жетон",
+     "військовослужбовець",
+     "ідентифікація"
+    ],
+    "en": [
+     "dog tag",
+     "service id",
+     "identification"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/security/dog-tag.svg"
+  },
+  {
+   "id": "SEC-024",
+   "slug": "mine-danger",
+   "category": "security",
+   "name": "Разминирование",
+   "names": {
+    "ru": "Разминирование",
+    "uk": "Розмінування",
+    "en": "Demining"
+   },
+   "description": "Миноискатель с катушкой",
+   "keywords": {
+    "ru": [
+     "мины",
+     "разминирование",
+     "опасность"
+    ],
+    "uk": [
+     "міни",
+     "розмінування",
+     "небезпека"
+    ],
+    "en": [
+     "landmine",
+     "demining",
+     "hazard"
+    ]
+   },
+   "tags": [
+    "status"
+   ],
+   "file": "icons/security/mine-danger.svg"
+  },
+  {
+   "id": "SEC-025",
+   "slug": "gas-mask",
+   "category": "security",
+   "name": "Противогаз",
+   "names": {
+    "ru": "Противогаз",
+    "uk": "Протигаз",
+    "en": "Gas Mask"
+   },
+   "description": "Маска с окулярами и фильтром",
+   "keywords": {
+    "ru": [
+     "противогаз",
+     "химзащита",
+     "СИЗ"
+    ],
+    "uk": [
+     "протигаз",
+     "хімзахист",
+     "ЗІЗ"
+    ],
+    "en": [
+     "gas mask",
+     "respirator",
+     "cbrn"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/security/gas-mask.svg"
+  },
+  {
+   "id": "SEC-026",
+   "slug": "binoculars",
+   "category": "security",
+   "name": "Наблюдение",
+   "names": {
+    "ru": "Наблюдение",
+    "uk": "Спостереження",
+    "en": "Observation"
+   },
+   "description": "Бинокль",
+   "keywords": {
+    "ru": [
+     "наблюдение",
+     "разведка",
+     "бинокль"
+    ],
+    "uk": [
+     "спостереження",
+     "розвідка",
+     "бінокль"
+    ],
+    "en": [
+     "binoculars",
+     "observation",
+     "reconnaissance"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/security/binoculars.svg"
+  },
+  {
+   "id": "SEC-027",
+   "slug": "cyber-attack",
+   "category": "security",
+   "name": "Кибератака",
+   "names": {
+    "ru": "Кибератака",
+    "uk": "Кібератака",
+    "en": "Cyber Attack"
+   },
+   "description": "Ноутбук с молнией",
+   "keywords": {
+    "ru": [
+     "атака",
+     "взлом",
+     "инцидент"
+    ],
+    "uk": [
+     "атака",
+     "злам",
+     "інцидент"
+    ],
+    "en": [
+     "cyber attack",
+     "hack",
+     "breach"
+    ]
+   },
+   "tags": [
+    "security"
+   ],
+   "file": "icons/security/cyber-attack.svg"
+  },
+  {
+   "id": "SEC-028",
+   "slug": "secure-cloud",
+   "category": "security",
+   "name": "Защищённое облако",
+   "names": {
+    "ru": "Защищённое облако",
+    "uk": "Захищена хмара",
+    "en": "Secure Cloud"
+   },
+   "description": "Облако с замком",
+   "keywords": {
+    "ru": [
+     "облако",
+     "шифрование",
+     "хранилище"
+    ],
+    "uk": [
+     "хмара",
+     "шифрування",
+     "сховище"
+    ],
+    "en": [
+     "secure cloud",
+     "encrypted storage",
+     "cloud security"
+    ]
+   },
+   "tags": [
+    "security"
+   ],
+   "file": "icons/security/secure-cloud.svg"
+  },
+  {
+   "id": "SEC-029",
+   "slug": "encryption",
+   "category": "security",
+   "name": "Шифрование",
+   "names": {
+    "ru": "Шифрование",
+    "uk": "Шифрування",
+    "en": "Encryption"
+   },
+   "description": "Поле со скрытыми символами",
+   "keywords": {
+    "ru": [
+     "шифрование",
+     "криптография",
+     "код"
+    ],
+    "uk": [
+     "шифрування",
+     "криптографія",
+     "код"
+    ],
+    "en": [
+     "encryption",
+     "cryptography",
+     "cipher"
+    ]
+   },
+   "tags": [
+    "security"
+   ],
+   "file": "icons/security/encryption.svg"
+  },
+  {
+   "id": "SEC-030",
+   "slug": "access-granted",
+   "category": "security",
+   "name": "Доступ разрешён",
+   "names": {
+    "ru": "Доступ разрешён",
+    "uk": "Доступ дозволено",
+    "en": "Access Granted"
+   },
+   "description": "Открытый замок с галочкой",
+   "keywords": {
+    "ru": [
+     "доступ",
+     "разрешено",
+     "вход"
+    ],
+    "uk": [
+     "доступ",
+     "дозволено",
+     "вхід"
+    ],
+    "en": [
+     "access granted",
+     "unlocked",
+     "authorized"
+    ]
+   },
+   "tags": [
+    "status"
+   ],
+   "file": "icons/security/access-granted.svg"
+  },
+  {
+   "id": "SEC-031",
+   "slug": "access-denied",
+   "category": "security",
+   "name": "Запрет доступа",
+   "names": {
+    "ru": "Запрет доступа",
+    "uk": "Заборона доступу",
+    "en": "Access Denied"
+   },
+   "description": "Восьмиугольный знак стоп",
+   "keywords": {
+    "ru": [
+     "стоп",
+     "запрет",
+     "доступ закрыт"
+    ],
+    "uk": [
+     "стоп",
+     "заборона",
+     "доступ закрито"
+    ],
+    "en": [
+     "stop",
+     "access denied",
+     "forbidden"
+    ]
+   },
+   "tags": [
+    "status"
+   ],
+   "file": "icons/security/access-denied.svg"
+  },
+  {
+   "id": "SEC-032",
+   "slug": "security-guard",
+   "category": "security",
+   "name": "Охранник",
+   "names": {
+    "ru": "Охранник",
+    "uk": "Охоронець",
+    "en": "Security Guard"
+   },
+   "description": "Человек в фуражке",
+   "keywords": {
+    "ru": [
+     "охрана",
+     "сотрудник",
+     "пост"
+    ],
+    "uk": [
+     "охорона",
+     "працівник",
+     "пост"
+    ],
+    "en": [
+     "guard",
+     "security staff",
+     "officer"
+    ]
+   },
+   "tags": [
+    "person"
+   ],
+   "file": "icons/security/security-guard.svg"
+  },
+  {
+   "id": "SEC-033",
+   "slug": "panic-button",
+   "category": "security",
+   "name": "Тревожная кнопка",
+   "names": {
+    "ru": "Тревожная кнопка",
+    "uk": "Тривожна кнопка",
+    "en": "Panic Button"
+   },
+   "description": "Кнопка на основании с сигналом",
+   "keywords": {
+    "ru": [
+     "тревожная кнопка",
+     "SOS",
+     "вызов"
+    ],
+    "uk": [
+     "тривожна кнопка",
+     "SOS",
+     "виклик"
+    ],
+    "en": [
+     "panic button",
+     "sos",
+     "emergency call"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/security/panic-button.svg"
+  },
+  {
+   "id": "SEC-034",
+   "slug": "motion-sensor",
+   "category": "security",
+   "name": "Датчик движения",
+   "names": {
+    "ru": "Датчик движения",
+    "uk": "Датчик руху",
+    "en": "Motion Sensor"
+   },
+   "description": "Датчик и волны обнаружения",
+   "keywords": {
+    "ru": [
+     "датчик",
+     "сигнализация",
+     "движение"
+    ],
+    "uk": [
+     "датчик",
+     "сигналізація",
+     "рух"
+    ],
+    "en": [
+     "motion sensor",
+     "alarm",
+     "detector"
+    ]
+   },
+   "tags": [
+    "device"
+   ],
+   "file": "icons/security/motion-sensor.svg"
+  },
+  {
+   "id": "SEC-035",
+   "slug": "two-way-radio",
+   "category": "security",
+   "name": "Рация",
+   "names": {
+    "ru": "Рация",
+    "uk": "Рація",
+    "en": "Two-Way Radio"
+   },
+   "description": "Портативная радиостанция",
+   "keywords": {
+    "ru": [
+     "рация",
+     "связь",
+     "радио"
+    ],
+    "uk": [
+     "рація",
+     "зв’язок",
+     "радіо"
+    ],
+    "en": [
+     "radio",
+     "walkie-talkie",
+     "comms"
+    ]
+   },
+   "tags": [
+    "device"
+   ],
+   "file": "icons/security/two-way-radio.svg"
+  },
+  {
+   "id": "SEC-036",
+   "slug": "security-screening",
+   "category": "security",
+   "name": "Досмотр",
+   "names": {
+    "ru": "Досмотр",
+    "uk": "Огляд",
+    "en": "Security Screening"
+   },
+   "description": "Рамка металлодетектора с человеком",
+   "keywords": {
+    "ru": [
+     "досмотр",
+     "металлодетектор",
+     "контроль"
+    ],
+    "uk": [
+     "огляд",
+     "металодетектор",
+     "контроль"
+    ],
+    "en": [
+     "screening",
+     "metal detector",
+     "checkpoint"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/security/security-screening.svg"
+  },
+  {
+   "id": "SEC-037",
+   "slug": "danger-zone",
+   "category": "security",
+   "name": "Опасная зона",
+   "names": {
+    "ru": "Опасная зона",
+    "uk": "Небезпечна зона",
+    "en": "Danger Zone"
+   },
+   "description": "Ромбовидный знак с восклицательным знаком",
+   "keywords": {
+    "ru": [
+     "опасно",
+     "зона",
+     "ограничение"
+    ],
+    "uk": [
+     "небезпечно",
+     "зона",
+     "обмеження"
+    ],
+    "en": [
+     "danger zone",
+     "restricted area",
+     "hazard"
+    ]
+   },
+   "tags": [
+    "status"
+   ],
+   "file": "icons/security/danger-zone.svg"
+  },
+  {
+   "id": "SEC-038",
+   "slug": "radiation",
+   "category": "security",
+   "name": "Радиационная опасность",
+   "names": {
+    "ru": "Радиационная опасность",
+    "uk": "Радіаційна небезпека",
+    "en": "Radiation Hazard"
+   },
+   "description": "Трилистник",
+   "keywords": {
+    "ru": [
+     "радиация",
+     "опасность",
+     "ХБРЯ"
+    ],
+    "uk": [
+     "радіація",
+     "небезпека",
+     "ХБРЯ"
+    ],
+    "en": [
+     "radiation",
+     "hazard",
+     "cbrn"
+    ]
+   },
+   "tags": [
+    "status"
+   ],
+   "file": "icons/security/radiation.svg"
+  },
+  {
+   "id": "SEC-039",
+   "slug": "access-control",
+   "category": "security",
+   "name": "Пропускная система",
+   "names": {
+    "ru": "Пропускная система",
+    "uk": "Пропускна система",
+    "en": "Access Control"
+   },
+   "description": "Карта-пропуск и считыватель",
+   "keywords": {
+    "ru": [
+     "пропуск",
+     "турникет",
+     "доступ"
+    ],
+    "uk": [
+     "перепустка",
+     "турнікет",
+     "доступ"
+    ],
+    "en": [
+     "access control",
+     "badge reader",
+     "entry"
+    ]
+   },
+   "tags": [
+    "device"
+   ],
+   "file": "icons/security/access-control.svg"
+  },
+  {
+   "id": "SEC-040",
+   "slug": "law-enforcement",
+   "category": "security",
+   "name": "Правопорядок",
+   "names": {
+    "ru": "Правопорядок",
+    "uk": "Правопорядок",
+    "en": "Law Enforcement"
+   },
+   "description": "Шестиконечный жетон",
+   "keywords": {
+    "ru": [
+     "полиция",
+     "правопорядок",
+     "жетон"
+    ],
+    "uk": [
+     "поліція",
+     "правопорядок",
+     "жетон"
+    ],
+    "en": [
+     "police",
+     "law enforcement",
+     "badge"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/security/law-enforcement.svg"
+  },
+  {
+   "id": "SEC-041",
+   "slug": "fortification",
+   "category": "security",
+   "name": "Оборонительное сооружение",
+   "names": {
+    "ru": "Оборонительное сооружение",
+    "uk": "Оборонна споруда",
+    "en": "Fortification"
+   },
+   "description": "Башня с зубцами и воротами",
+   "keywords": {
+    "ru": [
+     "оборона",
+     "укрепление",
+     "крепость"
+    ],
+    "uk": [
+     "оборона",
+     "укріплення",
+     "фортеця"
+    ],
+    "en": [
+     "fortification",
+     "defense",
+     "stronghold"
+    ]
+   },
+   "tags": [
+    "building"
+   ],
+   "file": "icons/security/fortification.svg"
+  },
+  {
+   "id": "SEC-042",
+   "slug": "threat-map",
+   "category": "security",
+   "name": "Карта угроз",
+   "names": {
+    "ru": "Карта угроз",
+    "uk": "Мапа загроз",
+    "en": "Threat Map"
+   },
+   "description": "Карта с предупреждением",
+   "keywords": {
+    "ru": [
+     "угрозы",
+     "обстановка",
+     "карта"
+    ],
+    "uk": [
+     "загрози",
+     "обстановка",
+     "мапа"
+    ],
+    "en": [
+     "threat map",
+     "situation",
+     "risk map"
+    ]
+   },
+   "tags": [
+    "place"
+   ],
+   "file": "icons/security/threat-map.svg"
+  },
+  {
+   "id": "SEC-043",
+   "slug": "fire-safety",
+   "category": "security",
+   "name": "Пожарная безопасность",
+   "names": {
+    "ru": "Пожарная безопасность",
+    "uk": "Пожежна безпека",
+    "en": "Fire Safety"
+   },
+   "description": "Пламя с внутренним языком",
+   "keywords": {
+    "ru": [
+     "пожар",
+     "огонь",
+     "безопасность"
+    ],
+    "uk": [
+     "пожежа",
+     "вогонь",
+     "безпека"
+    ],
+    "en": [
+     "fire",
+     "flame",
+     "fire safety"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/security/fire-safety.svg"
+  },
+  {
+   "id": "SEC-044",
+   "slug": "phishing",
+   "category": "security",
+   "name": "Фишинг",
+   "names": {
+    "ru": "Фишинг",
+    "uk": "Фішинг",
+    "en": "Phishing"
+   },
+   "description": "Письмо и рыболовный крючок",
+   "keywords": {
+    "ru": [
+     "фишинг",
+     "мошенничество",
+     "почта"
+    ],
+    "uk": [
+     "фішинг",
+     "шахрайство",
+     "пошта"
+    ],
+    "en": [
+     "phishing",
+     "scam",
+     "email fraud"
+    ]
+   },
+   "tags": [
+    "security"
+   ],
+   "file": "icons/security/phishing.svg"
+  },
+  {
+   "id": "SEC-045",
+   "slug": "incident-alert",
+   "category": "security",
+   "name": "Уведомление об инциденте",
+   "names": {
+    "ru": "Уведомление об инциденте",
+    "uk": "Сповіщення про інцидент",
+    "en": "Incident Alert"
+   },
+   "description": "Колокол с восклицательным знаком",
+   "keywords": {
+    "ru": [
+     "инцидент",
+     "уведомление",
+     "реагирование"
+    ],
+    "uk": [
+     "інцидент",
+     "сповіщення",
+     "реагування"
+    ],
+    "en": [
+     "incident",
+     "alert",
+     "notification"
+    ]
+   },
+   "tags": [
+    "status"
+   ],
+   "file": "icons/security/incident-alert.svg"
+  },
+  {
+   "id": "SEC-046",
+   "slug": "security-audit",
+   "category": "security",
+   "name": "Аудит безопасности",
+   "names": {
+    "ru": "Аудит безопасности",
+    "uk": "Аудит безпеки",
+    "en": "Security Audit"
+   },
+   "description": "Планшет со щитом",
+   "keywords": {
+    "ru": [
+     "аудит",
+     "проверка",
+     "соответствие"
+    ],
+    "uk": [
+     "аудит",
+     "перевірка",
+     "відповідність"
+    ],
+    "en": [
+     "security audit",
+     "compliance",
+     "assessment"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/security/security-audit.svg"
+  },
+  {
+   "id": "SEC-047",
+   "slug": "personal-safety",
+   "category": "security",
+   "name": "Защита личности",
+   "names": {
+    "ru": "Защита личности",
+    "uk": "Захист особи",
+    "en": "Personal Safety"
+   },
+   "description": "Человек внутри щита",
+   "keywords": {
+    "ru": [
+     "личная безопасность",
+     "защита",
+     "приватность"
+    ],
+    "uk": [
+     "особиста безпека",
+     "захист",
+     "приватність"
+    ],
+    "en": [
+     "personal safety",
+     "protection",
+     "privacy"
+    ]
+   },
+   "tags": [
+    "security"
+   ],
+   "file": "icons/security/personal-safety.svg"
+  },
+  {
+   "id": "SEC-048",
+   "slug": "watchtower",
+   "category": "security",
+   "name": "Наблюдательная вышка",
+   "names": {
+    "ru": "Наблюдательная вышка",
+    "uk": "Спостережна вежа",
+    "en": "Watchtower"
+   },
+   "description": "Вышка с площадкой",
+   "keywords": {
+    "ru": [
+     "вышка",
+     "наблюдение",
+     "пост"
+    ],
+    "uk": [
+     "вежа",
+     "спостереження",
+     "пост"
+    ],
+    "en": [
+     "watchtower",
+     "lookout",
+     "observation post"
+    ]
+   },
+   "tags": [
+    "building"
+   ],
+   "file": "icons/security/watchtower.svg"
+  },
+  {
+   "id": "SEC-049",
+   "slug": "safe-route",
+   "category": "security",
+   "name": "Безопасный маршрут",
+   "names": {
+    "ru": "Безопасный маршрут",
+    "uk": "Безпечний маршрут",
+    "en": "Safe Route"
+   },
+   "description": "Извилистый путь к точке назначения",
+   "keywords": {
+    "ru": [
+     "маршрут",
+     "безопасность",
+     "навигация"
+    ],
+    "uk": [
+     "маршрут",
+     "безпека",
+     "навігація"
+    ],
+    "en": [
+     "safe route",
+     "navigation",
+     "path"
+    ]
+   },
+   "tags": [
+    "place"
+   ],
+   "file": "icons/security/safe-route.svg"
+  },
+  {
+   "id": "SEC-050",
+   "slug": "rank-chevron",
+   "category": "security",
+   "name": "Воинское звание",
+   "names": {
+    "ru": "Воинское звание",
+    "uk": "Військове звання",
+    "en": "Rank Chevron"
+   },
+   "description": "Три шеврона",
+   "keywords": {
+    "ru": [
+     "звание",
+     "шеврон",
+     "ранг"
+    ],
+    "uk": [
+     "звання",
+     "шеврон",
+     "ранг"
+    ],
+    "en": [
+     "rank",
+     "chevron",
+     "insignia"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/security/rank-chevron.svg"
+  },
+  {
+   "id": "BIZ-001",
+   "slug": "strategy",
+   "category": "business",
+   "name": "Стратегия",
+   "names": {
+    "ru": "Стратегия",
+    "uk": "Стратегія",
+    "en": "Strategy"
+   },
+   "description": "Схема хода: крестик, кружок и траектория",
+   "keywords": {
+    "ru": [
+     "стратегия",
+     "план",
+     "тактика"
+    ],
+    "uk": [
+     "стратегія",
+     "план",
+     "тактика"
+    ],
+    "en": [
+     "strategy",
+     "game plan",
+     "tactics"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/business/strategy.svg"
+  },
+  {
+   "id": "BIZ-002",
+   "slug": "target-audience",
+   "category": "business",
+   "name": "Целевая аудитория",
+   "names": {
+    "ru": "Целевая аудитория",
+    "uk": "Цільова аудиторія",
+    "en": "Target Audience"
+   },
+   "description": "Человек в перекрестье прицела",
+   "keywords": {
+    "ru": [
+     "аудитория",
+     "сегмент",
+     "таргет"
+    ],
+    "uk": [
+     "аудиторія",
+     "сегмент",
+     "таргет"
+    ],
+    "en": [
+     "target audience",
+     "segment",
+     "persona"
+    ]
+   },
+   "tags": [
+    "person"
+   ],
+   "file": "icons/business/target-audience.svg"
+  },
+  {
+   "id": "BIZ-003",
+   "slug": "ad-campaign",
+   "category": "business",
+   "name": "Рекламная кампания",
+   "names": {
+    "ru": "Рекламная кампания",
+    "uk": "Рекламна кампанія",
+    "en": "Ad Campaign"
+   },
+   "description": "Билборд на опорах",
+   "keywords": {
+    "ru": [
+     "реклама",
+     "кампания",
+     "билборд"
+    ],
+    "uk": [
+     "реклама",
+     "кампанія",
+     "білборд"
+    ],
+    "en": [
+     "advertising",
+     "campaign",
+     "billboard"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/business/ad-campaign.svg"
+  },
+  {
+   "id": "BIZ-004",
+   "slug": "marketing-analytics",
+   "category": "business",
+   "name": "Маркетинговая аналитика",
+   "names": {
+    "ru": "Маркетинговая аналитика",
+    "uk": "Маркетингова аналітика",
+    "en": "Marketing Analytics"
+   },
+   "description": "Столбцы и лупа",
+   "keywords": {
+    "ru": [
+     "аналитика",
+     "метрики",
+     "маркетинг"
+    ],
+    "uk": [
+     "аналітика",
+     "метрики",
+     "маркетинг"
+    ],
+    "en": [
+     "analytics",
+     "metrics",
+     "insights"
+    ]
+   },
+   "tags": [
+    "chart"
+   ],
+   "file": "icons/business/marketing-analytics.svg"
+  },
+  {
+   "id": "BIZ-005",
+   "slug": "crm",
+   "category": "business",
+   "name": "CRM",
+   "names": {
+    "ru": "CRM",
+    "uk": "CRM",
+    "en": "CRM"
+   },
+   "description": "Адресная книга с клиентом",
+   "keywords": {
+    "ru": [
+     "CRM",
+     "клиенты",
+     "контакты"
+    ],
+    "uk": [
+     "CRM",
+     "клієнти",
+     "контакти"
+    ],
+    "en": [
+     "crm",
+     "customers",
+     "contacts"
+    ]
+   },
+   "tags": [
+    "interface"
+   ],
+   "file": "icons/business/crm.svg"
+  },
+  {
+   "id": "BIZ-006",
+   "slug": "sales-funnel",
+   "category": "business",
+   "name": "Воронка продаж",
+   "names": {
+    "ru": "Воронка продаж",
+    "uk": "Воронка продажів",
+    "en": "Sales Funnel"
+   },
+   "description": "Воронка с уровнями",
+   "keywords": {
+    "ru": [
+     "воронка",
+     "конверсия",
+     "лиды"
+    ],
+    "uk": [
+     "воронка",
+     "конверсія",
+     "ліди"
+    ],
+    "en": [
+     "sales funnel",
+     "pipeline",
+     "conversion"
+    ]
+   },
+   "tags": [
+    "chart"
+   ],
+   "file": "icons/business/sales-funnel.svg"
+  },
+  {
+   "id": "BIZ-007",
+   "slug": "brand",
+   "category": "business",
+   "name": "Бренд",
+   "names": {
+    "ru": "Бренд",
+    "uk": "Бренд",
+    "en": "Brand"
+   },
+   "description": "Огранённый кристалл",
+   "keywords": {
+    "ru": [
+     "бренд",
+     "ценность",
+     "идентичность"
+    ],
+    "uk": [
+     "бренд",
+     "цінність",
+     "ідентичність"
+    ],
+    "en": [
+     "brand",
+     "value",
+     "identity"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/business/brand.svg"
+  },
+  {
+   "id": "BIZ-008",
+   "slug": "presentation",
+   "category": "business",
+   "name": "Презентация",
+   "names": {
+    "ru": "Презентация",
+    "uk": "Презентація",
+    "en": "Presentation"
+   },
+   "description": "Доска на опоре с графиком",
+   "keywords": {
+    "ru": [
+     "презентация",
+     "доклад",
+     "питч"
+    ],
+    "uk": [
+     "презентація",
+     "доповідь",
+     "пітч"
+    ],
+    "en": [
+     "presentation",
+     "pitch",
+     "slides"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/business/presentation.svg"
+  },
+  {
+   "id": "BIZ-009",
+   "slug": "business-plan",
+   "category": "business",
+   "name": "Бизнес-план",
+   "names": {
+    "ru": "Бизнес-план",
+    "uk": "Бізнес-план",
+    "en": "Business Plan"
+   },
+   "description": "Документ с диаграммой",
+   "keywords": {
+    "ru": [
+     "бизнес-план",
+     "план",
+     "стартап"
+    ],
+    "uk": [
+     "бізнес-план",
+     "план",
+     "стартап"
+    ],
+    "en": [
+     "business plan",
+     "planning",
+     "roadmap"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/business/business-plan.svg"
+  },
+  {
+   "id": "BIZ-010",
+   "slug": "growth",
+   "category": "business",
+   "name": "Рост показателей",
+   "names": {
+    "ru": "Рост показателей",
+    "uk": "Зростання показників",
+    "en": "Growth"
+   },
+   "description": "Растущие столбцы со стрелкой",
+   "keywords": {
+    "ru": [
+     "рост",
+     "показатели",
+     "динамика"
+    ],
+    "uk": [
+     "зростання",
+     "показники",
+     "динаміка"
+    ],
+    "en": [
+     "growth",
+     "increase",
+     "performance"
+    ]
+   },
+   "tags": [
+    "chart"
+   ],
+   "file": "icons/business/growth.svg"
+  },
+  {
+   "id": "BIZ-011",
+   "slug": "kpi-dashboard",
+   "category": "business",
+   "name": "Дашборд KPI",
+   "names": {
+    "ru": "Дашборд KPI",
+    "uk": "Дашборд KPI",
+    "en": "KPI Dashboard"
+   },
+   "description": "Панель со спидометром и столбцами",
+   "keywords": {
+    "ru": [
+     "KPI",
+     "дашборд",
+     "метрики"
+    ],
+    "uk": [
+     "KPI",
+     "дашборд",
+     "метрики"
+    ],
+    "en": [
+     "kpi",
+     "dashboard",
+     "metrics"
+    ]
+   },
+   "tags": [
+    "interface"
+   ],
+   "file": "icons/business/kpi-dashboard.svg"
+  },
+  {
+   "id": "BIZ-012",
+   "slug": "meeting",
+   "category": "business",
+   "name": "Совещание",
+   "names": {
+    "ru": "Совещание",
+    "uk": "Нарада",
+    "en": "Meeting"
+   },
+   "description": "Три участника за столом",
+   "keywords": {
+    "ru": [
+     "совещание",
+     "встреча",
+     "команда"
+    ],
+    "uk": [
+     "нарада",
+     "зустріч",
+     "команда"
+    ],
+    "en": [
+     "meeting",
+     "discussion",
+     "team"
+    ]
+   },
+   "tags": [
+    "group"
+   ],
+   "file": "icons/business/meeting.svg"
+  },
+  {
+   "id": "BIZ-013",
+   "slug": "deal-closed",
+   "category": "business",
+   "name": "Сделка закрыта",
+   "names": {
+    "ru": "Сделка закрыта",
+    "uk": "Угоду укладено",
+    "en": "Deal Closed"
+   },
+   "description": "Ярлык с галочкой",
+   "keywords": {
+    "ru": [
+     "сделка",
+     "продажа",
+     "успех"
+    ],
+    "uk": [
+     "угода",
+     "продаж",
+     "успіх"
+    ],
+    "en": [
+     "deal",
+     "closed won",
+     "sale"
+    ]
+   },
+   "tags": [
+    "status"
+   ],
+   "file": "icons/business/deal-closed.svg"
+  },
+  {
+   "id": "BIZ-014",
+   "slug": "briefcase",
+   "category": "business",
+   "name": "Бизнес",
+   "names": {
+    "ru": "Бизнес",
+    "uk": "Бізнес",
+    "en": "Business"
+   },
+   "description": "Портфель с поясом",
+   "keywords": {
+    "ru": [
+     "бизнес",
+     "работа",
+     "карьера"
+    ],
+    "uk": [
+     "бізнес",
+     "робота",
+     "кар’єра"
+    ],
+    "en": [
+     "business",
+     "work",
+     "career"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/business/briefcase.svg"
+  },
+  {
+   "id": "BIZ-015",
+   "slug": "email-campaign",
+   "category": "business",
+   "name": "Email-рассылка",
+   "names": {
+    "ru": "Email-рассылка",
+    "uk": "Email-розсилка",
+    "en": "Email Campaign"
+   },
+   "description": "Бумажный самолётик",
+   "keywords": {
+    "ru": [
+     "рассылка",
+     "email",
+     "отправка"
+    ],
+    "uk": [
+     "розсилка",
+     "email",
+     "надсилання"
+    ],
+    "en": [
+     "email marketing",
+     "newsletter",
+     "send"
+    ]
+   },
+   "tags": [
+    "communication"
+   ],
+   "file": "icons/business/email-campaign.svg"
+  },
+  {
+   "id": "BIZ-016",
+   "slug": "smm",
+   "category": "business",
+   "name": "SMM",
+   "names": {
+    "ru": "SMM",
+    "uk": "SMM",
+    "en": "Social Media Marketing"
+   },
+   "description": "Смартфон и реплика с сердцем",
+   "keywords": {
+    "ru": [
+     "SMM",
+     "соцсети",
+     "контент"
+    ],
+    "uk": [
+     "SMM",
+     "соцмережі",
+     "контент"
+    ],
+    "en": [
+     "smm",
+     "social media",
+     "engagement"
+    ]
+   },
+   "tags": [
+    "device"
+   ],
+   "file": "icons/business/smm.svg"
+  },
+  {
+   "id": "BIZ-017",
+   "slug": "seo",
+   "category": "business",
+   "name": "SEO",
+   "names": {
+    "ru": "SEO",
+    "uk": "SEO",
+    "en": "SEO"
+   },
+   "description": "Лупа со стрелкой вверх",
+   "keywords": {
+    "ru": [
+     "SEO",
+     "поиск",
+     "позиции"
+    ],
+    "uk": [
+     "SEO",
+     "пошук",
+     "позиції"
+    ],
+    "en": [
+     "seo",
+     "ranking",
+     "search visibility"
+    ]
+   },
+   "tags": [
+    "action"
+   ],
+   "file": "icons/business/seo.svg"
+  },
+  {
+   "id": "BIZ-018",
+   "slug": "conversion",
+   "category": "business",
+   "name": "Конверсия",
+   "names": {
+    "ru": "Конверсия",
+    "uk": "Конверсія",
+    "en": "Conversion"
+   },
+   "description": "Курсор нажимает на кнопку",
+   "keywords": {
+    "ru": [
+     "конверсия",
+     "CTA",
+     "клик"
+    ],
+    "uk": [
+     "конверсія",
+     "CTA",
+     "клік"
+    ],
+    "en": [
+     "conversion",
+     "call to action",
+     "click"
+    ]
+   },
+   "tags": [
+    "interface"
+   ],
+   "file": "icons/business/conversion.svg"
+  },
+  {
+   "id": "BIZ-019",
+   "slug": "kanban",
+   "category": "business",
+   "name": "Канбан",
+   "names": {
+    "ru": "Канбан",
+    "uk": "Канбан",
+    "en": "Kanban"
+   },
+   "description": "Доска с колонками и карточками",
+   "keywords": {
+    "ru": [
+     "канбан",
+     "задачи",
+     "проект"
+    ],
+    "uk": [
+     "канбан",
+     "завдання",
+     "проєкт"
+    ],
+    "en": [
+     "kanban",
+     "tasks",
+     "project management"
+    ]
+   },
+   "tags": [
+    "interface"
+   ],
+   "file": "icons/business/kanban.svg"
+  },
+  {
+   "id": "BIZ-020",
+   "slug": "timeline",
+   "category": "business",
+   "name": "Диаграмма Ганта",
+   "names": {
+    "ru": "Диаграмма Ганта",
+    "uk": "Діаграма Ганта",
+    "en": "Timeline"
+   },
+   "description": "Полосы задач во времени",
+   "keywords": {
+    "ru": [
+     "таймлайн",
+     "сроки",
+     "Гант"
+    ],
+    "uk": [
+     "таймлайн",
+     "терміни",
+     "Гант"
+    ],
+    "en": [
+     "gantt",
+     "timeline",
+     "schedule"
+    ]
+   },
+   "tags": [
+    "chart"
+   ],
+   "file": "icons/business/timeline.svg"
+  },
+  {
+   "id": "BIZ-021",
+   "slug": "team",
+   "category": "business",
+   "name": "Команда",
+   "names": {
+    "ru": "Команда",
+    "uk": "Команда",
+    "en": "Team"
+   },
+   "description": "Лидер и двое участников",
+   "keywords": {
+    "ru": [
+     "команда",
+     "коллеги",
+     "сотрудники"
+    ],
+    "uk": [
+     "команда",
+     "колеги",
+     "співробітники"
+    ],
+    "en": [
+     "team",
+     "colleagues",
+     "staff"
+    ]
+   },
+   "tags": [
+    "group"
+   ],
+   "file": "icons/business/team.svg"
+  },
+  {
+   "id": "BIZ-022",
+   "slug": "customer-support",
+   "category": "business",
+   "name": "Поддержка клиентов",
+   "names": {
+    "ru": "Поддержка клиентов",
+    "uk": "Підтримка клієнтів",
+    "en": "Customer Support"
+   },
+   "description": "Гарнитура с микрофоном",
+   "keywords": {
+    "ru": [
+     "поддержка",
+     "колл-центр",
+     "сервис"
+    ],
+    "uk": [
+     "підтримка",
+     "кол-центр",
+     "сервіс"
+    ],
+    "en": [
+     "support",
+     "call center",
+     "service"
+    ]
+   },
+   "tags": [
+    "communication"
+   ],
+   "file": "icons/business/customer-support.svg"
+  },
+  {
+   "id": "BIZ-023",
+   "slug": "rating",
+   "category": "business",
+   "name": "Рейтинг и отзывы",
+   "names": {
+    "ru": "Рейтинг и отзывы",
+    "uk": "Рейтинг і відгуки",
+    "en": "Rating"
+   },
+   "description": "Пятиконечная звезда",
+   "keywords": {
+    "ru": [
+     "рейтинг",
+     "отзывы",
+     "оценка"
+    ],
+    "uk": [
+     "рейтинг",
+     "відгуки",
+     "оцінка"
+    ],
+    "en": [
+     "rating",
+     "reviews",
+     "score"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/business/rating.svg"
+  },
+  {
+   "id": "BIZ-024",
+   "slug": "discount",
+   "category": "business",
+   "name": "Скидка",
+   "names": {
+    "ru": "Скидка",
+    "uk": "Знижка",
+    "en": "Discount"
+   },
+   "description": "Розетка со знаком процента",
+   "keywords": {
+    "ru": [
+     "скидка",
+     "акция",
+     "распродажа"
+    ],
+    "uk": [
+     "знижка",
+     "акція",
+     "розпродаж"
+    ],
+    "en": [
+     "discount",
+     "sale",
+     "promo"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/business/discount.svg"
+  },
+  {
+   "id": "BIZ-025",
+   "slug": "shopping-cart",
+   "category": "business",
+   "name": "Продажи онлайн",
+   "names": {
+    "ru": "Продажи онлайн",
+    "uk": "Онлайн-продажі",
+    "en": "Shopping Cart"
+   },
+   "description": "Тележка покупателя",
+   "keywords": {
+    "ru": [
+     "корзина",
+     "покупки",
+     "e-commerce"
+    ],
+    "uk": [
+     "кошик",
+     "покупки",
+     "e-commerce"
+    ],
+    "en": [
+     "cart",
+     "e-commerce",
+     "checkout"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/business/shopping-cart.svg"
+  },
+  {
+   "id": "BIZ-026",
+   "slug": "storefront",
+   "category": "business",
+   "name": "Магазин",
+   "names": {
+    "ru": "Магазин",
+    "uk": "Магазин",
+    "en": "Storefront"
+   },
+   "description": "Витрина с полосатым навесом",
+   "keywords": {
+    "ru": [
+     "магазин",
+     "ритейл",
+     "точка продаж"
+    ],
+    "uk": [
+     "магазин",
+     "рітейл",
+     "точка продажу"
+    ],
+    "en": [
+     "store",
+     "retail",
+     "shop"
+    ]
+   },
+   "tags": [
+    "building"
+   ],
+   "file": "icons/business/storefront.svg"
+  },
+  {
+   "id": "BIZ-027",
+   "slug": "new-lead",
+   "category": "business",
+   "name": "Новый клиент",
+   "names": {
+    "ru": "Новый клиент",
+    "uk": "Новий клієнт",
+    "en": "New Lead"
+   },
+   "description": "Человек и плюс",
+   "keywords": {
+    "ru": [
+     "лид",
+     "клиент",
+     "привлечение"
+    ],
+    "uk": [
+     "лід",
+     "клієнт",
+     "залучення"
+    ],
+    "en": [
+     "lead",
+     "new customer",
+     "acquisition"
+    ]
+   },
+   "tags": [
+    "person"
+   ],
+   "file": "icons/business/new-lead.svg"
+  },
+  {
+   "id": "BIZ-028",
+   "slug": "startup-launch",
+   "category": "business",
+   "name": "Запуск стартапа",
+   "names": {
+    "ru": "Запуск стартапа",
+    "uk": "Запуск стартапу",
+    "en": "Startup Launch"
+   },
+   "description": "Ракета на взлёте",
+   "keywords": {
+    "ru": [
+     "стартап",
+     "запуск",
+     "инновации"
+    ],
+    "uk": [
+     "стартап",
+     "запуск",
+     "інновації"
+    ],
+    "en": [
+     "startup",
+     "launch",
+     "innovation"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/business/startup-launch.svg"
+  },
+  {
+   "id": "BIZ-029",
+   "slug": "b2b",
+   "category": "business",
+   "name": "B2B-партнёрство",
+   "names": {
+    "ru": "B2B-партнёрство",
+    "uk": "B2B-партнерство",
+    "en": "B2B"
+   },
+   "description": "Два здания, связанные линией",
+   "keywords": {
+    "ru": [
+     "B2B",
+     "партнёры",
+     "компании"
+    ],
+    "uk": [
+     "B2B",
+     "партнери",
+     "компанії"
+    ],
+    "en": [
+     "b2b",
+     "companies",
+     "partnership"
+    ]
+   },
+   "tags": [
+    "building"
+   ],
+   "file": "icons/business/b2b.svg"
+  },
+  {
+   "id": "BIZ-030",
+   "slug": "time-management",
+   "category": "business",
+   "name": "Тайм-менеджмент",
+   "names": {
+    "ru": "Тайм-менеджмент",
+    "uk": "Тайм-менеджмент",
+    "en": "Time Management"
+   },
+   "description": "Секундомер",
+   "keywords": {
+    "ru": [
+     "время",
+     "дедлайн",
+     "эффективность"
+    ],
+    "uk": [
+     "час",
+     "дедлайн",
+     "ефективність"
+    ],
+    "en": [
+     "time management",
+     "deadline",
+     "stopwatch"
+    ]
+   },
+   "tags": [
+    "time"
+   ],
+   "file": "icons/business/time-management.svg"
+  },
+  {
+   "id": "BIZ-031",
+   "slug": "business-process",
+   "category": "business",
+   "name": "Бизнес-процесс",
+   "names": {
+    "ru": "Бизнес-процесс",
+    "uk": "Бізнес-процес",
+    "en": "Business Process"
+   },
+   "description": "Три блока со стрелками",
+   "keywords": {
+    "ru": [
+     "процесс",
+     "этапы",
+     "операции"
+    ],
+    "uk": [
+     "процес",
+     "етапи",
+     "операції"
+    ],
+    "en": [
+     "process",
+     "workflow",
+     "operations"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/business/business-process.svg"
+  },
+  {
+   "id": "BIZ-032",
+   "slug": "audience-reach",
+   "category": "business",
+   "name": "Охват аудитории",
+   "names": {
+    "ru": "Охват аудитории",
+    "uk": "Охоплення аудиторії",
+    "en": "Audience Reach"
+   },
+   "description": "Человек и волны распространения",
+   "keywords": {
+    "ru": [
+     "охват",
+     "аудитория",
+     "распространение"
+    ],
+    "uk": [
+     "охоплення",
+     "аудиторія",
+     "поширення"
+    ],
+    "en": [
+     "reach",
+     "audience",
+     "awareness"
+    ]
+   },
+   "tags": [
+    "person"
+   ],
+   "file": "icons/business/audience-reach.svg"
+  },
+  {
+   "id": "BIZ-033",
+   "slug": "ab-testing",
+   "category": "business",
+   "name": "A/B-тестирование",
+   "names": {
+    "ru": "A/B-тестирование",
+    "uk": "A/B-тестування",
+    "en": "A/B Testing"
+   },
+   "description": "Два варианта с разной динамикой",
+   "keywords": {
+    "ru": [
+     "A/B",
+     "эксперимент",
+     "сравнение"
+    ],
+    "uk": [
+     "A/B",
+     "експеримент",
+     "порівняння"
+    ],
+    "en": [
+     "a/b test",
+     "experiment",
+     "comparison"
+    ]
+   },
+   "tags": [
+    "chart"
+   ],
+   "file": "icons/business/ab-testing.svg"
+  },
+  {
+   "id": "BIZ-034",
+   "slug": "segmentation",
+   "category": "business",
+   "name": "Сегментация клиентов",
+   "names": {
+    "ru": "Сегментация клиентов",
+    "uk": "Сегментація клієнтів",
+    "en": "Segmentation"
+   },
+   "description": "Кольцо из четырёх сегментов",
+   "keywords": {
+    "ru": [
+     "сегментация",
+     "группы",
+     "кластеры"
+    ],
+    "uk": [
+     "сегментація",
+     "групи",
+     "кластери"
+    ],
+    "en": [
+     "segmentation",
+     "clusters",
+     "groups"
+    ]
+   },
+   "tags": [
+    "chart"
+   ],
+   "file": "icons/business/segmentation.svg"
+  },
+  {
+   "id": "BIZ-035",
+   "slug": "recruiting",
+   "category": "business",
+   "name": "Подбор персонала",
+   "names": {
+    "ru": "Подбор персонала",
+    "uk": "Підбір персоналу",
+    "en": "Recruiting"
+   },
+   "description": "Кандидат и лупа",
+   "keywords": {
+    "ru": [
+     "HR",
+     "найм",
+     "кандидаты"
+    ],
+    "uk": [
+     "HR",
+     "найм",
+     "кандидати"
+    ],
+    "en": [
+     "recruiting",
+     "hiring",
+     "candidates"
+    ]
+   },
+   "tags": [
+    "person"
+   ],
+   "file": "icons/business/recruiting.svg"
+  },
+  {
+   "id": "BIZ-036",
+   "slug": "org-chart",
+   "category": "business",
+   "name": "Оргструктура",
+   "names": {
+    "ru": "Оргструктура",
+    "uk": "Оргструктура",
+    "en": "Org Chart"
+   },
+   "description": "Дерево подчинения",
+   "keywords": {
+    "ru": [
+     "структура",
+     "иерархия",
+     "отделы"
+    ],
+    "uk": [
+     "структура",
+     "ієрархія",
+     "відділи"
+    ],
+    "en": [
+     "org chart",
+     "hierarchy",
+     "structure"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/business/org-chart.svg"
+  },
+  {
+   "id": "BIZ-037",
+   "slug": "customer-journey",
+   "category": "business",
+   "name": "Путь клиента",
+   "names": {
+    "ru": "Путь клиента",
+    "uk": "Шлях клієнта",
+    "en": "Customer Journey"
+   },
+   "description": "Траектория между тремя точками",
+   "keywords": {
+    "ru": [
+     "CJM",
+     "путь",
+     "точки контакта"
+    ],
+    "uk": [
+     "CJM",
+     "шлях",
+     "точки контакту"
+    ],
+    "en": [
+     "customer journey",
+     "touchpoints",
+     "cjm"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/business/customer-journey.svg"
+  },
+  {
+   "id": "BIZ-038",
+   "slug": "trophy",
+   "category": "business",
+   "name": "Награда",
+   "names": {
+    "ru": "Награда",
+    "uk": "Нагорода",
+    "en": "Trophy"
+   },
+   "description": "Кубок на подставке",
+   "keywords": {
+    "ru": [
+     "достижение",
+     "победа",
+     "награда"
+    ],
+    "uk": [
+     "досягнення",
+     "перемога",
+     "нагорода"
+    ],
+    "en": [
+     "trophy",
+     "achievement",
+     "award"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/business/trophy.svg"
+  },
+  {
+   "id": "BIZ-039",
+   "slug": "survey",
+   "category": "business",
+   "name": "Опрос",
+   "names": {
+    "ru": "Опрос",
+    "uk": "Опитування",
+    "en": "Survey"
+   },
+   "description": "Анкета с вариантами ответа",
+   "keywords": {
+    "ru": [
+     "опрос",
+     "анкета",
+     "исследование"
+    ],
+    "uk": [
+     "опитування",
+     "анкета",
+     "дослідження"
+    ],
+    "en": [
+     "survey",
+     "questionnaire",
+     "research"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/business/survey.svg"
+  },
+  {
+   "id": "BIZ-040",
+   "slug": "pricing-plans",
+   "category": "business",
+   "name": "Тарифы",
+   "names": {
+    "ru": "Тарифы",
+    "uk": "Тарифи",
+    "en": "Pricing Plans"
+   },
+   "description": "Три карточки тарифов",
+   "keywords": {
+    "ru": [
+     "тарифы",
+     "цены",
+     "планы"
+    ],
+    "uk": [
+     "тарифи",
+     "ціни",
+     "плани"
+    ],
+    "en": [
+     "pricing",
+     "plans",
+     "tiers"
+    ]
+   },
+   "tags": [
+    "interface"
+   ],
+   "file": "icons/business/pricing-plans.svg"
+  },
+  {
+   "id": "BIZ-041",
+   "slug": "business-goal",
+   "category": "business",
+   "name": "Бизнес-цель",
+   "names": {
+    "ru": "Бизнес-цель",
+    "uk": "Бізнес-мета",
+    "en": "Business Goal"
+   },
+   "description": "Флаг на вершине",
+   "keywords": {
+    "ru": [
+     "цель",
+     "вершина",
+     "результат"
+    ],
+    "uk": [
+     "мета",
+     "вершина",
+     "результат"
+    ],
+    "en": [
+     "goal",
+     "milestone",
+     "summit"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/business/business-goal.svg"
+  },
+  {
+   "id": "BIZ-042",
+   "slug": "business-card",
+   "category": "business",
+   "name": "Визитная карточка",
+   "names": {
+    "ru": "Визитная карточка",
+    "uk": "Візитна картка",
+    "en": "Business Card"
+   },
+   "description": "Визитка с аватаром",
+   "keywords": {
+    "ru": [
+     "визитка",
+     "контакты",
+     "нетворкинг"
+    ],
+    "uk": [
+     "візитка",
+     "контакти",
+     "нетворкінг"
+    ],
+    "en": [
+     "business card",
+     "contacts",
+     "networking"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/business/business-card.svg"
+  },
+  {
+   "id": "BIZ-043",
+   "slug": "notifications",
+   "category": "business",
+   "name": "Уведомления",
+   "names": {
+    "ru": "Уведомления",
+    "uk": "Сповіщення",
+    "en": "Notifications"
+   },
+   "description": "Колокольчик с индикатором",
+   "keywords": {
+    "ru": [
+     "уведомления",
+     "оповещения",
+     "новое"
+    ],
+    "uk": [
+     "сповіщення",
+     "оповіщення",
+     "нове"
+    ],
+    "en": [
+     "notifications",
+     "alerts",
+     "updates"
+    ]
+   },
+   "tags": [
+    "interface"
+   ],
+   "file": "icons/business/notifications.svg"
+  },
+  {
+   "id": "BIZ-044",
+   "slug": "loyalty-card",
+   "category": "business",
+   "name": "Программа лояльности",
+   "names": {
+    "ru": "Программа лояльности",
+    "uk": "Програма лояльності",
+    "en": "Loyalty Program"
+   },
+   "description": "Карта с сердцем",
+   "keywords": {
+    "ru": [
+     "лояльность",
+     "бонусы",
+     "постоянные клиенты"
+    ],
+    "uk": [
+     "лояльність",
+     "бонуси",
+     "постійні клієнти"
+    ],
+    "en": [
+     "loyalty",
+     "rewards",
+     "retention"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/business/loyalty-card.svg"
+  },
+  {
+   "id": "BIZ-045",
+   "slug": "brainstorm",
+   "category": "business",
+   "name": "Мозговой штурм",
+   "names": {
+    "ru": "Мозговой штурм",
+    "uk": "Мозковий штурм",
+    "en": "Brainstorm"
+   },
+   "description": "Три стикера с идеями",
+   "keywords": {
+    "ru": [
+     "идеи",
+     "брейншторм",
+     "воркшоп"
+    ],
+    "uk": [
+     "ідеї",
+     "брейншторм",
+     "воркшоп"
+    ],
+    "en": [
+     "brainstorm",
+     "ideas",
+     "workshop"
+    ]
+   },
+   "tags": [
+    "object"
+   ],
+   "file": "icons/business/brainstorm.svg"
+  },
+  {
+   "id": "BIZ-046",
+   "slug": "warehouse",
+   "category": "business",
+   "name": "Склад и логистика",
+   "names": {
+    "ru": "Склад и логистика",
+    "uk": "Склад і логістика",
+    "en": "Warehouse"
+   },
+   "description": "Складское здание с воротами",
+   "keywords": {
+    "ru": [
+     "склад",
+     "логистика",
+     "запасы"
+    ],
+    "uk": [
+     "склад",
+     "логістика",
+     "запаси"
+    ],
+    "en": [
+     "warehouse",
+     "logistics",
+     "inventory"
+    ]
+   },
+   "tags": [
+    "building"
+   ],
+   "file": "icons/business/warehouse.svg"
+  },
+  {
+   "id": "BIZ-047",
+   "slug": "leadership",
+   "category": "business",
+   "name": "Лидерство",
+   "names": {
+    "ru": "Лидерство",
+    "uk": "Лідерство",
+    "en": "Leadership"
+   },
+   "description": "Человек с короной",
+   "keywords": {
+    "ru": [
+     "лидер",
+     "руководитель",
+     "управление"
+    ],
+    "uk": [
+     "лідер",
+     "керівник",
+     "управління"
+    ],
+    "en": [
+     "leadership",
+     "leader",
+     "management"
+    ]
+   },
+   "tags": [
+    "person"
+   ],
+   "file": "icons/business/leadership.svg"
+  },
+  {
+   "id": "BIZ-048",
+   "slug": "customer-satisfaction",
+   "category": "business",
+   "name": "Удовлетворённость клиентов",
+   "names": {
+    "ru": "Удовлетворённость клиентов",
+    "uk": "Задоволеність клієнтів",
+    "en": "Customer Satisfaction"
+   },
+   "description": "Улыбающееся лицо",
+   "keywords": {
+    "ru": [
+     "NPS",
+     "довольные клиенты",
+     "сервис"
+    ],
+    "uk": [
+     "NPS",
+     "задоволені клієнти",
+     "сервіс"
+    ],
+    "en": [
+     "satisfaction",
+     "nps",
+     "happy customer"
+    ]
+   },
+   "tags": [
+    "symbol"
+   ],
+   "file": "icons/business/customer-satisfaction.svg"
+  },
+  {
+   "id": "BIZ-049",
+   "slug": "omnichannel",
+   "category": "business",
+   "name": "Омниканальность",
+   "names": {
+    "ru": "Омниканальность",
+    "uk": "Омніканальність",
+    "en": "Omnichannel"
+   },
+   "description": "Монитор и смартфон",
+   "keywords": {
+    "ru": [
+     "каналы",
+     "устройства",
+     "омниканальность"
+    ],
+    "uk": [
+     "канали",
+     "пристрої",
+     "омніканальність"
+    ],
+    "en": [
+     "omnichannel",
+     "devices",
+     "touchpoints"
+    ]
+   },
+   "tags": [
+    "device"
+   ],
+   "file": "icons/business/omnichannel.svg"
+  },
+  {
+   "id": "BIZ-050",
+   "slug": "commercial-proposal",
+   "category": "business",
+   "name": "Коммерческое предложение",
+   "names": {
+    "ru": "Коммерческое предложение",
+    "uk": "Комерційна пропозиція",
+    "en": "Commercial Proposal"
+   },
+   "description": "Папка с вложенным документом",
+   "keywords": {
+    "ru": [
+     "КП",
+     "предложение",
+     "тендер"
+    ],
+    "uk": [
+     "КП",
+     "пропозиція",
+     "тендер"
+    ],
+    "en": [
+     "proposal",
+     "offer",
+     "quote"
+    ]
+   },
+   "tags": [
+    "document"
+   ],
+   "file": "icons/business/commercial-proposal.svg"
   }
  ]
 }
