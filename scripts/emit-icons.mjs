@@ -6,6 +6,19 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { categories, ROOT_ATTRS } from '../icons-src/categories.mjs';
+import { sampleBody, bbox } from './lib/geometry.mjs';
+import { shiftBody } from './lib/shift.mjs';
+
+// Optical centring: geometry whose bounding box is off-centre by more than
+// CENTER_TOLERANCE units is moved to the middle of the 24 grid. An entry can
+// opt out with a 7th field { center: false } when the asymmetry is intended.
+const CENTER_TOLERANCE = 0.6;
+function centred(body) {
+  const b = bbox(sampleBody(body));
+  const dx = Math.round((12 - (b.x0 + b.x1) / 2) * 100) / 100;
+  const dy = Math.round((12 - (b.y0 + b.y1) / 2) * 100) / 100;
+  return Math.abs(dx) >= CENTER_TOLERANCE || Math.abs(dy) >= CENTER_TOLERANCE ? shiftBody(body, Math.abs(dx) >= CENTER_TOLERANCE ? dx : 0, Math.abs(dy) >= CENTER_TOLERANCE ? dy : 0) : body;
+}
 
 const root = path.resolve(import.meta.dirname, '..');
 const manifest = { version: 1, generatedAt: null, categories: [], icons: [] };
@@ -20,7 +33,8 @@ for (const cat of categories) {
   const entries = (await import(pathToFileURL(src).href + '?t=' + Date.now())).default;
   const keep = new Set();
   entries.forEach((e, i) => {
-    const [slug, names, description, keywords, tags, body] = e;
+    const [slug, names, description, keywords, tags, rawBody, opts = {}] = e;
+    const body = opts.center === false ? rawBody : centred(rawBody.trim());
     if (!slug || !body) throw new Error(`${cat.id}#${i + 1}: malformed entry`);
     const [ru, uk, en] = names.split('|').map((s) => s.trim());
     const [kru = '', kuk = '', ken = ''] = keywords.split('|');
