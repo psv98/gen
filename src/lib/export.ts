@@ -1,7 +1,8 @@
 import type { IconDef, StudioSettings } from '../types/index.ts';
 import { composeSvg } from './compose.ts';
+import { toSprite } from './codegen.ts';
 
-export type ExportFormat = 'svg' | 'png' | 'jpeg';
+export type ExportFormat = 'svg' | 'png' | 'jpeg' | 'sprite';
 export const RASTER_SIZES = [64, 128, 256, 512, 1024, 2048, 4096];
 export const MAX_RASTER = 8192;
 
@@ -70,12 +71,13 @@ export function downloadBlob(blob: Blob, filename: string) {
 }
 
 export function fileName(icon: IconDef, o: ExportOptions, s: StudioSettings): string {
-  if (o.format === 'svg') return `${icon.slug}.svg`;
+  if (o.format === 'svg' || o.format === 'sprite') return `${icon.slug}.svg`;
   const { w, h } = outputSize(s, o.size);
   return `${icon.slug}-${w}x${h}.${o.format === 'png' ? 'png' : 'jpg'}`;
 }
 
 export async function exportOne(icon: IconDef, s: StudioSettings, o: ExportOptions): Promise<Blob> {
+  if (o.format === 'sprite') return svgBlob(toSprite([icon], s, o.useCurrentColor));
   if (o.format === 'svg') return svgBlob(composeSvg(icon.b, s, { idPrefix: icon.slug, useCurrentColor: o.useCurrentColor, title: icon.n[2] }));
   return rasterize(icon.b, s, o.size, o.format === 'png' ? 'image/png' : 'image/jpeg', o.quality, o.matte);
 }
@@ -102,4 +104,19 @@ export function canCopyImage(): boolean {
 export async function copyPng(body: string, s: StudioSettings, longest = 512): Promise<void> {
   const blob = rasterize(body, s, longest, 'image/png');
   await navigator.clipboard.write([new ClipboardItem({ 'image/png': blob })]);
+}
+
+export function exportSprite(list: IconDef[], s: StudioSettings, useCurrentColor: boolean): Blob {
+  return new Blob([toSprite(list, s, useCurrentColor)], { type: 'image/svg+xml;charset=utf-8' });
+}
+
+/** Lets an icon be dragged out of the browser as an .svg file (Chromium) or as markup. */
+export function setDragData(e: DragEvent | { dataTransfer: DataTransfer | null }, name: string, svg: string) {
+  const dt = e.dataTransfer;
+  if (!dt) return;
+  const url = `data:image/svg+xml;base64,${btoa(unescape(encodeURIComponent(svg)))}`;
+  dt.effectAllowed = 'copy';
+  dt.setData('DownloadURL', `image/svg+xml:${name}:${url}`);
+  dt.setData('text/plain', svg);
+  dt.setData('text/html', svg);
 }

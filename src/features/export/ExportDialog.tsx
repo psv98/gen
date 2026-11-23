@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Download, Copy, Info } from 'lucide-react';
 import { useStudio } from '../../app/store.tsx';
 import { Button, ColorField, Dialog, Field, NumberInput, Segmented, SliderField, Toggle, cx } from '../../components/ui.tsx';
-import { MAX_RASTER, RASTER_SIZES, copyText, downloadBlob, exportOne, exportZip, fileName, outputSize, type ExportFormat, type ExportOptions } from '../../lib/export.ts';
+import { MAX_RASTER, RASTER_SIZES, copyText, exportSprite, downloadBlob, exportOne, exportZip, fileName, outputSize, type ExportFormat, type ExportOptions } from '../../lib/export.ts';
 import { composeSvg } from '../../lib/compose.ts';
 import { iconById } from '../../lib/registry.ts';
 import { readStore, writeStore } from '../../lib/storage.ts';
@@ -18,6 +18,7 @@ export function ExportDialog() {
   const [busy, setBusy] = useState<string | null>(null);
   useEffect(() => writeStore('export', o), [o]);
   useEffect(() => { if (s.exportOpen) setScope(s.selectMode && s.selection.length ? 'batch' : 'current'); }, [s.exportOpen]); // eslint-disable-line react-hooks/exhaustive-deps
+  useEffect(() => { if (scope === 'current' && o.format === 'sprite') setO((x) => ({ ...x, format: 'svg' })); }, [scope, o.format]);
 
   const icon = s.selected;
   if (!icon) return null;
@@ -28,7 +29,10 @@ export function ExportDialog() {
 
   const run = async () => {
     try {
-      if (scope === 'batch' && batch.length) {
+      if (scope === 'batch' && batch.length && o.format === 'sprite') {
+        downloadBlob(exportSprite(batch, set, o.useCurrentColor), `icon-sprite-${batch.length}.svg`);
+        s.toast(`${t('exported')}: SVG-спрайт, ${batch.length} шт.`);
+      } else if (scope === 'batch' && batch.length) {
         setBusy(`0 / ${batch.length}`);
         const zip = await exportZip(batch, set, o, (d, n) => setBusy(`${d} / ${n}`));
         downloadBlob(zip, `icon-studio-${batch.length}-icons-${o.format}.zip`);
@@ -64,13 +68,13 @@ export function ExportDialog() {
           </p>
         )}
         <Field label={t('format')}>
-          <Segmented<ExportFormat> label={t('format')} value={o.format} onChange={(v) => patch({ format: v })} options={[{ value: 'svg', label: 'SVG' }, { value: 'png', label: 'PNG' }, { value: 'jpeg', label: 'JPEG' }]} />
+          <Segmented<ExportFormat> label={t('format')} value={o.format} onChange={(v) => patch({ format: v })} options={[{ value: 'svg', label: 'SVG' }, { value: 'png', label: 'PNG' }, { value: 'jpeg', label: 'JPEG' }, ...(scope === 'batch' ? [{ value: 'sprite' as ExportFormat, label: 'Спрайт', title: 'Один SVG-файл с <symbol> для каждой иконки' }] : [])]} />
         </Field>
 
-        {o.format === 'svg' ? (
+        {o.format === 'svg' || o.format === 'sprite' ? (
           <div className="space-y-3">
             <Toggle label={t('useCurrentColor')} checked={o.useCurrentColor} onChange={(v) => patch({ useCurrentColor: v })} />
-            <p className="text-[12px] text-muted">{t('currentColorHint')} Размер документа: {set.canvas.width}×{set.canvas.height}, геометрия и обводки остаются векторными.</p>
+            <p className="text-[12px] text-muted">{o.format === 'sprite' ? <>Иконки собираются в один файл с элементами &lt;symbol&gt;. Подключение: <code className="font-mono text-fg-2">&lt;svg&gt;&lt;use href="sprite.svg#slug"/&gt;&lt;/svg&gt;</code>. Фон и тень в спрайт не входят.</> : <>{t('currentColorHint')} Размер документа: {set.canvas.width}×{set.canvas.height}, геометрия и обводки остаются векторными.</>}</p>
           </div>
         ) : (
           <div className="space-y-3">

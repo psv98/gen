@@ -13,9 +13,9 @@ export function Button({ variant = 'subtle', size = 'md', className, ...p }: Btn
       type="button"
       {...p}
       className={cx(
-        'inline-flex items-center justify-center gap-1.5 rounded-lg font-medium transition-colors disabled:opacity-40 disabled:pointer-events-none select-none whitespace-nowrap',
+        'inline-flex items-center justify-center gap-1.5 rounded-lg font-medium transition-[background,border-color,color,transform,box-shadow] duration-150 active:scale-[0.97] disabled:opacity-40 disabled:pointer-events-none select-none whitespace-nowrap',
         size === 'sm' ? 'h-7 px-2.5 text-[12px]' : 'h-8 px-3 text-[13px]',
-        variant === 'primary' && 'bg-accent text-white hover:bg-accent-hi shadow-[0_1px_0_rgb(255_255_255/0.15)_inset]',
+        variant === 'primary' && 'bg-accent text-white hover:bg-accent-hi shadow-[0_1px_0_rgb(255_255_255/0.18)_inset,0_6px_16px_-6px_var(--accent)] hover:shadow-[0_1px_0_rgb(255_255_255/0.18)_inset,0_8px_22px_-6px_var(--accent)]',
         variant === 'subtle' && 'bg-raised text-fg border border-line hover:border-line-strong hover:bg-panel-2',
         variant === 'ghost' && 'text-fg-2 hover:text-fg hover:bg-raised',
         variant === 'danger' && 'text-danger hover:bg-danger/10',
@@ -35,7 +35,7 @@ export function IconButton({ label, active, className, tipPos, ...p }: ButtonHTM
       aria-pressed={active}
       {...p}
       className={cx(
-        'inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg transition-colors disabled:opacity-35 disabled:pointer-events-none',
+        'inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg transition-[background,color,transform] duration-150 active:scale-90 disabled:opacity-35 disabled:pointer-events-none',
         active ? 'bg-accent-soft text-accent-hi' : 'text-fg-2 hover:bg-raised hover:text-fg',
         className,
       )}
@@ -62,11 +62,11 @@ export function Section({ id, title, children, actions }: { id: string; title: s
         </button>
         {actions}
       </div>
-      {open && (
-        <div id={bodyId} className="anim-fade space-y-3 px-4 pb-4">
-          {children}
+      <div id={bodyId} className={cx('grid transition-[grid-template-rows,opacity] duration-200 ease-out', open ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0')} inert={!open}>
+        <div className="min-h-0 overflow-hidden">
+          <div className="space-y-3 px-4 pb-4">{children}</div>
         </div>
-      )}
+      </div>
     </section>
   );
 }
@@ -155,11 +155,12 @@ export function Segmented<T extends string>({ value, onChange, options, label }:
           type="button"
           role="radio"
           aria-checked={value === o.value}
-          aria-label={o.title}
-          data-tip={o.title}
+          aria-label={typeof o.label === 'string' ? undefined : o.title}
+          title={typeof o.label === 'string' ? o.title : undefined}
+          data-tip={typeof o.label === 'string' ? undefined : o.title}
           onClick={() => onChange(o.value)}
           className={cx(
-            'flex h-7 items-center justify-center gap-1 rounded-md px-1.5 text-[12px] transition-colors',
+            'flex h-7 items-center justify-center gap-1 rounded-md px-1.5 text-[12px] transition-[background,color,box-shadow] duration-150',
             value === o.value ? 'bg-raised text-fg shadow-sm ring-1 ring-line-strong' : 'text-muted hover:text-fg',
           )}
         >
@@ -172,19 +173,22 @@ export function Segmented<T extends string>({ value, onChange, options, label }:
 
 export function Toggle({ checked, onChange, label }: { checked: boolean; onChange: (v: boolean) => void; label: string }) {
   return (
-    <label className="flex cursor-pointer items-center justify-between gap-3 text-[12px] text-fg-2">
-      <span>{label}</span>
+    <div className="flex items-center justify-between gap-3 text-[12px] text-fg-2">
+      <span className="cursor-pointer select-none" onClick={() => onChange(!checked)}>{label}</span>
       <button
         type="button"
         role="switch"
         aria-checked={checked}
         aria-label={label}
         onClick={() => onChange(!checked)}
-        className={cx('relative h-[18px] w-8 shrink-0 rounded-full transition-colors', checked ? 'bg-accent' : 'bg-line-strong')}
+        className={cx('relative inline-block h-5 w-9 shrink-0 rounded-full p-0 transition-colors duration-200', checked ? 'bg-accent' : 'bg-line-strong')}
       >
-        <span className={cx('absolute top-[2px] h-[14px] w-[14px] rounded-full bg-white shadow transition-transform', checked ? 'translate-x-[16px]' : 'translate-x-[2px]')} />
+        <span
+          aria-hidden
+          className={cx('absolute left-0 top-0.5 block h-4 w-4 rounded-full bg-white shadow-[0_1px_2px_rgb(0_0_0/0.35)] transition-transform duration-200 ease-[cubic-bezier(.3,1.4,.5,1)]', checked ? 'translate-x-[18px]' : 'translate-x-0.5')}
+        />
       </button>
-    </label>
+    </div>
   );
 }
 

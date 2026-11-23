@@ -1,0 +1,15 @@
+# Render.com blueprint for the remote Icon Studio MCP server (free plan is enough).
+# New → Blueprint → pick this repository. The connector URL is https://<service>.onrender.com/mcp
+services:
+  - type: web
+    name: icon-studio-mcp
+    runtime: node
+    plan: free
+    buildCommand: npm --prefix mcp ci
+    startCommand: node mcp/src/http.mjs
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_VERSION
+        value: 22.18.0
+      - key: ICON_STUDIO_MCP_TOKEN
+        generateValue: true

@@ -26,5 +26,8 @@ for (const ic of manifest.icons) {
 }
 const out = { categories: manifest.categories.map(({ id, names }) => ({ id, names })), icons };
 fs.writeFileSync(path.join(root, 'src/data/registry.json'), JSON.stringify(out));
+// Public copy for remote tools (MCP server, scripts) served by GitHub Pages at /api/registry.json
+fs.mkdirSync(path.join(root, 'public/api'), { recursive: true });
+fs.writeFileSync(path.join(root, 'public/api/registry.json'), JSON.stringify(out));
 console.log(`registry: ${icons.length} icons` + (problems.length ? `\n  ${problems.join('\n  ')}` : ''));
 if (problems.length) process.exitCode = 1;

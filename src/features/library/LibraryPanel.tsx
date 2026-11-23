@@ -1,10 +1,12 @@
 import { useDeferredValue, useEffect, useLayoutEffect, useMemo, useRef, useState, memo } from 'react';
-import { Search, X, Star, Clock, LayoutGrid, FolderPlus, Folder, Trash2, CheckSquare, Square, FilterX } from 'lucide-react';
+import { Search, X, Star, Clock, LayoutGrid, FolderPlus, Folder, Trash2, CheckSquare, Square, FilterX, Grid2x2, Grid3x3, LayoutGrid as Grid4, Brush } from 'lucide-react';
 import { useStudio, type Filter } from '../../app/store.tsx';
 import { categories, countByCategory, icons } from '../../lib/registry.ts';
 import { buildIndex, search } from '../../lib/search.ts';
 import { categoryName, iconName, t } from '../../i18n/index.ts';
 import { Button, Dialog, IconButton, cx } from '../../components/ui.tsx';
+import { setDragData } from '../../lib/export.ts';
+import { canonicalSvg } from '../../lib/compose.ts';
 import type { IconDef } from '../../types/index.ts';
 
 const index = buildIndex(icons, categories);
@@ -26,7 +28,7 @@ function NavItem({ active, onClick, icon, label, count, onDelete }: { active: bo
   );
 }
 
-const Thumb = memo(function Thumb({ icon, active, checked, fav, selectMode, onPick, style }: { icon: IconDef; active: boolean; checked: boolean; fav: boolean; selectMode: boolean; onPick: (e: React.MouseEvent, icon: IconDef) => void; style: React.CSSProperties }) {
+const Thumb = memo(function Thumb({ icon, active, checked, fav, selectMode, onPick, style, glyph, stroke }: { icon: IconDef; active: boolean; checked: boolean; fav: boolean; selectMode: boolean; onPick: (e: React.MouseEvent, icon: IconDef) => void; style: React.CSSProperties; glyph: number; stroke: { width: number; linecap: string; linejoin: string; color?: string } }) {
   const name = iconName(icon);
   return (
     <button
@@ -37,12 +39,14 @@ const Thumb = memo(function Thumb({ icon, active, checked, fav, selectMode, onPi
       aria-label={name}
       aria-pressed={selectMode ? checked : active}
       onClick={(e) => onPick(e, icon)}
+      draggable
+      onDragStart={(e) => setDragData(e, `${icon.slug}.svg`, canonicalSvg(icon.b))}
       className={cx(
-        'absolute flex items-center justify-center rounded-xl border text-fg transition-[background,border-color,transform] duration-150',
+        'group absolute flex items-center justify-center rounded-xl border text-fg transition-[background,border-color,transform,box-shadow] duration-150',
         active ? 'border-accent bg-accent-soft shadow-[0_0_0_3px_var(--accent-soft)]' : checked ? 'border-blue bg-blue/10' : 'border-transparent hover:border-line-strong hover:bg-raised active:scale-95',
       )}
     >
-      <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden dangerouslySetInnerHTML={{ __html: icon.b }} />
+      <svg viewBox="0 0 24 24" width={glyph} height={glyph} fill="none" stroke={stroke.color ?? 'currentColor'} strokeWidth={stroke.width} strokeLinecap={stroke.linecap as 'round'} strokeLinejoin={stroke.linejoin as 'round'} aria-hidden className="pointer-events-none transition-transform duration-150 group-hover:scale-110" dangerouslySetInnerHTML={{ __html: icon.b }} />
       {fav && <Star size={9} className="absolute right-1.5 top-1.5 fill-current text-accent-hi" aria-hidden />}
       {selectMode && (
         <span className={cx('absolute left-1.5 top-1.5 flex h-3.5 w-3.5 items-center justify-center rounded-[4px] border', checked ? 'border-blue bg-blue' : 'border-line-strong bg-panel')}>
@@ -53,7 +57,7 @@ const Thumb = memo(function Thumb({ icon, active, checked, fav, selectMode, onPi
   );
 });
 
-const CELL = 52;
+const SIZES = { s: { cell: 42, glyph: 20 }, m: { cell: 52, glyph: 24 }, l: { cell: 72, glyph: 32 } } as const;
 const GAP = 6;
 
 function VirtualGrid({ list }: { list: IconDef[] }) {
@@ -72,6 +76,9 @@ function VirtualGrid({ list }: { list: IconDef[] }) {
     return () => ro.disconnect();
   }, []);
 
+  const { cell: CELL, glyph } = SIZES[s.gridSize];
+  const st = s.settings.stroke;
+  const stroke = useMemo(() => (s.gridStyled ? { width: st.width, linecap: st.linecap, linejoin: st.linejoin } : { width: 1.8, linecap: 'round', linejoin: 'round' }), [s.gridStyled, st.width, st.linecap, st.linejoin]);
   const cols = Math.max(1, Math.floor((width - 16 + GAP) / (CELL + GAP)));
   const rows = Math.ceil(list.length / cols);
   const cellW = (width - 16 - GAP * (cols - 1)) / cols;
@@ -124,6 +131,8 @@ function VirtualGrid({ list }: { list: IconDef[] }) {
           fav={favSet.has(icon.id)}
           selectMode={s.selectMode}
           onPick={onPick}
+          glyph={glyph}
+          stroke={stroke}
           style={{ top: r * rowH, left: 8 + c * (cellW + GAP), width: cellW, height: CELL }}
         />,
       );
@@ -240,7 +249,7 @@ export function LibraryPanel() {
             aria-label="Сортировка"
             value={s.sort}
             onChange={(e) => s.setSort(e.target.value as typeof s.sort)}
-            className="h-7 rounded-md border border-line bg-panel-2 px-1.5 text-[12px] text-fg-2 outline-none focus:border-accent"
+            className="h-7 w-[108px] rounded-md border border-line bg-panel-2 px-1.5 text-[12px] text-fg-2 outline-none focus:border-accent"
           >
             <option value="default">{t('sortDefault')}</option>
             <option value="name">{t('sortName')}</option>
@@ -254,12 +263,22 @@ export function LibraryPanel() {
           >
             {s.selectMode ? <CheckSquare size={15} /> : <Square size={15} />}
           </IconButton>
+          <IconButton
+            label={s.gridSize === 's' ? 'Плотность: мелкие' : s.gridSize === 'm' ? 'Плотность: средние' : 'Плотность: крупные'}
+            className="h-7 w-7"
+            onClick={() => s.setGridSize(s.gridSize === 's' ? 'm' : s.gridSize === 'm' ? 'l' : 's')}
+          >
+            {s.gridSize === 's' ? <Grid4 size={15} /> : s.gridSize === 'm' ? <Grid3x3 size={15} /> : <Grid2x2 size={15} />}
+          </IconButton>
+          <IconButton label="Показывать сетку с текущей обводкой" active={s.gridStyled} className="h-7 w-7" onClick={() => s.setGridStyled(!s.gridStyled)}>
+            <Brush size={15} />
+          </IconButton>
           {filtersActive && (
             <IconButton label={t('clearFilters')} className="h-7 w-7" onClick={() => { s.setQuery(''); s.setFilter({ kind: 'all' }); s.setSort('default'); }}>
               <FilterX size={15} />
             </IconButton>
           )}
-          <span className="ml-auto font-mono text-[11px] text-muted" aria-live="polite" data-testid="result-count">
+          <span className="ml-auto whitespace-nowrap font-mono text-[11px] text-muted" aria-live="polite" data-testid="result-count">
             {list.length} {t('of')} {icons.length}
           </span>
         </div>

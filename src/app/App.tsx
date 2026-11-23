@@ -1,10 +1,11 @@
-import { useEffect, useState, lazy, Suspense } from 'react';
-import { Undo2, Redo2, Bookmark, Sun, Moon, Download, Keyboard, PanelLeft, SlidersHorizontal, ShieldCheck, CheckCircle2, AlertCircle, ArrowLeft } from 'lucide-react';
+import { useCallback, useEffect, useState, lazy, Suspense } from 'react';
+import { Undo2, Redo2, Bookmark, Sun, Moon, Download, Keyboard, PanelLeft, SlidersHorizontal, ShieldCheck, CheckCircle2, Search as SearchIcon, AlertCircle, ArrowLeft } from 'lucide-react';
 import { StudioProvider, useStudio } from './store.tsx';
 import { LibraryPanel } from '../features/library/LibraryPanel.tsx';
 import { CanvasView } from '../features/canvas/CanvasView.tsx';
 import { Inspector } from '../features/inspector/Inspector.tsx';
 import { ExportDialog } from '../features/export/ExportDialog.tsx';
+import { CommandPalette } from '../features/palette/CommandPalette.tsx';
 import { Button, Dialog, IconButton, Kbd, cx } from '../components/ui.tsx';
 import { composeSvg, cloneSettings } from '../lib/compose.ts';
 import { copyText } from '../lib/export.ts';
@@ -32,6 +33,7 @@ function Logo() {
 const SHORTCUTS: [string, string][] = [
   ['Ctrl/⌘ + Z', 'Отменить'],
   ['Ctrl/⌘ + Shift + Z, Ctrl + Y', 'Повторить'],
+  ['Ctrl/⌘ + K', 'Командная палитра'],
   ['/', 'Поиск'],
   ['← →', 'Предыдущая / следующая иконка'],
   ['S', 'В избранное'],
@@ -55,13 +57,14 @@ function useHashRoute() {
   return /^#\/?quality/.test(hash) ? 'quality' : 'studio';
 }
 
-function useShortcuts() {
+function useShortcuts(openPalette: () => void) {
   const s = useStudio();
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       const el = e.target as HTMLElement;
       const typing = el.closest('input, textarea, select, [contenteditable="true"]');
       const mod = e.ctrlKey || e.metaKey;
+      if (mod && e.key.toLowerCase() === 'k') { e.preventDefault(); openPalette(); return; }
       if (mod && e.key.toLowerCase() === 'z' && !typing) { e.preventDefault(); if (e.shiftKey) s.redo(); else s.undo(); return; }
       if (mod && e.key.toLowerCase() === 'y' && !typing) { e.preventDefault(); s.redo(); return; }
       if (mod && e.shiftKey && e.key.toLowerCase() === 'c' && s.selected) {
@@ -93,7 +96,7 @@ function useShortcuts() {
     };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
-  }, [s]);
+  }, [s, openPalette]);
 }
 
 function TopBar() {
@@ -104,7 +107,15 @@ function TopBar() {
       <Logo />
       <span className="mx-2 hidden h-5 w-px bg-line sm:block" />
       <span className="hidden min-w-0 truncate text-[13px] text-fg-2 sm:block" data-testid="topbar-icon">{s.selected ? iconName(s.selected) : ''}</span>
-      <div className="ml-auto flex items-center gap-0.5">
+      <button
+        type="button"
+        onClick={() => window.dispatchEvent(new KeyboardEvent('keydown', { key: 'k', ctrlKey: true }))}
+        className="ml-auto mr-2 hidden h-8 w-60 items-center gap-2 whitespace-nowrap rounded-lg border border-line bg-panel-2 px-3 text-[12px] text-muted transition-colors hover:border-line-strong hover:text-fg-2 lg:flex"
+      >
+        <SearchIcon size={14} className="shrink-0" />Поиск и команды
+        <span className="ml-auto rounded border border-line-strong px-1.5 font-mono text-[10px]">Ctrl K</span>
+      </button>
+      <div className="ml-auto flex items-center gap-0.5 lg:ml-0">
         <IconButton label={`${t('undo')} (Ctrl+Z)`} disabled={!s.canUndo} onClick={s.undo}><Undo2 size={16} /></IconButton>
         <IconButton label={`${t('redo')} (Ctrl+Shift+Z)`} disabled={!s.canRedo} onClick={s.redo}><Redo2 size={16} /></IconButton>
         <span className="mx-1 hidden h-5 w-px bg-line sm:block" />
@@ -162,7 +173,9 @@ function Toasts() {
 
 function Studio() {
   const s = useStudio();
-  useShortcuts();
+  const [palette, setPalette] = useState(false);
+  const openPalette = useCallback(() => setPalette(true), []);
+  useShortcuts(openPalette);
   const side = !s.focusMode;
   return (
     <div className="flex h-full flex-col">
@@ -203,6 +216,7 @@ function Studio() {
           ))}
         </dl>
       </Dialog>
+      <CommandPalette open={palette} onClose={() => setPalette(false)} />
       <Toasts />
     </div>
   );

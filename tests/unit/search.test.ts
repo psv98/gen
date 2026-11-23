@@ -23,7 +23,7 @@ describe('search', () => {
     expect(ids('фактчекинг')).toContain('fact-check');
   });
   it('requires every token to match', () => {
-    expect(ids('щит пером')).toContain('journalist-safety');
+    expect(ids('щит микрофоном')).toContain('journalist-safety');
     expect(ids('щит zzzz')).toEqual([]);
   });
   it('returns the full catalogue for an empty query', () => {

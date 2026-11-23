@@ -5,6 +5,7 @@ test.beforeEach(async ({ page }) => {
   await page.goto('/');
   await page.evaluate(() => localStorage.clear());
   await page.reload();
+  await expect(page.getByTestId('result-count')).toBeVisible();
 });
 
 test('library shows 500 icons and search works in three languages', async ({ page }) => {
@@ -34,7 +35,7 @@ test('selecting an icon and changing stroke width updates the canvas', async ({ 
 test('exports SVG and PNG at the requested size', async ({ page }) => {
   await page.getByTestId('open-export').click();
   const dialog = page.getByRole('dialog', { name: 'Экспорт' });
-  await dialog.getByRole('radio', { name: 'SVG' }).click();
+  await dialog.getByRole('radio', { name: 'SVG', exact: true }).click();
   const [svgDl] = await Promise.all([page.waitForEvent('download'), dialog.getByTestId('export-download').click()]);
   const svg = fs.readFileSync(await svgDl.path(), 'utf8');
   expect(svg).toContain('<svg xmlns="http://www.w3.org/2000/svg"');
@@ -56,7 +57,7 @@ test('batch export produces a ZIP with the selected icons', async ({ page }) => 
   await page.locator('[data-icon-id="LAW-003"]').click({ modifiers: ['Control'] });
   await page.getByRole('button', { name: 'ZIP' }).click();
   const dialog = page.getByRole('dialog', { name: 'Экспорт' });
-  await dialog.getByRole('radio', { name: 'SVG' }).click();
+  await dialog.getByRole('radio', { name: 'SVG', exact: true }).click();
   const [dl] = await Promise.all([page.waitForEvent('download'), dialog.getByTestId('export-download').click()]);
   expect(dl.suggestedFilename()).toMatch(/\.zip$/);
   const zip = fs.readFileSync(await dl.path());
@@ -79,4 +80,44 @@ test('quality gallery lists every category with 50 icons', async ({ page }) => {
   await page.goto('/#quality');
   await expect(page.getByRole('heading', { name: 'Icon Quality Gallery' })).toBeVisible();
   await expect(page.locator('main button')).toHaveCount(50);
+});
+
+test('shadow switch knob stays inside its track', async ({ page }) => {
+  const sw = page.getByRole('switch', { name: 'Тень' });
+  await sw.scrollIntoViewIfNeeded();
+  for (const state of ['false', 'true']) {
+    await expect(sw).toHaveAttribute('aria-checked', state);
+    const track = (await sw.boundingBox())!;
+    const knob = (await sw.locator('span').boundingBox())!;
+    expect(knob.x).toBeGreaterThanOrEqual(track.x);
+    expect(knob.x + knob.width).toBeLessThanOrEqual(track.x + track.width + 0.5);
+    if (state === 'false') await sw.click();
+  }
+  await expect(page.getByTestId('artboard').locator('feDropShadow')).toHaveCount(1);
+});
+
+test('command palette jumps to an icon', async ({ page }) => {
+  await page.keyboard.press('Control+k');
+  await page.getByRole('textbox', { name: 'Поиск по иконкам и командам' }).fill('копилка');
+  await page.keyboard.press('Enter');
+  await expect(page.getByTestId('icon-title')).toHaveText('Копилка');
+});
+
+test('copy-as menu and SVG sprite export', async ({ page, context }) => {
+  await context.grantPermissions(['clipboard-read', 'clipboard-write']);
+  await page.getByRole('button', { name: /Код и файлы/ }).click();
+  await page.getByRole('menuitem', { name: /React-компонент/ }).click();
+  const jsx = await page.evaluate(() => navigator.clipboard.readText());
+  expect(jsx).toContain('export function ScalesOfJusticeIcon');
+  expect(jsx).toContain('strokeWidth={strokeWidth}');
+
+  await page.locator('[data-icon-id="LAW-001"]').click({ modifiers: ['Control'] });
+  await page.locator('[data-icon-id="LAW-002"]').click({ modifiers: ['Control'] });
+  await page.getByRole('button', { name: 'ZIP' }).click();
+  const dialog = page.getByRole('dialog', { name: 'Экспорт' });
+  await dialog.getByRole('radio', { name: 'Спрайт' }).click();
+  const [dl] = await Promise.all([page.waitForEvent('download'), dialog.getByTestId('export-download').click()]);
+  const sprite = fs.readFileSync(await dl.path(), 'utf8');
+  expect(sprite).toContain('<symbol id="scales-of-justice"');
+  expect(sprite).toContain('<symbol id="gavel"');
 });

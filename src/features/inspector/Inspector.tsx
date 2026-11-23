@@ -1,13 +1,25 @@
 import { useMemo, useState } from 'react';
-import { Star, Copy, Image as ImageIcon, Download, FlipHorizontal2, FlipVertical2, Lock, Unlock, RotateCcw, Trash2, FolderPlus, Check, AlignLeft, AlignCenter, AlignRight, AlignStartVertical, AlignCenterVertical, AlignEndVertical, Plus } from 'lucide-react';
+import { Star, Copy, Code2, ChevronDown, Image as ImageIcon, FlipVertical2, Lock, Unlock, RotateCcw, Trash2, FolderPlus, Check, AlignStartVertical, AlignCenterVertical, AlignEndVertical, AlignStartHorizontal, AlignCenterHorizontal, AlignEndHorizontal, Plus } from 'lucide-react';
 import { useStudio } from '../../app/store.tsx';
 import { BASE_STROKE, DEFAULT_SETTINGS, STROKE_LIMITS, canonicalSvg, cloneSettings, composeSvg } from '../../lib/compose.ts';
 import { BACKGROUND_PRESETS, BUILT_IN_PRESETS, COLOR_SWATCHES } from '../../lib/presets.ts';
 import { canCopyImage, copyPng, copyText, downloadBlob, svgBlob } from '../../lib/export.ts';
-import { categoryById } from '../../lib/registry.ts';
+import { categoryById, icons } from '../../lib/registry.ts';
+import { similarIcons, toCss, toDataUri, toJsx } from '../../lib/codegen.ts';
 import { categoryName, iconName, t } from '../../i18n/index.ts';
 import { Button, ColorField, Field, IconButton, NumberInput, Section, Segmented, SliderField, Toggle, cx } from '../../components/ui.tsx';
 import type { Align, Preset, StudioSettings } from '../../types/index.ts';
+
+const CANVAS_PRESETS = [
+  { name: 'Иконка 24', w: 24, h: 24, k: 1 },
+  { name: 'Favicon', w: 32, h: 32, k: 0.875 },
+  { name: 'Иконка 64', w: 64, h: 64, k: 0.75 },
+  { name: 'Иконка приложения', w: 1024, h: 1024, k: 0.56 },
+  { name: 'Пост в соцсетях', w: 1080, h: 1080, k: 0.5 },
+  { name: 'Сторис', w: 1080, h: 1920, k: 0.5 },
+  { name: 'Обложка ссылки (OG)', w: 1200, h: 630, k: 0.55 },
+  { name: 'Слайд 16:9', w: 1920, h: 1080, k: 0.45 },
+];
 
 function PresetCard({ preset, body, onApply, onDelete }: { preset: Preset; body: string; onApply: () => void; onDelete?: () => void }) {
   const svg = useMemo(() => {
@@ -34,6 +46,8 @@ export function Inspector() {
   const icon = s.selected;
   const set = s.settings;
   const [colMenu, setColMenu] = useState(false);
+  const [codeMenu, setCodeMenu] = useState(false);
+  const similar = useMemo(() => (s.selected ? similarIcons(s.selected, icons) : []), [s.selected]);
   if (!icon) return null;
   const fav = s.favorites.includes(icon.id);
   const safeMax = icon.s[1];
@@ -64,6 +78,11 @@ export function Inspector() {
     try { await copyText(composeSvg(icon.b, set, { idPrefix: icon.slug, title: icon.n[2] })); s.toast(t('copied') + ': SVG'); }
     catch { s.toast(t('copyFailed'), 'error'); }
   };
+  const copyAs = async (what: string, text: string) => {
+    setCodeMenu(false);
+    try { await copyText(text); s.toast(`${t('copied')}: ${what}`); }
+    catch { s.toast(t('copyFailed'), 'error'); }
+  };
   const copyImage = async () => {
     if (!canCopyImage()) return s.toast(t('pngUnsupported'), 'error');
     try { await copyPng(icon.b, set, 512); s.toast(t('copied') + ': PNG 512 px'); }
@@ -71,9 +90,9 @@ export function Inspector() {
   };
 
   const alignOpts = (axis: 'x' | 'y') => [
-    { value: 'start' as Align, label: axis === 'x' ? <AlignLeft size={14} /> : <AlignStartVertical size={14} />, title: axis === 'x' ? 'Слева' : 'Сверху' },
-    { value: 'center' as Align, label: axis === 'x' ? <AlignCenter size={14} /> : <AlignCenterVertical size={14} />, title: 'По центру' },
-    { value: 'end' as Align, label: axis === 'x' ? <AlignRight size={14} /> : <AlignEndVertical size={14} />, title: axis === 'x' ? 'Справа' : 'Снизу' },
+    { value: 'start' as Align, label: axis === 'x' ? <AlignStartVertical size={14} /> : <AlignStartHorizontal size={14} />, title: axis === 'x' ? 'Слева' : 'Сверху' },
+    { value: 'center' as Align, label: axis === 'x' ? <AlignCenterVertical size={14} /> : <AlignCenterHorizontal size={14} />, title: 'По центру' },
+    { value: 'end' as Align, label: axis === 'x' ? <AlignEndVertical size={14} /> : <AlignEndHorizontal size={14} />, title: axis === 'x' ? 'Справа' : 'Снизу' },
   ];
 
   return (
@@ -88,7 +107,7 @@ export function Inspector() {
             <div className="min-w-0 flex-1">
               <h2 className="truncate text-[14px] font-semibold leading-tight" data-testid="icon-title">{iconName(icon)}</h2>
               <p className="mt-0.5 truncate text-[12px] text-muted">{icon.n[2]} · {icon.n[1]}</p>
-              <p className="mt-1 font-mono text-[11px] text-fg-2">{icon.id} · {icon.slug}</p>
+              <p className="mt-1 truncate font-mono text-[11px] text-fg-2">{icon.id} · {icon.slug}</p>
             </div>
             <IconButton label={fav ? t('removeFavorite') : t('addFavorite')} active={fav} onClick={() => s.toggleFavorite(icon.id)} tipPos="left">
               <Star size={16} className={cx(fav && 'fill-current')} />
@@ -102,7 +121,25 @@ export function Inspector() {
           <div className="mt-3 grid grid-cols-2 gap-1.5">
             <Button size="sm" onClick={copySvg}><Copy size={13} />{t('copySvg')}</Button>
             <Button size="sm" onClick={copyImage} disabled={!canCopyImage()}><ImageIcon size={13} />{t('copyPng')}</Button>
-            <Button size="sm" onClick={() => downloadBlob(svgBlob(canonicalSvg(icon.b)), `${icon.slug}.svg`)} data-tip="Исходный файл 24×24, currentColor"><Download size={13} />Оригинал</Button>
+            <div className="relative">
+              <Button size="sm" className="w-full" onClick={() => setCodeMenu((v) => !v)} aria-expanded={codeMenu} aria-haspopup="menu"><Code2 size={13} />Код и файлы<ChevronDown size={12} className={cx('transition-transform', codeMenu && 'rotate-180')} /></Button>
+              {codeMenu && (
+                <div className="anim-pop absolute left-0 top-full z-30 mt-1 w-60 rounded-lg border border-line bg-raised p-1 shadow-[var(--shadow)]" role="menu" onMouseLeave={() => setCodeMenu(false)}>
+                  {[
+                    { label: 'React-компонент (JSX)', hint: 'обводка как props', run: () => copyAs('JSX', toJsx(icon, set)) },
+                    { label: 'Data URI', hint: 'для src и CSS', run: () => copyAs('Data URI', toDataUri(composeSvg(icon.b, set, { idPrefix: icon.slug }))) },
+                    { label: 'CSS-класс', hint: 'background-image', run: () => copyAs('CSS', toCss(icon, set)) },
+                    { label: 'SVG с currentColor', hint: 'цвет наследуется', run: () => copyAs('SVG', composeSvg(icon.b, set, { idPrefix: icon.slug, useCurrentColor: true })) },
+                    { label: 'Скачать оригинал 24×24', hint: 'исходный файл', run: () => { downloadBlob(svgBlob(canonicalSvg(icon.b)), `${icon.slug}.svg`); setCodeMenu(false); } },
+                  ].map((m) => (
+                    <button key={m.label} type="button" role="menuitem" onClick={m.run} className="flex w-full flex-col items-start rounded-md px-2.5 py-1.5 text-left hover:bg-panel-2">
+                      <span className="text-[12px] text-fg">{m.label}</span>
+                      <span className="text-[11px] text-muted">{m.hint}</span>
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
             <div className="relative">
               <Button size="sm" className="w-full" onClick={() => setColMenu((v) => !v)} aria-expanded={colMenu}><FolderPlus size={13} />{t('addToCollection')}</Button>
               {colMenu && (
@@ -130,6 +167,26 @@ export function Inspector() {
             </div>
           </div>
         </section>
+
+        {similar.length > 0 && (
+          <Section id="similar" title="Похожие иконки">
+            <div className="grid grid-cols-5 gap-1">
+              {similar.map((i) => (
+                <button
+                  key={i.id}
+                  type="button"
+                  onClick={() => s.selectIcon(i.id)}
+                  aria-label={iconName(i)}
+                  data-tip={iconName(i)}
+                  data-tip-pos="top"
+                  className="flex aspect-square items-center justify-center rounded-lg border border-transparent text-fg-2 transition-colors hover:border-line-strong hover:bg-raised hover:text-fg"
+                >
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" strokeWidth={BASE_STROKE} strokeLinecap="round" strokeLinejoin="round" aria-hidden dangerouslySetInnerHTML={{ __html: i.b }} />
+                </button>
+              ))}
+            </div>
+          </Section>
+        )}
 
         <Section id="stroke" title={t('stroke')} actions={<IconButton label={t('reset')} className="h-7 w-7" onClick={() => update('stroke', DEFAULT_SETTINGS.stroke)}><RotateCcw size={13} /></IconButton>}>
           <SliderField
@@ -197,6 +254,22 @@ export function Inspector() {
         </Section>
 
         <Section id="canvas" title={t('canvas')} actions={<IconButton label={t('reset')} className="h-7 w-7" onClick={() => update('canvas', DEFAULT_SETTINGS.canvas)}><RotateCcw size={13} /></IconButton>}>
+          <Field label="Формат холста">
+            <select
+              aria-label="Формат холста"
+              value=""
+              onChange={(e) => {
+                const p = CANVAS_PRESETS[+e.target.value];
+                if (!p) return;
+                const m = Math.min(p.w, p.h);
+                update('canvas', { width: p.w, height: p.h, iconSize: Math.round(m * p.k), padding: Math.round(m * 0.1), lockRatio: true });
+              }}
+              className="h-8 w-full rounded-md border border-line bg-panel-2 px-2 text-[12px] text-fg-2 outline-none focus:border-accent"
+            >
+              <option value="">Выбрать готовый размер…</option>
+              {CANVAS_PRESETS.map((p, i) => <option key={p.name} value={i}>{p.name} — {p.w}×{p.h}</option>)}
+            </select>
+          </Field>
           <div className="flex items-end gap-2">
             <Field label={t('width')}><NumberInput label={t('width')} value={set.canvas.width} min={16} max={4096} onChange={setW} unit="px" /></Field>
             <IconButton label={t('lockRatio')} active={set.canvas.lockRatio} onClick={() => update('canvas', { lockRatio: !set.canvas.lockRatio })} className="mb-0">
@@ -212,8 +285,8 @@ export function Inspector() {
           </div>
           <SliderField label={t('rotation')} value={set.canvas.rotation} min={-180} max={180} unit="°" onChange={(v) => update('canvas', { rotation: v }, 'rot')} />
           <div className="flex gap-1.5">
-            <Button size="sm" className={cx('flex-1', set.canvas.flipX && 'border-accent text-accent-hi')} aria-pressed={set.canvas.flipX} onClick={() => update('canvas', { flipX: !set.canvas.flipX })}><FlipHorizontal2 size={14} />Гориз.</Button>
-            <Button size="sm" className={cx('flex-1', set.canvas.flipY && 'border-accent text-accent-hi')} aria-pressed={set.canvas.flipY} onClick={() => update('canvas', { flipY: !set.canvas.flipY })}><FlipVertical2 size={14} />Верт.</Button>
+            <Button size="sm" className={cx('flex-1', set.canvas.flipX && 'border-accent text-accent-hi')} aria-pressed={set.canvas.flipX} onClick={() => update('canvas', { flipX: !set.canvas.flipX })}><FlipVertical2 size={14} />Гориз.</Button>
+            <Button size="sm" className={cx('flex-1', set.canvas.flipY && 'border-accent text-accent-hi')} aria-pressed={set.canvas.flipY} onClick={() => update('canvas', { flipY: !set.canvas.flipY })}><FlipVertical2 size={14} className="rotate-90" />Верт.</Button>
           </div>
         </Section>
 

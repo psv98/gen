@@ -37,7 +37,7 @@ function Artboard({ svg, w, h, label, grid, s }: { svg: string; w: number; h: nu
         style={{ width: w, height: h }}
         data-testid="artboard"
       >
-        <div dangerouslySetInnerHTML={{ __html: svg }} />
+        <div key={st.selected?.id} className="anim-fade" dangerouslySetInnerHTML={{ __html: svg }} />
         {grid && <GridOverlay s={s} w={w} h={h} />}
       </div>
       {label && <figcaption className="text-[11px] font-medium uppercase tracking-[0.08em] text-muted">{label}</figcaption>}

@@ -24,6 +24,8 @@ function useStudioState() {
   const [theme, setTheme] = useStoredState<'dark' | 'light'>('theme', 'dark');
   const [checker, setChecker] = useStoredState<'light' | 'dark'>('checker', 'light');
   const [showGrid, setShowGrid] = useStoredState<boolean>('grid', true);
+  const [gridSize, setGridSize] = useStoredState<'s' | 'm' | 'l'>('grid-size', 'm');
+  const [gridStyled, setGridStyled] = useStoredState<boolean>('grid-styled', false);
 
   const [query, setQuery] = useState('');
   const [filter, setFilter] = useState<Filter>({ kind: 'all' });
@@ -92,6 +94,10 @@ function useStudioState() {
     setChecker,
     showGrid,
     setShowGrid,
+    gridSize,
+    setGridSize,
+    gridStyled,
+    setGridStyled,
     query,
     setQuery,
     filter,
