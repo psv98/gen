@@ -2,5 +2,5 @@
   <rect x="3" y="3" width="10" height="18" rx="2"/>
   <path d="M7 17.5h2"/>
   <circle cx="17.5" cy="12" r="3.5"/>
-  <path d="M17.5 10.5v3"/>
+  <path d="M17.5 12h.01"/>
 </svg>
